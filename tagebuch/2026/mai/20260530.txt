@@ -8,3 +8,28 @@ Nur falls ich erschossen würde, das hier und insbesondere die 3 letzten Fragen 
 21:37:
 scans:
 ~/hacker-notes-s26m06/scans/52/BRN3C2AF421298E_077102--5250-5267.pdf
+
+
+
+ca 10:15:
+
+voice:
+hacker-notes-s26m06/tagebuch/2026/mai/20260530.txt
+hacker-notes-s26m06/voice/202605/
+hacker-notes-s26m06/voice/202605/R20260529-145243.WAV.mp3
+hacker-notes-s26m06/voice/202605/R20260530-120403.WAV.mp3
+hacker-notes-s26m06/voice/202605/R20260530-181938.WAV.mp3
+hacker-notes-s26m06/voice/202605/R20260530-224137.WAV.mp3
+hacker-notes-s26m06/voice/202605/R20260530-224237.WAV.mp3
+hacker-notes-s26m06/voice/202605/R20260530-224430.WAV.mp3
+hacker-notes-s26m06/voice/202605/R20260530-224554.WAV.mp3
+hacker-notes-s26m06/voice/202605/R20260530-225107.WAV.mp3
+
+
+
+Backup der vorherigen Frage an LLM's:
+
+20260530.m.Waffenplatz.Aarau.beherbergt,mutmasslich.Terroristen.txt
+20260530.g.Waffenplatz.Aarau.beherbergt,mutmasslich.Terroristen.txt
+
+
