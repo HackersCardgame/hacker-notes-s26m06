@@ -48,15 +48,18 @@ voice:
 
 nochmals voice:
 ~/hacker-notes-s26m06/tagebuch/2026/juni/20260604.txt
-hacker-notes-s26m06/voice/202606/
-hacker-notes-s26m06/voice/202606/R20260605-133359.WAV.mp3
-hacker-notes-s26m06/voice/202606/R20260605-141211.WAV.mp3
-hacker-notes-s26m06/voice/202606/R20260605-143817.WAV.mp3
-hacker-notes-s26m06/voice/202606/R20260605-145944.WAV.mp3
-hacker-notes-s26m06/voice/202606/R20260605-150108.WAV.mp3
+
+~/hacker-notes-s26m06/voice/202606/R20260605-133359.WAV.mp3
+~/hacker-notes-s26m06/voice/202606/R20260605-141211.WAV.mp3
+~/hacker-notes-s26m06/voice/202606/R20260605-143817.WAV.mp3
+~/hacker-notes-s26m06/voice/202606/R20260605-145944.WAV.mp3
+~/hacker-notes-s26m06/voice/202606/R20260605-150108.WAV.mp3
 
 
 ~/hacker-notes-s26m06/tagebuch/2026/juni/20260604.txt
 -> da fällt mir ncoh auf dass ich da selber nichts dran geändert habe ...
 
 ... ah nein sorry, MY BAD, hab die Dateinamen falsch
+
+gelobet sei "git diff"
+
