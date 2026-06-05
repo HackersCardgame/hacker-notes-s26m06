@@ -63,3 +63,12 @@ nochmals voice:
 
 gelobet sei "git diff"
 
+
+14:07:
+mein immaginärer Stil-Berater merkt an:
+
+LOBPREISET "git diff" wäre stilistisch fast noch ein bisschen bessern ...
+
+
+ich:
+stimmt, danke lieber immaginärer Freund
