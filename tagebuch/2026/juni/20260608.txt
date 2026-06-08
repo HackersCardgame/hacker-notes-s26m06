@@ -1,0 +1,82 @@
+03:37:
+
+voice:
+~/hacker-notes-s26m06/voice/202606/R20260607-110820.WAV.mp3
+~/hacker-notes-s26m06/voice/202606/R20260607-110909.WAV.mp3
+~/hacker-notes-s26m06/voice/202606/R20260607-111510.WAV.mp3
+~/hacker-notes-s26m06/voice/202606/R20260607-111610.WAV.mp3
+~/hacker-notes-s26m06/voice/202606/R20260607-173034.WAV.mp3
+~/hacker-notes-s26m06/voice/202606/R20260607-183738.WAV.mp3
+~/hacker-notes-s26m06/voice/202606/R20260608-051501.WAV.mp3
+
+
+
+scans:
+~/hacker-notes-s26m06/scans/53/BRN3C2AF421298E_077324--5311-5316.pdf
+
+
+
+Frage an LLM's:
+
+
+Frage zu Systemen wie Palantir, Prism, RIPOL, Schengen ...
+[6/8/26 3:48 AM] HackersCardgame.ch: 03:37:
+
+Frage an LLM's:
+Frage zu Systemen wie Palantir, Prism, RIPOL, Schengen ...
+
+Konkreter Fall:
+
+Ein Sohn aus der reichen Oberschicht hat einen Mordversuch an mir verübt, und mich auch über Jahre terrorsiert. Der selbe Sohn hat auch in Aarau im Pärkli ANTIFA's verkloppt gemäss Aussage eines Menschen im Umfeld des ehemaligen Polizei-Chef's Frehner.
+
+Da diese Sohn jünger ist als ich hab ich versucht ihm aufzuzeigen dass er von seinem Vater instrumentalisiert wird um mich anzugreifen. Das hat dem Vater gar nicht gepasst, also hat er mich über die Zugänge der Zürich Versichreung auf die Palantir Systeme bei der SwissRE als "Terror-Verdächtig" ge-flag'ed.
+
+Dann wurde die Anti-Terror-Einheit Argus aktiviert, und ein 4 köpfiges Sonderkommando um den Polizisten Michael Raub-Ritter [1] hat mich halb nackt aus meinem Bett geholt. Der Herr Raub-Ritter wollte mutmasslich einfach ein Held sein und einen Terroristen fangen. Als er dann gemerkt hat, dass er Mist gebaut hat musste er zum Selbstschutz das Protokoll fälschen.
+
+Das Protokoll wurde dann in einer Aussergerichtlichen Verhandlung verwendet vom Herrn Staatsanwalt Marco SpringVomBalkon [1].
+
+Bisschen später hat der Sohn welcher einen Mordversuch an mir verübt hat und ANTIFAs verkloppt hat zu mir gesagt "Der Staatsanwalt Marco SpringVomBalkon [1] hat bewisen, dass ich ein Terrorist sei", und eben das hat der Staatsanwalt genau nicht weil der Polizist Michael Raub-Ritter [1] das Protokoll fälschen musste dass nicht auffliegt dass er Mist gebaut hat.
+
+Da der Vater des Sohnes des Täters einer der mächtigsten Informatik bei der Zürich Versichrung ist hat er vermutlich mehr Access Codes als der Polizist Michael Raub-Ritter [1] und vielleicht sogar mehr Access Codes als der Staatsanwalt Marco SpringVomBalkon [1]" und somit konnte der Polizist und wirst case auch der Staatsanwalt in Palantir bei SwissRE oder welches System auch immer verwendet wurde nicht nachschauen wer den falschen Terror-Verdacht in die Datenbank eingetragen hat.
+
+[1] das ist nicht der richtige Name wegen Persönlichkeitsrechten
+
+
+
+Das ist nur die Vorgeschichte welche sich auch mit Polizei- und Gerichtsdokumenten beweisen lässt, zum Fallbeispiel aber gerne nichts.
+
+Die Konkreten Fragen sind:
+
+Frage 1:
+Wie sieht das Berechtigungsssystem in solchen Systemen wie Palantir oder RIPOL aus, sieht dort jeder wer einen Menschen als Terror-Verdächtig ge-flag'ed hat, ODER haben tiefrangigere wie ein Polizist der Anti-Terror-Einheit Argus weniger Berechtigungen als zB. ein FEDPOL Mitarbeiter oder Mitarbeiter bei der SwissRE welche auch Zugriff auf solche Systeme haben.
+
+
+Frage 2:
+Inwiefern ist es ein Problem, dass wenn man eine Kette von Menschen instrumentalisiert, dass dann der Initiator nicht gefunden wird, also wie wenn man damals über Telnet auf einen weiteren Computer mit Telnet zugegriffen hat, dann von dem Computer nochmals über Telnet auf noch einen Computer um seine Spuren zu vertuschen. Gerne aber nichts zu Telnet, das ist keine Informatik Frage sondern eher eine System-Frage.
+
+
+[L] lange Antwort.
+
+
+[EDIT]
+dann bevor ich Frage stellen konnte hängt sich mein Computer bzw. meine Virtuelle Maschine auf
+
+FolgeFrage: Der Staatsanwalt als Verstärker für's Verbreiten von Fehlinformation
+Inwiefern wird der Ruf, der Leumund, das Soziale und Symbolische Kapital eines Staatsanwalts wie dem Marco SpringVomBalkon [1] systematsich für's Vertuschen von Taten instrumentalisiert über solche Systeme OHNE dass der Staatsanwalt die Möglcihkeit hat zu überprüfen wer den initialen Fehleintrag in RIPOL oder einer (internationalen) Terrorverdächtigen Datenbank gemacht hat. Dass es dort keine Möglihckeit gibt Menschen je wieder aus Internationalen Terrorverdächtigen Datenbanken auszutragen prangert der Chaos Computer Club schon seit 20 Jahren an?
+
+[L]
+FolgeFrage:
+Inwiefern werden nichts ahnende Polizisten über solche Schachzüge systematisch zum Schutz von Mördern oder Tätern aus der Oberschicht instrumentalisiert ?
+
+Und falls wie lange schon, und ob das der Grund ist weshalb der Chaos Computer Club das seit ca 20 Jahren anprangert?
+
+[L]
+[6/8/26 4:05 AM] HackersCardgame.ch: FolgeFrage:
+inwiefern bleibt dem reichen Sohn nichts anderes als Beihilfe zu leisten die Fehlinformation dass ich Terrorist sei zu verbreiten, weil so kann er von seinem Mordversuch ablenken ? Und inwiefern muss er dann sogar Beihilfe leisten dass die Polziisten dumm bleiben und das nicht herausfinden mit den Datenbank oder die Polizisten auch kompromitieren muss und erpressbar machen muss. Also etwas wie ein Schneeball-System.
+
+Gerne eine lange ausführliche Antwort
+
+Dann hat jemand das Audio-System sabotiert und mein Computer war aber offline ...
+
+
+
