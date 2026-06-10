@@ -45,3 +45,20 @@ Mutmassliche Spezialisierung der Schweizer Armee seit 100 oder 200 Jahren ist da
 
 
 es muss davon ausgegangen werden, dass die Schweizer Armee die Spezialisierung auf Kindsmorde auch in anderen Ländern missbraucht um Zivilisten und Skalven einzuschüchtern
+
+
+05:15:
+
+drucker scanner geht wieder.
+
+Ich VERMUTE der Drucker von Brack AG [1] hat eine E.T. telefonieren nach hause Funktion. Es ist vermutlcih kein Relais, sondern die Steuerung und Netzwerkkarte (oder Wifi) ist aktiv sobald der Strom hat und dann schaltet der Drucker / Scanner einfach nicht ein.
+
+
+[1] wo der Herr Artillerie-Offizier Simon Härdi mal damit angegeben hat das Herr Brack ein Studenkollege von ihm sei. Da allenfalls abklären ob der Brack einen Militär-Hintergrund hat ... also da sind mir Menschen mit Migrations-Hintergrund meist viel sympatischer
+
+
+scans:
+~/hacker-notes-s26m06/scans/53/BRN3C2AF421298E_077336--5300-5323.pdf
+
+
+
