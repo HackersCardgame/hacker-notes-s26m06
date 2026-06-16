@@ -1,4 +1,7 @@
 #!/bin/bash
+
+ls
+
 for i in $(ls *.WAV)
 do
 	if ( ls $i.mp3 )
@@ -10,3 +13,5 @@ do
 		ffmpeg -i $i $i.mp3
 	fi
 done
+
+ls
