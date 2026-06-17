@@ -1,0 +1,12 @@
+10:58:
+
+voice:
+
+~/hacker-notes-s26m06/voice/202606/R20260616-141510.WAV.mp3
+~/hacker-notes-s26m06/voice/202606/R20260617-115141.WAV.mp3
+
+
+scans:
+~/hacker-notes-s26m06/scans/53/BRN3C2AF421298E_077504--5300-5349.pdf
+~/hacker-notes-s26m06/scans/53/BRN3C2AF421298E_077604--5351-5359.pdf
+
