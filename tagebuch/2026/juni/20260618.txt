@@ -12,3 +12,18 @@ Urs Blum [unbekannt: und die Zürich versichrung] greift bei Fabriken wo es gefa
 ~/hacker-notes-s26m06/voice/202606/R20260618-064727.WAV.mp3
 ~/hacker-notes-s26m06/voice/202606/R20260618-070400.WAV.mp3
 
+
+
+06:28:
+voice:
+
+hacker-notes-s26m06/voice/202606/R20260618-071338.WAV.mp3
+hacker-notes-s26m06/voice/202606/R20260618-072501.WAV.mp3
+
+
+
+git add -A && git commit -m "Hätten Bauzulieferer wie die Firma der Familie Härdi ein Motiv mit Sicherheits-Architektur-Access-Codes den Feuerwehrmann Gautschi zu manipulieren Mutter mit Kind im Kleinwagen mit seinem TLF zu töten ???" && git push
+
+rc@debian:~/hacker-notes-s26m06$ git rev-parse HEAD
+2499beda38253c16d162a8f6af78cdc19d3b5a17
+
