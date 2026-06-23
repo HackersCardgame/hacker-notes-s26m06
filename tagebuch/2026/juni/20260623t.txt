@@ -101,26 +101,5 @@ Wie heisst das Design Pattern wenn einige ganz reiche mächtige akteure [1], ins
 
 [1] mal nicht wertend aus welchem Land
 
-21:54:
-chemitrode disassemlby:
-das scheint oft etwas ähnlcihes zu sein
 
-* das wurde mir irgendwann mal unter der haut angebracht, praktisch am ganzen körper, insbesondere bei den einstichstellen von Risperdal Consta (Schultern und Gluteus Muskel)
-* diese sind remote aktivierbar wie die Digner mit der "Medikamenten Fracht" welche Minkorrekt.de in einer Optisch-Korrekt folge vorgesetllt haben von der leiden-universität, da ist auch spannend wer die URL für die Folge generiert hat, weil da kommen total ca 5 l 1 vor, welche je nach schriftart verwechselt werden könnten, so dass man die URL nicht erkennen würde
-
-
-nach der zündung 
-* wird irgend etwas biologsiches freigesetzt welches eine grössere Entzündung verursacht
-* viel Blut freigesetzt, bzw sieht das manchmal gar nicht aus wie richtiges Blut
-* dann wenn man das einfach abfliessen lässt verätzt oder zersetzt es meine hautoberfläche
-   -> und der letzte Teil gibt dann eine sehr grosse lang sichtbare Wunde
-       => für alle Kleineren welche das auch verpasst bekommen haben:
-
-           Ich hab da eine Mitigation gefunden ...
-                           ==========
-           ... für mindestens den letzten Teil
-           wenn man vor dem Ablassen des Butes oder der Säure die 
-           Hautoberfläche mit öliger Bodylotion benetzt, 
-           dann verätzt oder zersetzt es die Hautoberfläche viel weniger
-           
-
+Dann will jemand die beschriftung in Github manipulieren, ich mache mal eine neue Datei
