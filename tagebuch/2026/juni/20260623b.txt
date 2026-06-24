@@ -1,0 +1,24 @@
+21:10:
+
+dann schient jemand grad sehr viele Täter-Gruppen aus verschiedenen wissenshcaftlichen Disziplinen und Organisationen zeitgliech gegen mich aktiviert zu haben
+
+
+22_21:
+dann scheint jetzt etwas auf meinem computer aktiviert worden zu sein, denn die Festplatten LED blinkt mehr und anders als sonst meist
+
+~/hacker-notes-s26m06/bugreport/lsof.txt
+
+und jetzt hat das aufgehört, also LSOF (list of open files) würde dem algorithmus sagen dass jemand etwas gemerkt hat. zur zeit bin ich offline, keine netzwerkkarte angeschlossen und keine wifi/bt karte eingebaut
+
+
+
+
+l	�5b�Efile:///home/marc/user.rem/sticks/4/l1/record/2014-01-22(001)/Motion_2014-01-22_16-02-17.jpgX�$�=}urn:fileid:cce5f8e6-7af0-4cb5-8e02-f10c47186e29:47710213}.+�G�file:///home/marc/user/sticks/4/l1/old/DCIM/101MSDCF/DSC02162.JPG�&�b�Efile:///home/marc/user.rem/sticks/4/l1/record/2014-04-11(001)/Motion_2014-04-11_23-40-30.jpgr#�=}urn:fileid:cce5f8e6-7af0-4cb5-8e02-f10c47186e29:47186925P�#�b�Efile:///home/marc/user.rem/sticks/4/l1/record/2014-03-04(001)/Motion_2014-03-04_13-32-50.jpgi+5pb�Efile:///home/mar�`�Afile:///home/marc/user.rem/sticks/1/l1/c64-lab-rat-dickestel/photo_2023-09-13_18-04-55.jpg<�0�^�=file:///home/marc/user/sticks/4/l1/record/2014-01-08(001)/Motion_2014-01-08_07-59-24.jpgk!�^�=file:///home/marc/user/sticks/4/l1/record/2014-01-18(001)/Motion_2014-01-18_01-17-51.jpg�!�=}urn:fileid:cce5f8e6-7af0-4cb5-8e02-f10c47186e29:47317175i<�=}urn:fileid:cce5f8e6-7af0-4cb5-8e02-f10c47186e29:46270956
+�m^�=file:///home/marc/user/sticks/4/l1/record/2014-03-15(001)/Motion_2014-03-15_15-45-06.jpg6�^�=file:///home/marc/user/sticks/4/l1/record/2014-02-08(001)/Motion_2014-02-08_21-09-31.jpg*�)P�!file:///home/marc/user.rem/sticks/merge/101MSDCF/DSC03836.JPG/DSC03836.JPG}�R=}urn:fileid:cce5f8e6-7af0-4cb5-8e02-f10c47186e29:46663213
+                                                                                                                                                          �>file:///home/marc�����fts-flags24)parser-version7#localeen_US.UTF-84/Montology-checksumf36c2eccd38f2be58b84886963f11228
+
+also der tracker von debian schmeiss ich dann auch mal weg, und diese dinge müssten schon lange indexiert sein ... ausserdem soll der das gar nicth alles indexieren ...
+
+also der tracker würde vorbereiten für eine "all at once löschung alle beweismittel welche die Zürich Verischerung und weitere Akteuer mit Massenmord in verbindung bringen könnten" ???
+
+
