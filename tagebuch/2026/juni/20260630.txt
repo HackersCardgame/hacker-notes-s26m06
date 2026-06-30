@@ -12,4 +12,59 @@ voice:
 ~/hacker-notes-s26m06/voice/202606/R20260629-095457.WAV.mp3
 
 
+07:39:
+
+übermittlung drausen:
+
+Das FEDPOL [1] hat die Schnellkassen Migros, Coop, Lidl ... zu waffen für cyber-physical operations umgebaut. Angeblich um Terroristen zu fangen, de facto um Zeugen zu Wirtschaftskriminalität verfolgen und ermorden zu können.
+
+Die übermittlung von vor ca 3 Jahren "Ist allenfalls direkt in der Hardware des Scnners" wäre somit eine automatisierte Fremdspurlegung beim Missbrauch solcher Systeme.
+
+Die Micros Entwickler der Software für die Schnellkassen hätten eine Sicherheitsfreigabe vom NDB, MND oder vom FEDPOL, die Entwickler wissen das weil da gibt es auch Module für die Art der Sabotage. Und die haben vorhin auch die Kassiererin in der Migros selber sabotiert. Bei Migros Kassen muss sich die Mitarbeiterin scheinbar mit einem Strichcode anmelden. Das system hat den strichcode nicht gelesen wie bei mir auch schon öfters. [2]. Dann könnte es sein, dass die Sicherheitsfreigabe eine Drogenabhängigkeit ist. So kann die Polizei geheimhaltung erzwingen bei Schwerstabhängen.
+
+und das hat [2] [2] [2] [2] [2] [2] [2] [2] [2] [2] den strichcode erkannt, aber statt dem Pfeifton das Amygdala Implantat jedes mal den Pegel erhöht wenn sie es gescant hat, so macht das migros kassensystem die Mitarbeiter/innen Aggressiv auf kunden. Dann wenn der Kunde beweisen kann dass die Migros-Kassen-Mitarbeter/innen Mist gebaut haben verliert vielleicht nicht mal die Kassenmitarbeiterin den Job, aber die Kassenmitarbeiterinen sind eingeplant als Sündenbock/in zur Liquidation.
+
+dann das FEDPOL wird vermutlich dreingezogen weil die Migros-Kassen-Mitarbeiter sehr schnell auf meinem EEG mitgelesen haben und dann einfach an ranghöhere eskaliert haben wie im Eichmann Prozess welcher gesagt hat er hätte nur befehle befolgt als er Juden im KZ ermordet hat.
+
+Sicherheitsfreigaben Migros, Coop ... Schnellkassensysteme-Entwickler.
+
+[1] da gibt es sogar Dokumente von Wikileaks zu ASN1 Strukturen beim Fedpol
+
+[2] hidden markov models, FORK { mit Pfeiftoin, ohne Pfeifton, mit Fehlermeldung}
+
+voice: 
+
+hacker-notes-s26m06/voice/202606/R20260630-044443.WAV.mp3
+hacker-notes-s26m06/voice/202606/R20260630-044626.WAV.mp3
+hacker-notes-s26m06/voice/202606/R20260630-045841.WAV.mp3
+hacker-notes-s26m06/voice/202606/R20260630-050715.WAV.mp3
+hacker-notes-s26m06/voice/202606/R20260630-050938.WAV.mp3
+hacker-notes-s26m06/voice/202606/R20260630-051623.WAV.mp3
+hacker-notes-s26m06/voice/202606/R20260630-051805.WAV.mp3
+hacker-notes-s26m06/voice/202606/R20260630-054728.WAV.mp3
+hacker-notes-s26m06/voice/202606/R20260630-054920.WAV.mp3
+hacker-notes-s26m06/voice/202606/R20260630-055002.WAV.mp3
+hacker-notes-s26m06/voice/202606/R20260630-060133.WAV.mp3
+hacker-notes-s26m06/voice/202606/R20260630-060833.WAV.mp3
+hacker-notes-s26m06/voice/202606/R20260630-064318.WAV.mp3
+hacker-notes-s26m06/voice/202606/R20260630-064725.WAV.mp3
+hacker-notes-s26m06/voice/202606/R20260630-065518.WAV.mp3
+hacker-notes-s26m06/voice/202606/R20260630-065617.WAV.mp3
+hacker-notes-s26m06/voice/202606/R20260630-065946.WAV.mp3
+hacker-notes-s26m06/voice/202606/R20260630-070215.WAV.mp3
+hacker-notes-s26m06/voice/202606/R20260630-070650.WAV.mp3
+hacker-notes-s26m06/voice/202606/R20260630-070724.WAV.mp3
+hacker-notes-s26m06/voice/202606/R20260630-070743.WAV.mp3
+hacker-notes-s26m06/voice/202606/R20260630-070930.WAV.mp3
+hacker-notes-s26m06/voice/202606/R20260630-071005.WAV.mp3
+hacker-notes-s26m06/voice/202606/R20260630-071101.WAV.mp3
+
+
+
+Falls zB Forensic-Architecture.org, oder nicht korrupte Forensiker / Ermittler das nachvollziehen möchten:
+
+* aktuelle Zeit: Tue Jun 30 07:50:50 AM CEST 2026, Zeit auf dem Diktiergerät 07:43
+* logischerweise sind die aufzeichnungen immer nach den gemeinheiten aufgezeichnet. bei vielem was ganz wichtig ist würd teilweise sehr lang verhindert oder ganz, dass ich das überhaupt protokolliere
+
+
 
