@@ -1,0 +1,60 @@
+05:57:
+
+
+marc@debian:~/~/hacker-notes-s26m06/voice/202607$ figlet FEDPOL
+ _____ _____ ____  ____   ___  _     
+|  ___| ____|  _ \|  _ \ / _ \| |    
+| |_  |  _| | | | | |_) | | | | |    
+|  _| | |___| |_| |  __/| |_| | |___ 
+|_|   |_____|____/|_|    \___/|_____|
+                                     
+marc@debian:~/~/hacker-notes-s26m06/voice/202607$ figlet INTERPOL
+ ___ _   _ _____ _____ ____  ____   ___  _     
+|_ _| \ | |_   _| ____|  _ \|  _ \ / _ \| |    
+ | ||  \| | | | |  _| | |_) | |_) | | | | |    
+ | || |\  | | | | |___|  _ <|  __/| |_| | |___ 
+|___|_| \_| |_| |_____|_| \_\_|    \___/|_____|
+                                               
+marc@debian:~/~/hacker-notes-s26m06/voice/202607$ 
+
+
+Brief:
+
+Ein falscher Eintrag in einer Terror-Verdächtigen Datenbank, egal ob eine Internationale Terror-Verdächtigen-Datenbank oder RIPOL, ISAS DB ist ein Freibrief für die P_sychiatrische K_linik K_önigsfelden (PKK) bzw. heute P_olice D_epartment A_arG_au und für die HTL / das abgerissene CIM Center in Brugg Menschen wirklich zu Terroristen oder Amokläufer umzuprogrammieren mit modernsten Neurowaffen und Telemetrie ...
+
+voice:
+~/hacker-notes-s26m06/voice/202607/R20260705-104442.WAV.mp3
+~/hacker-notes-s26m06/voice/202607/R20260705-163246.WAV.mp3
+~/hacker-notes-s26m06/voice/202607/R20260705-163929.WAV.mp3
+~/hacker-notes-s26m06/voice/202607/R20260705-164221.WAV.mp3
+~/hacker-notes-s26m06/voice/202607/R20260706-050635.WAV.mp3
+~/hacker-notes-s26m06/voice/202607/R20260706-050902.WAV.mp3
+~/hacker-notes-s26m06/voice/202607/R20260706-051331.WAV.mp3
+~/hacker-notes-s26m06/voice/202607/R20260706-051404.WAV.mp3
+~/hacker-notes-s26m06/voice/202607/R20260706-051633.WAV.mp3
+~/hacker-notes-s26m06/voice/202607/R20260706-053020.WAV.mp3
+~/hacker-notes-s26m06/voice/202607/R20260706-053151.WAV.mp3
+~/hacker-notes-s26m06/voice/202607/R20260706-053321.WAV.mp3
+~/hacker-notes-s26m06/voice/202607/R20260706-053548.WAV.mp3
+~/hacker-notes-s26m06/voice/202607/R20260706-053655.WAV.mp3
+~/hacker-notes-s26m06/voice/202607/R20260706-053833.WAV.mp3
+~/hacker-notes-s26m06/voice/202607/R20260706-053925.WAV.mp3
+~/hacker-notes-s26m06/voice/202607/R20260706-053953.WAV.mp3
+~/hacker-notes-s26m06/voice/202607/R20260706-054148.WAV.mp3
+~/hacker-notes-s26m06/voice/202607/R20260706-054453.WAV.mp3
+
+scans:
+~/hacker-notes-s26m06/scans/54/BRN3C2AF421298E_078042--5452-5466.pdf
+
+ausserdem für die Nerds:
+
+ziel der HTL, PDAG und der Schweizer Armee ist scheinbar mutmasslich, dass keiner mehr überhaupt die Begabung hat Forensik für Elektronik zu erledigen.
+
+Also der Sklave soll sein iPhone kaufen und denken dass das ZAUBER sei, also nur FALLS das bei anderen Forensischen Mitarbeitern [1]
+
+
+[1] und da meine ich NICHT Herren wie den Porno-Fahnder Matthias Berner, der ist technisch komplett inkompetent, benutzt vermutlich tools welche im sagen "diesen Menschen in eine Terrorverdächtigen Datenbank eintragen" sondern ich meine Menschen welche wirklich eine Hochbegabung in zB Informatik oder Elektronik haben. Allenfalls gilt das auch für andere Fächer wie Medizin speziell für Neurologen und Neurochriurgen, ABER das kann ich nicht beurteilen, weil ich kippe ja halb um wenn ich Blut sehe
+
+
+
+
