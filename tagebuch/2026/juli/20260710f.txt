@@ -1,0 +1,7 @@
+23:39:
+
+dann scheint es eine aktuelle 0day zu geben welche sich direkt durch telegram durch die qemu durchfrisst
+
+100% cpu auslastung solange telegram offen ist, selbst mit ausgeschalteter / ausgesteckter netzwerkkarte
+
+
