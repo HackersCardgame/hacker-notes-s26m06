@@ -114,4 +114,88 @@ scans:
 ~/hacker-notes-s26m06/voice/202607/R20260714-123252.WAV.mp3
 
 
+12:59:
+
+Unter der HYPOTHETISCHEN Prämisse
+
+... dass die Zürich Versicherung bzw. der Herr Urs Bl. hier in Aarau das Essens-Projekt "Tischlein deck Dich" (wo es gratis Essen für Drogensüchtige gibt) zur Auftragsplattform umgebaut, wo darüber Zeugen, Vergewaltigungsopfer oder Autisten unten gehalten werden soll, egal ob über Cyber-Physical Dinge wie Sabotagen oder mit Blackhat-Tools der Zürich Versicherung nur am Computer. Und dort auch der Zugang zu Drogen geregelt werden.
+
+Unter dieser HYPOTHETISCHEN Prämisse, wie weit gehen da schwerstabhängige Drogensüchtige um an Stoff und Drogen zu kommen. Also wenn zB ein Heroin-Süchtiger dann von Urs Bl. nur noch Drogen bekommt wenn er mich oder andere Zeugen, Vergewaltigungsopfer oder Autisten ermordet hat.
+
+Wieviele Prozent der Drogensüchtigen würden dann wirklich so weit gehen und mich ermorden (wollen) ?
+
+Gerne eine lange ausführliche wissenschaftliche Antwort und auch gerne die Quellen Deiner Aussagen verlinken falls möglich.
+
+
+14:14:
+
+In der Aarauer Zeitung steht "Sperngstoff von Waffenplatz Aarau weggekommen" [1].
+
+Inwiefern kann das sein, dass das eine Vorlage für korrupte Strukturen bei der Polizei und Amtspersonen in Aarau ist.
+
+Herleitung:
+Ein Herr einer Versicherung hat damals ca 2001 seinem knapp noch minderjährigen Sohn beigebracht zu bellen "Ich (Philipp XXXX) will Sprengmeister werden".
+
+Und der Philipp war zu diesem Zeitpunkt noch gut fremdbestimmbar. Also mit jemandem welcher pyromanisch veranlagt ist und allenfalls gegen Zeugen welche reiches Klientäl des Versicherers mit 3 Morden bei ABB in Verbindung bringen kann und dem Narrativ "Sprengstoff weggekommen" könnten so korrupte Polizisten viel schneller einen "legitimen" Zugriff generieren.
+
+Mal nichts zu der Herr Offiziers-Familie, sondern das ist ein Frage zum Vorlegen korrupter Strukturen in der Justiz mit solchen Zeitungsartikeln. Und die Sache mit dem Aktenkoffer am Bahnhof Aarau [2] wäre vermutlich der Testlauf gewesen.
+
+Also konkrete Frage zum Vorlegen solcher Dinge explizit für korrupte Polizisten und Amtspersonen um Zeugen "legitim" zu zerstören.
+
+Gerne eine lange ausführliche Antwort ob dieses Konzept, Konzeptwissen oder ähnliche Konzepte schon mal dokumentiert wurden.
+
+https://www.srf.ch/news/schweiz/bericht-der-militaerjustiz-verschwundener-sprengstoff-der-armee-bleibt-verschwunden
+https://www.aargauerzeitung.ch/aargau/aarau/polizeiaktion-beim-bahnhof-verdachtiger-koffer-war-keine-bombe-eigentumer-noch-unbekannt-ld.1293730
+
+mid mid mid
+
+
+Dann der Herr Offizier und Vater von Philipp XXXX ist somit etwas wie "die Bilderberger" [1].
+
+Herleitung:
+So würde der Herr Offizier alle Polizisten und Anti-Terror-Einheiten auf paranoid schalten. Bzw. einige Mitglieder der Anti-Terror-Einheit Aargus [2] werden nicht paranoid weil diese für den Versicherer arbeiten und wissen dass das nur ein Narrativ ist um nicht eingeweihte (also nicht korrupte) Amtspersonen einzuschüchtern.
+
+Also konkrete Frage zu einem Portfolio an Narrativen um zB "Gefahr in Verzug" sehr schnell auslösen zu können sobald ein Zeuge richtige Beweise zu Verbrechen des Klientäls des Milliarden-Versicherers haben.
+
+Gerne eine lange ausführliche Antwort.
+
+
+
+[1] das nur als Metapher welche man kennt, also diese Menschen welche die Narrative für eine grössere Strategie pflanzen
+
+[2] da habe ich sonst die Namen und Indizien und auch Gerichtsdokuemnte, aber ich will nicht dass dieser Post dann wegen "Persönlichkeitsrechten" von korrupten Amtspersonen und ihrem korrupten Rückhalt bei dem Versicherer zensiert wird.
+
+
+
+17:09:
+
+Wenn man einen Job als Informatik-Supporter hat dann gibt es oft auch Probleme welche so etwas wie ein Hürdnelauf ist.
+
+Also einen einzelnen Fehler zB auf einem Windows NT oder Windows 11 Client oder Server findet man relativ einfach und kann den Fehler dann beheben.
+
+Oft (schon 1999) waren es aber Fehler welche "interlocking" waren, also wenn man mehr als einen Fehler zeitgleich hatte und diese haben noch miteinander interagiert.
+
+Bei mir in meinem Berufswerdegang waren dann schlussendlich manchmal über 10 solcher Interlocking-Probleme. Und auch das kann man beheben, mein Konzept ist schon lange immer nur ein Parameter oder Teilelement zu kontrollieren und zu ändern, und dann das wieder zurückzustellen falls es das nicht war. Also um es mathematisch zu vormulieren "versuchen immer bijektive Handlungen zu machen an Computersystemen", weil würde man 3 Dinge auf einmal ändern, und es geht dann irgendwie wieder, dann wüsste man nicht wo jetzt genau das Problem war.
+
+Da ist es auch nützlich wenn zB Microsoft Exchange Mailserver ein Probelm hatte, dass man da eine Ahnung generell von Mail-Servern hatte, also zB das Domain Model von qMail ist echt toll um mal das grundlegende Konzeptwissen von Mailservern zu lernen. MS Exchange ist dafür nicht so super, es hat eine Bedienungs-Zwischenschicht, also Produkte-Wissen welches in jeder Version wieder ändert und oft auch die darunterliegenden Schichte eher verschleiert. Deshalb finde ich da qMail wirklich super um das mal zu lernen.
+qMail
+
+Bewerte meine Beobachtung kritisch, und gerne eine lange ausführliche Antwort.
+
+
+
+
+17:25:
+
+Ich bin seit Debian Hamm und IP-Masquerading am Lernen
+
+Damals erst als NAT Server für US Robotics 56k Modems und einem Client auf Windows um das teure Telefonleitung mit meinem kleinen Bruder sharen zu können.
+
+Viele junge Menschen welche heute aufwachsen steigen grad viel später ein, wie lernt man in diesem Zeitalter (also zB Kinder mit Jahrgang 2010) überhaupt solches Konzeptwissen wie zB mit qMail.
+
+also mit Kubernetes, Docker ... da sagt man einfach "SUDO MACH SANDWICH" [1] und dann macht das system alles selber, und wenn aber etwas schief läuft vermute ich stehen dann Menschen welche nicht schon so lange dabei sind an.
+
+[1] um eine Meme zu referenzieren
+
+Gerne eine lange ausführliche Antwort
 
