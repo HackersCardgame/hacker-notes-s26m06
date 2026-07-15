@@ -1,0 +1,82 @@
+16:00:
+
+Psychatrie-Kontroll Termin heute so SHITTY wie noch selten.
+
+
+Aber ein paar wichtige Dinge herasugefunden.
+
+
+Systematische Kompromitierung der Sicherheitsarchitektur bis auf ebene von Verkäufer/innen in Einkaufsläden nicht nur in Aarau.
+
+Schachzugsequenz:
+
+1. der Autist wird fälschlich als Ladendieb bezichtigt
+2. bedrängt
+3. festgesetzt
+4. bedroht
+5. vor vielen anderne kunden welche teilweise vorsätzlich terror machen blossgestellt
+6. dann würde ein Autist gehen um einen Konflikt zu vermeiden
+7. dann würde der/die Verkäuferin den Autisten und Zeugen "legitim" wegen Ladendiebstals ausschreiben (bzw. der/die Mitarbeiter wäre eingewehite Mittäter)
+
+
+Fall Hapte Avaya wäre es wichtig zu wissen ob solche Dinge auch mit ihm gemacht, also verfolgung, indzierter Wahn und dann mit Militärischer Technologie psychotisch gehalten und im Ziel am Bahnhof Frankfurt zur Tatwaffe auf 2 beinen gezüdnet   => also das nicht nur Geltungssucht von urs blum und hansjürg pfisterer, das diese Terroristen ihn so genau steuern konnten ist auch noch angeberei von den Tätern
+
+
+
+Wichtig: da sollte jedem Mitarbeiter bei Denner, Coop, Migros ... gesagt werden, dass sie nicht nur den Job verleiren sondern allenfalls wegen beihilfe zu mord in den knast wandern. vor allem wenn das bekannt ist
+
+
+
+Dann David Pfister [1] wurde von allenfalls von Brugg aus dem Posten als Staatsschreiber weggemobt, villeicht hat David Pfister sogar korrupte Strukturen erkannt oder angeprangert. Dann wäre wie bei Informatiker vermutlich der Plan der Täter von anfang an gewesen dann diese Dinge ihm unterzuschieben
+
+[1] nicht mit Pfisterer verwechseln
+
+
+Dann rach bringt nichts, die Sicherheitsahrchtektur muss repariert werden, und sinnvollerweise sollte man auch die Gesetze so ändern dass Menschen welche nicht nur fremdbestimmbar sind sondern vorsätlich mitmachen wissen dass sie verwahrt werden
+
+
+PS: für die Jüngeren, hört Euch das besser nicht an, weil ich bin wieder so halb draufgegangen
+
+
+ABER für die Nerds und Sicherheitsexperten
+
+So wie es aussieht hat vermutlich die HTL/FHNW die SS7 Handynetze gehackt, als ich dem FEDPOL angerufen habe [1] dann kam plötzlich eine weitere ältere mitarbeiterin und hat gesagt "meine kollegin hat ein fehler gemacht" ... also die Täter werden informiert wenn ich dort übers Handy Netz am Fedpol anrufe.
+
+marc@debian:~/hacker-notes-s26m06/voice/202607$ figlet FEDPOL
+ _____ _____ ____  ____   ___  _     
+|  ___| ____|  _ \|  _ \ / _ \| |    
+| |_  |  _| | | | | |_) | | | | |    
+|  _| | |___| |_| |  __/| |_| | |___ 
+|_|   |_____|____/|_|    \___/|_____|
+                                     
+
+
++++ WICHTIG +++  +++ WICHTIG +++  +++ WICHTIG +++ 
+
+-> SS7 Protokolle und zugriffslogs auf die Protokolle auswerten. das time offset ist ca 10 Minuten auf meiner Aufzeichnung, also die Timestamps sind immer 10 Minuten zu spät
+
+marc@debian:~/hacker-notes-s26m06/voice/202607$ figlet "+++ SS7 +++"
+                     ____ ____ _____                     
+   _     _     _    / ___/ ___|___  |    _     _     _   
+ _| |_ _| |_ _| |_  \___ \___ \  / /   _| |_ _| |_ _| |_ 
+|_   _|_   _|_   _|  ___) |__) |/ /   |_   _|_   _|_   _|
+  |_|   |_|   |_|   |____/____//_/      |_|   |_|   |_|  
+                                                         
+
+
+[1] weil ich bin davon ausgegagnen dass wenn ich 117 anrufe das dann grad nochmals eine Falle wäre
+
+
+
+Dann als möglicerweise 1970 Studenten der HTL beriets Asylantinnen in der Psychiatrie nebenan vergewaltigt haben ...
+
+... das wäre eine Slippery Slope, welche dann bis zum Kindsmord weitergehen würde.
+
+Menschen hätten im Normalfall ähnlcih wie Hunde den Genetischen Drang Kinder zu beschützen (Welpenschutz), und mit der Schuld und den Drogen / Medikamenten mit dem sie ihre Schuld versuchen zu deaktivieren würde einige von denen dann zu Kindsmördern aufsteigen lasssen
+
+
+
+
+ABER dass sich die jüngeren Menschen, Menschinnen und Menschies nicht sorgen machen müssen wegen mir, Heil wieder zurück im Fuchsbau für Füchse auf 2 Beinen angekommen und jetzt erstmal pizza kochen und dnan mampfen
+
+
