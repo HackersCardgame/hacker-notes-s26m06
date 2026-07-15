@@ -48,3 +48,30 @@ hacker-notes-s26m06/voice/202607/R20260715-054614.WAV.mp3
 
 
 
+
+07:43:
+
+WICHTIGE Frage:
+
+marc@debian:~/hacker-notes-s26m06/voice/202607$ figlet INTERPOL
+ ___ _   _ _____ _____ ____  ____   ___  _     
+|_ _| \ | |_   _| ____|  _ \|  _ \ / _ \| |    
+ | ||  \| | | | |  _| | |_) | |_) | | | | |    
+ | || |\  | | | | |___|  _ <|  __/| |_| | |___ 
+|___|_| \_| |_| |_____|_| \_\_|    \___/|_____|
+                                               
+
+
+Die ABB hatte damals schon Vision Systeme (nicht für Gesichtserkennung aber für Greifer-Positionen)
+
+Kann es sein, dass die 3 ABB Administratoren relevant für Zivile oder Militärsiche Sicherheits-Architektur waren und urs blum und gabriel riela sie ermorden liess duch philipp lüscher um die Sicherheitsarchitektur zu kompromitieren ???
+
+
+ ___ _   _ _____ _____ ____  ____   ___  _     
+|  ___| ____|  _ \|  _ \ / _ \| |    
+| |_  |  _| | | | | |_) | | | | |    
+|  _| | |___| |_| |  __/| |_| | |___ 
+|_|   |_____|____/|_|    \___/|_____|
+                                     
+
+
