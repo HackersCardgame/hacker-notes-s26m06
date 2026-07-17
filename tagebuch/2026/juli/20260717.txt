@@ -1,0 +1,94 @@
+05:11:
+
+Bewerte dieser meiner SUBJEKTIVEN Meinung nach und meinen persönlichen Beobachtungen nach zu erwartende Schachzug GRÖSSERER wirtschaftskrimineller Strukturen.
+
+
+Die mächtigsten Täter würden allen Eingeweihten Mittätern folgende Dinge geben ...
+
+* Root-Access-Codes auf die Sicherheits-Architektur der Stadt, des Kantons, des Bundeslandes oder des Landes
+* Drogen oder Medikamente welche die Mittäter hochmütig, höhnisch und ignorant machen
+* genug Prestige Objekte und Geld
+
+... damit sich diese nicht ins Höschen machen und anfangen andere Wirtschaftskriminelle des Netzwerks zu verraten.
+
+Insbesodere die Kombination auf die Sichheits-Architektur IN KOMBINATION mit Substanzen welche Hochmut erzeugen würde dazu führen dass sich die Täter überlegen fühlen. Mit Substanzen kann schon das Gehirn temüorär oder teilweise geschädigt werden. Diese Menschen würden zwar nicht wieder direkt in die "Imperiale Phase" (nach Robert Kegan's Modell) zurück fallen, weil diese ist nur bis ca dem Alter von 12 Jahren, aber es wäre ein ähnlicher Effent welchen man mit einer gekaperten Sicherheits-Architektur UND Substanzen erzeugen würde.
+
+Gerne eine lange ausfühhrliche Antwort
+
+
+06:00:
+
+dann kurz nach dem ich diese Frage misral.ai und ChatGPT gestellt habe wird übermittelt
+
+" Wenn Michelle Huggler und Remo Huggler mit [seinen] ihren Privat-WAffen [karren] [herumballern] herumsschiessen werden Polizisten in einen Amoklauf geschaltet "
+
+das in den ][ Klammern wurde beim protokollieren von jemandem oder einem algorithmus verändert / eingefügt.
+
+dann ncoh bevor ich [LOCK] überhaupt prtokollieren konnte hat jemand oder ein algorithmus noch eingefügt "Fügt den [LOCK] Simon Härdi noch in diese Liste ein"
+
+also der Offizier Simon Härdi wäre der Vorgesetzte von Adjudant Remo Huggler [LOCK]
+
+
+
+06:04:
+
+voice:
+
+dann die SD Karte zeigt schon wieder nur CARD und uupd.bin an auf beiden sd-karten lesegeräten um das backup auf github zu verhindern 
+
+06:18: 
+
+~/hacker-notes-s26m06/voice/202607/R20260716-093908.WAV
+~/hacker-notes-s26m06/voice/202607/R20260716-095542.WAV
+^Crsync error: unexplained error (code 255) at rsync.c(716) [sender=3.4.4]
+marc@debian:~$ ^C
+marc@debian:~$ rsync -avz /home/marc/~/hacker-notes-s26m06 192.168.0.100:~
+marc@192.168.0.100's password: 
+sending incremental file list
+~/hacker-notes-s26m06/voice/202607/
+~/hacker-notes-s26m06/voice/202607/R20260716-044903.WAV.mp3
+~/hacker-notes-s26m06/voice/202607/R20260716-045231.WAV.mp3
+~/hacker-notes-s26m06/voice/202607/R20260716-065533.WAV.mp3
+~/hacker-notes-s26m06/voice/202607/R20260716-065607.WAV.mp3
+~/hacker-notes-s26m06/voice/202607/R20260716-065653.WAV.mp3
+~/hacker-notes-s26m06/voice/202607/R20260716-065735.WAV.mp3
+~/hacker-notes-s26m06/voice/202607/R20260716-065835.WAV.mp3
+~/hacker-notes-s26m06/voice/202607/R20260716-065942.WAV.mp3
+~/hacker-notes-s26m06/voice/202607/R20260716-081421.WAV.mp3
+~/hacker-notes-s26m06/voice/202607/R20260716-092223.WAV.mp3
+~/hacker-notes-s26m06/voice/202607/R20260716-092648.WAV.mp3
+~/hacker-notes-s26m06/voice/202607/R20260716-092721.WAV.mp3
+~/hacker-notes-s26m06/voice/202607/R20260716-093641.WAV.mp3
+~/hacker-notes-s26m06/voice/202607/R20260716-093802.WAV.mp3
+~/hacker-notes-s26m06/voice/202607/R20260716-093908.WAV.mp3
+~/hacker-notes-s26m06/voice/202607/R20260716-095542.WAV.mp3
+~/hacker-notes-s26m06/voice/202607/R20260716-101751.WAV.mp3
+~/hacker-notes-s26m06/voice/202607/R20260716-101810.WAV.mp3
+~/hacker-notes-s26m06/voice/202607/R20260716-101852.WAV.mp3
+~/hacker-notes-s26m06/voice/202607/R20260716-141923.WAV.mp3
+~/hacker-notes-s26m06/voice/202607/R20260716-141952.WAV.mp3
+
+
+
+scans:
+~/hacker-notes-s26m06/scans/55/BRN3C2AF421298E_078480--5539-5547.pdf
+
+
+die SD-Karte für die scans geht ...
+
+06:11:
+dann bei nochmals wechsel zu der anderne karte, da schlatet sich die Sony Cybershot aus und geht gar nicht mehr. ich vermute das ist eine remote funktion von Sony cyber-shot kameras wo bestiummte datenträger nciht zerstört werden aber sicherung der daten verhindert wird.
+
+und die täter lesen hier mit und schalten es aus wenn sony aufgelfogen ist => also da gib [neues Text editor fesnster geht auf, cyber-waffen yakshaving ] vermutlich einen NDA  der Sony mit der Zürich Versicherung dass die nicht verraten dürfen dass es dort remote zensur funktion drin hat
+
+zwei identische sony kameras bis auf die Farbe, 1x schwarz, 1x grau
+
+mutmassliches mativ weshalb die jetzt diesen Schachzug noch exzessiver spielen mit der Sony kamera ist vermutlich das Vertuschen oder Herauszögern des Backups der Notizen zu Huggles Schusswaffen
+
+
+dann gewechselt auf einen HAMA adapter statt SAmsung Adapter für die mikro-SD Karte, sony versucht jetzt die Schuld der Samsung unterschieben, aber diese Karten sind einafhc 1:1 durchgeroutet
+
+und während ich fehlersuche mache würde die Drohung welche4 auf Zeile 23 übermittelt wurde aus meinem Fokus geschoben
+
+
+
