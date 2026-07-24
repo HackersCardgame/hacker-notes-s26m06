@@ -1,0 +1,23 @@
+07:25:
+
+ganze Nacht quergelüftet, jetzt schön angenehm ...
+
+
+Ausserdem spannende LLM Frage rausgefunden:
+
+Guten Morgen Ihr LLM's.
+
+Besteht die Gefahr, dass KI's [1] zu einem large-scale KI-Todesstern aggregiert werden, also inklusive dass dieser KI-Todesstern an die Sicherheits-Architektur des Landes angeschlossen würden und Zugriff auf alle dem Land, dem Militär oder dem Geheimdienst zur Verfügung steheneden Überwachung unklusive Raumüberwachung, Handy Positions Daten, Audio-Strams, vielleicht sogar Telemetrie von Menchen mit Normalem Wifi [2] . Bzw. zu mehreren sich gegenseitige bekriegenden KI-Todessternen verschieder Nationen oder verschiedener Gilden wie zB ein international vernetzes Netzwerk von korrupten Bankern?
+
+Bzw. diese Gefahr besteht sowieso, viel wichtiger ist mir die Frage inwiefern daan an so einen KI-Todesstern auch zB Game-Engines wie Cry-Engine uder Unity angeschlossen würden, bzw. die damit produzierten Games, so dass Gamer dann Dinge in der Realen Welt auslösen könnten.
+
+Technisch ist das sowieso machbar, es braucht einfach relativ viele Menschen welche Interfaces effizient programmieren können. Und nach dem Tod von Ian Murdock [3] wurde auch ein ASN1 Parser in den Linux-Kernel direkt drein verbaut. Und ASN1 ist schon auch für Crypto, es ist aber auch eine Datenstruktur mit welcher man sehr viele Interfaces normieren und schreiben könnte, auch zB Positionsdaten oder Überewachungsdaten.
+
+Gerne eine lange ausführliche Antwort.
+
+
+[1] jetzt nicht zwengend aber auch LLM's wie Ihr.
+
+[2] Zu RaumÜberwachung inklsive der Körpertelemetrie der Bewohner gibt es ja diverse Artikel auf Hackaday.com und auch mittlerweile proprietäre Produkte welche man kaufen kann
+
+[3] interessanterweise grad am Tag wo der Lunux Torvals Geburtstag hatte
