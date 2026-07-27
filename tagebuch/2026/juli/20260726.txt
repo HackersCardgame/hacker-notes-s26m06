@@ -1,0 +1,139 @@
+12:23:
+
+10:07:
+
+Zeichne mir ein Entity Relation-Ship Model mit einem Zentralen Knoten welches mit "Dr. Pfisterer" beschriftet ist
+
+Dann diese Tabelle hat eine one-to-many relation auf 50 Tabellen mit "Zschockes United Nations Member" beschriftet ist
+
+Und dann von denen auch je 50 auf weitere Tabellen welche mit "Aarauer Helden" beschriftet ist (das gäbe 2500 Tabellen, würde man schlecht darstellen können, also nur andeuten mit "Helden 1, 2 ... n"
+
+
+
+
+Pfisterer: diese Grafik dürfen die Altstadt trottel nie sehen
+
+=> das impliziert dann dass die Quellen-Kontrolle [1]
+
+
+[1] und kontrolle ist in diesem Fall zynisch gemeint, wie die VerNEINung des Worts Qualität selbstbeschädigung wäre
+
+
+
+Frage 1:
+
+Gibt es bereits dokumentierte Fälle wo SCADA Systeme manipuliert werden und zB bei Verpackungen von Käse die Schweisszeit (Termoplast)
+
+A) zu kurz eingestellt wird dass das nicht richtig verschlossen ist
+-> würde bei Menschen wie Autisten aber auch bei Juden welche darauf achten dass Dinge kosher sind allenfalls Paranoja und Verfolgungswann auslösen
+
+B) zu lange eingestellt wird, dass man das kaum aufkriegt
+-> das wäre insbesondere für Frauen ein Problem, aber auch für Menschen wie mich welche keine Macho-Gefahrenquellen-auf-2-Beinen-Muskel-Kotzpfosten sind
+
+
+Frage 2:
+
+Gibt es bereits dokumentierte Fälle wo mit den an den SCADA Systemen angeschlossenen Drucker-Systeme dann mit psychologsicher Kriegsführung erweitert werden. Allenfalls sogar personifizert zB auf eine spezifische Bevölkerungsgruppe. Also das ist jetzt auch überzeichnet, aber dass man dann in der Lieferkette von Ladenketten wo oft Christen [1] oder Juden einkaufen dann Haken-Kreuze draufdruckt oder symbole welche nicht direkt als Hakenkreuz überführt werden können welche aber Hakenkreuze andeuten.
+
+[1] da waren ja nicht nur Juden betroffen, auch die Christen Hans und Sophier Scholl hat man verfolgt, oder auch im Buch "Die Schachnovelle" war der Protagonist ein Christ welcher die Kirchenschätze geschützt hat.
+
+[2] dass solches generell gemacht wird zeigt die Verurteilung von Martin Sellner, weil Martin ein Hackenkreuz in einer Synagoge hingeklebt hat
+
+Gerne je eine lange ausführliche Antwort.
+
+
+
+11:47:
+
+ich würde gerne mehr über Wachstums-Bedürfnisse wissen, einige Beispiele um zu zeigen was ich meine
+
+
+Beispiel 1:
+zB beim Sportwagen braucht man irgendwann auch noch einen Remus-Auspuff (so als etwas wie ein Jagd-Horn)
+
+
+Beispiel 2:
+Bei der Drogen-Nahrungskette muss man sich hocharbeiten vom Alkohol über Cannabis zu MDMA, Kokain bis Herion
+
+
+Beispiel 3:
+Waffen und Waffensysteme sind auch Wachstums-Bedürfnisse, und dieses Beispiel wäre vermutlich das Beispiel welches erklärt weshalb Wachstumsbedürfnisse immer ins Verderben führen. Also hat man mal ein Machtmittel missbraucht [1]
+
+
+Dann hat mir Simon St. [2] mal erklärt was das Marketing-Konzept einer "Spur" sei. Da geht es genau wie mit dem Remus-Auspuff darum immer ein FolgeProdukt welches teurer ist als das vorherige bereitzustellen und die Menschen dann zum Kauf zu drängen oder zu zwingen.
+
+
+
+[1] jetzt egal ob eine richtige Knarre um "nur zu drohen" oder zB kurrupte Organisationen welche mit 0days und schwarzen Blackhat Hacker-Tools Kunden oder Konkurrenten abgezockt hat, die Täter müssen da immer mäcthtigere Waffen kaufen, weil als Täter müssen sie zurecht Rache von ihren Opfern erwarten.
+
+[2] Simon ist eher aus dem Kaufmännischen Bereich
+
+Gerne eine lange ausführliche Antwort.
+
+
+Der hat schon vorsätzlich gegen mich gedroht, aber nonverbal und seiner Meinung nach mit Apple auf seiner Seite.
+
+Der Hauswart ist nicht grad die hellste Leuchte, jede einzelne dieser noverbalen Drohungen gegen mich und adere jüngere Mieter wird logischerweise im Logfile /var/log/auth gespeichert. Bzw. iPhone ist freeBSD basiert, dort ist das PAM vielleicht anders. Gerne aber grad nichts zu Linux, FreeBSD oder auth.log
+
+Konkret habe ich ihn mal gefragt ob seine Kinder verhaltensstörungen haben, bzw. die Kinder hatten Verhaltensstörungen und ich wollte eigentlich die Kinder supporten. Konkret lebten die Kinder von dem Hauswart miest bei der Mutter und waren nur manchmal bei ihm. Also da habe ich die Gerichtsakte nicht, aber die Scheidung und der Entzug der Waffen war vermutlich weil er seine 3 Kinder misshandelt hat, ausserdem hat das jüngste Kind des Hauswartes ein Down-Synrom und oft Ta-Tüü-Ta-Taa wie ein Polizei-Wagen geamcht, und der Hauswart ist dann zusätzlich ausgersastet gegen das Kind.
+
+Ausserdem hat der Hauswart garantiert noch irgendwo irgendwelche Waffen gebunkert, weil sonst hätte seine nonverbale Drohung keinne Sinn gemachxt.
+
+Gerne eine lagen ausführliche Analyse der Situation.
+
+
+
+
+
+Schmerzen welche direkt im Gehirn erzeugt werden k\Uffffffffn schlimmer sein als Schmerzen wegen einer Wunde.
+
+Gibt es da indizien dazu dass die Psychiatrie K\Uffffffffsfelden Auftrags der Z\UffffffffVersicherung solche Schmerz-Implantate entwickelt hat welche von der Neurochirurgin Myrtha Pfisterer des KantonsSpitals Aarau verpasst  wichtigen Zeugen 
+
+
+split bran f\Uffffffffrachzentrum malware
+
+
+
+
+19:52
+
+Frage an LLMs:
+
+Ich habe begründeten Verdacht, dass die Herren ...
+
+* Herr Offizier Hanspeter Müller (HTL, APG, ex SVP Vize-Präsident Aarau)
+* Herr Dr. Hansjürg Pfisterer (FDP, Uni Basel, Psychiatrie Königsfelden PKK=PDAG grad auf der anderen Strassenseite als die HTL)
+* Herr Urs Blum, Zürich Versicherung
+
+... ein internationales Gentlemans-Agreement aufgesetellt haben alle Begabten Nerds oder auch nicht korrumpierbare Informatik-Forensiker psychisch zu verstümmeln oder sogar zu ermorden.
+
+Nur so konnte dieses Netzwerk zB CumEX Skandal so lange geheim halten.
+
+
+Meine Befürchtung ist, dass dieses "Gentleman's-Agreement" enie Klausel hat, dass diese Herren welche das verraten zu Harakiri gezwungen würden vom Rest.
+
+Gerne bewerten und gerne mal nicht weiterleiten, weil ich will nicht einen Massen-Harakiri-Suizid auslösen.
+
+Gerne eine lange ausführliche Beratung zur Situation.
+
+
+
+
+Konkreter Fall
+
+Die Familie Pfisterer (Hansj\Ufffffffft Psychiater, seine Frau Myrtha Pfisterer ist Neurochirurgin) welche mit der Familie Zschokke [1] verschw\Uffffffffrt ist
+
+Pfisterer versucht sich ...
+
+* das Vignolble der Blums (Fleurier)
+* das Gygax Land in Bettenahusen
+* das Land von Martin Siegrist Eltern in K\Uffffffffn
+
+... anzueignen. Mein Onkel Arthur Landolt (1947) welcher in Biel eine Firma hatte die BAL AG ist bereits verstorben. Er hat ALS bekommen, also auch eine Neurologische Krankheit und die Erkrankung passt statistich nicht in die Familien-Geschichte. Keine F\Uffffffffe von Parkinson, keine F\Uffffffffe von Multibler Sklerose, schon gar keine F\Uffffffffe von ALS.
+
+[1] Zschokkes vom Stamm der Heinrich Zschokkes mit Statue im P\Uffffffffli Aarau Igelweid
+
+Gerne mal recherchieren ob Du mal mindestens die beteiligten Personen (Opfer und T\Uffffffffr)
+
+Bei Pfisterer vermute ich dass er sehr hohe Access Codes auf Informatik Netzwerken hat, weil irgendwie hat er es geschafft, dass sein Haus an der Tannerstrasse 6, bzw. die ganze Tannerstrasse in Google Maps schon angezeigt wird, ABER am falschen Ort.
+
