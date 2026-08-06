@@ -48,3 +48,72 @@ voice:
 
 
 
+scans:
+~/hacker-notes-s26m06/scans/56/duplex_scan.pdf => jetzt korrigiert
+
+
+voice
+~/hacker-notes-s26m06/voice/202608/20260805091253.WAV.mp3
+~/hacker-notes-s26m06/voice/202608/20260805124204.WAV.mp3
+~/hacker-notes-s26m06/voice/202608/20260805124510.WAV.mp3
+~/hacker-notes-s26m06/voice/202608/20260805124658.WAV.mp3
+~/hacker-notes-s26m06/voice/202608/20260805124808.WAV.mp3
+~/hacker-notes-s26m06/voice/202608/20260805125128.WAV.mp3
+~/hacker-notes-s26m06/voice/202608/20260805125418.WAV.mp3
+~/hacker-notes-s26m06/voice/202608/20260805125725.WAV.mp3
+~/hacker-notes-s26m06/voice/202608/20260805132220.WAV.mp3
+~/hacker-notes-s26m06/voice/202608/20260805132320.WAV.mp3
+~/hacker-notes-s26m06/voice/202608/20260805132948.WAV.mp3
+~/hacker-notes-s26m06/voice/202608/20260805135824.WAV.mp3
+~/hacker-notes-s26m06/voice/202608/20260805141204.WAV.mp3
+~/hacker-notes-s26m06/voice/202608/20260805141359.WAV.mp3
+~/hacker-notes-s26m06/voice/202608/20260805141643.WAV.mp3
+~/hacker-notes-s26m06/voice/202608/20260805142436.WAV.mp3
+~/hacker-notes-s26m06/voice/202608/20260805142548.WAV.mp3
+~/hacker-notes-s26m06/voice/202608/20260805143305.WAV.mp3
+
+
+
+
+15:05:
+Frage an LLMs:
+
+
+Inwiefern steht das "We stand divided" für alle Geheimdienste.
+
+Zuerst hab ich gedacht, dass das nur für den NSA/CIA steht, weil da gibt es
+
+A) gute Agenten welche das richtige tun möchten oder mindestens einen Atomkrieg verhindern möchten
+zB Bill Binney und Snowden
+
+B) fragwürdige Agenten welche viele Kontakte zu Wirtschaftskriminellen haben und sich primär selber bereichern wollen.
+
+
+ABER das "We stand divided" würde auch zB für den FSB, KGB; Mossad, BND, NBD, ASIO ... gelten.
+
+Kann das sein?
+
+
+FolgeFrage:
+
+Dann wären vielleicht die Wirtschaftskriminellen (zB die Strategic Mission J oder die Strategic Mission K [1] würde in deren Interesse Arbeiten) international mit anderen fragwürdigen Agenten vernetzt.
+
+Und wenn wir Glück haben wären die gutartigen Agenten aller Geheimdienste auch zB über #OSINT oder solches vernetzt.
+
+Gerne eine lange ausführliche Antwort
+
+
+[1] Strategic Mission K = "Ausspähen der Politik" ABER das wäre nicht nur lesend zugreifend und das wären deswegen vermutlich die Piraten Partei Aargau de facto (nicht de jure) zerfetzt woren, bzw. es sind einfach sehr viele von der Piraten-Partei Aargau aber auch schweizweit irgendwie wie verschwunden
+
+
+16:56:
+Surveillance Enclaves von Gruppen, Netzweiter Netzsplit ? für Telegram, und in jeder Gruppe wird ein Mitglied in den Suizid Modus geschaltet? 
+
+Das wäre genau das Konzept welches der Nico Wild erwähnt hat. Nico Wild hat ca 2010 ausgesagt, dass Offiziere der Schweizer Armee in der Offiziers-Schule lernene sie sollen Zivilisten nur anischessen denn das binde mehr Personal unter den Opfern als ein toter Zivilist
+
+17:25:
+dann in diesen Zeiten würden einige Patienten mit hohn medikamenten überfüttert, udn die fänden es dann lustig wenn jemand suizidal ist, Part 2 sind sie beteiligt am Suizid oder Amoklauf eines Gruppenmitglieds
+
+
+
+
