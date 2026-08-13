@@ -54,3 +54,157 @@ voice:
 ~/hacker-notes-s26m06/voice/202608/20260813084751.WAV.mp3
 ~/hacker-notes-s26m06/voice/202608/20260813085232.WAV.mp3
 
+
+
+23:07:
+
+unaufgeforederte übermittlung:
+
+die Aussage "jedes land braucht ein grosses Bier" von Dominic Zschocke in seinem Spass-Vereine "UN Holy Morning Voll-Versammlung" und das Rituale einen "Tages-Chef" zu haben ...
+
+
+... sei der Insider dass Dominic Zschocke für seinen Onkel Hansjürg Pfisterer die Skalven als angesehener Trensetter in der Aarauer Altstadt und im FC Aarau mit Alkohol dumm hält. und jeweils einer der Herren sich mühe gibt möglichst viele der jugnen Menschen welche gar nicht wissen dass sie Sklaven von Pfisterer und Zschocke sind [1]. Terminierbarkeit + Kompromat-Datenbank => und das impliziert wiederum dass grosse Teile der Justiz und der Wirtschaft bestens wissen dass junge Menschen oft noch ein intaktes Werte- und Moral-System haben, deshalb wird von dominiic Zschocke, Onkel Pfisterer und co Kompromat vorbereitet.
+
+=> FALLS das stimmt [2] sollte ermittelt werden, schauen wieviele "nur" versenkt wurden und wieveiel ermordet wurden, dann das verfahren gegen die herren eröffnen bzw. noch wichtiger diejenigen welchen noch leben wieder gesund machen
+
+
+
+
+[1] hier blendet jemand das Sprachsample von Alexander Zschocke ein "ich habe auch dich (marc jr) in meiner Personen Kartei", der Alexander ist der Serbe in Dominics Spassverein
+
+[2] und ich hätte gesagt das stimmt vermutlich
+
+
+
+23:45:
+Dann hostpoint hat angefangen langziet logs zu löschen, jeweils am 31.12. löschen die täter bei der hostpoint die logs
+
+
+
+23:47:
+dann hat die militärische raumüberwachung jetzt ca seit 2021 dafür gesorgt, dass ich nicht ein einziges mal logfiles ausgewertet habe ...
+
+und backup geht seit 2021 auch nciht mehr, das war vermutlich auch eine art eine abrichtung eines stimulus response habits durch dr. schleusener auftrags pfsiterer, blum udn zshcocke
+
+23:54:
+
+dann hatte ichg einen link zu den logfiles, der wurde scheinbar auch gelöscht
+
+und die ls /var/log/domlogs/m/marcland
+wurden scheinbar auch verschoben oder gelöscjt ohne hineweis
+
+
+dann gibt es scheonbar neu "security" logs, wo ich aber keinen zugriff ddauf habe, da wäre wie öfter das terrornetzwerk sich hinter wörtern wie Qulalität oder Security am verstekcen
+
+
+00:13
+logfiles backuppen ist um ca faktor 50x gedrosselt
+
+
+
+
+dann hab ich
+
+
+00:14:
+
+dann haben jetzt die terroroisten bei hostpoint angefangen offensitlcihlt dirket zu sabotieren
+
+
+
+arc@debian:/target/host$ rsync -avz marcland@ftp.marclandolt.ch:~/home/marcland /target/host/
+(marcland@ftp.marclandolt.ch) Password for marcland@s92.server.hostpoint.internal:
+receiving incremental file list
+rsync: [sender] change_dir "/home/marcland/home" failed: No such file or directory (2)
+
+sent 8 bytes  received 8 bytes  3.56 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1876) [Receiver=3.4.4]
+rsync: [Receiver] write error: Broken pipe (32)
+marc@debian:/target/host$ rsync -avz marcland@ftp.marclandolt.ch:~/home/marcland /target/host/
+
+
+
+allenfalls auch mein endpoint, da wäre wirst cxase ien evariabel gesetzt worden
+
+
+
+12:29:
+dann wurde jetzt wieder krebsangst aktiviert und mein sterbewunsch wird wieder schlimmer bzw. schlimmer gemacht
+
+dann vorhin "marc jr landolt wurde mit einem karzinogenen stoff ermordet" ... logflies bei hostpoint beantragen um vor meinem tod noch den mörder zu fassen
+
+bzw. die reihenfolge war anders, soblad das thema logfiles beantragen wurde ide krebsangst aktiviert
+
+afaik müsste hostpoint die access logs 10 jahre aufbewahren und auf backups sind die sowieso noch drauf...
+
+=> auf CD beantragen als rükkanal / Checksumme und im /home/marcland
+
+
+12:36:
+dann FALLS der Krebs bei der Tochter von Nicolas Wöhrl mit einem Karzinogenen Stoff vorsätzlich erzeugt wurde wäre diese Angst so über monate in all die Nerds eingeprägt worden welche den minkorrekt.de podcast hören
+
+12:37:
+dann scheint jetzt jemand zu sagen "nicolas wöhrl ist an allem schuld, er hätte nicht über den krebs seiner tochter im podcast berichten sollen"
+
+---> wer auch immer an der Familie Wöhrl noch Victim-Bashing betreibt gehört ermittelt und verwahrt, bzw. zuerst kommt afaik u-haft für diesen Tyüen
+
+
+12:49:
+das was der minkorrekt.de community und der Familie Wöhrl angetan wurde wirkt wie geplant.
+
+minkorrekt HAT reichweite, und da wurden nach 2019 meherer Themen für verschiedene lebensbereiche über die Angriffe gegen minkorrekt.de auf alle Nerds übertragen.
+
+Lebensbereich: Essen / Nahrungsaufnahme
+ => permaanente Vergiftungsängste wegen dem Darmkrebs. bzw. würden insbesondere die nerds welche darmkrebs mit vergiftung in verbindung bringen würden paranoid gemacht werden
+
+
+Lebensbereich: Strassenverkehr / Bahn
+ => angst vor Amokläufern wegen dem Amoklauf von Hapte Avaya an einem Minkorrekt.de abend in Frankfurt
+ 
+Lebensbereich: Haushaltunfall
+ => Gamma-Nagel von Rainer Remford
+ 
+also da einfach wegeschauen, das ist statistisch so unwahrscheinlich [1] dass meiner SUBJEKTIVEN Meinung nach behördne von vorsatz ausgehen müssen
+
+[1] und ja es könnte noch zufall sein aber sehr weit aussen in der Normalverteilungskurve
+
+
+dann bei diesen Dingen könnte ich mir gar nicht die rechte selber nehmen
+rm: wiki2/Images/Huge/01/0ca83a33.jpg: Permission denied
+
+=> Ausserdem fehlt der chown
+
+=> chmod geht, aber ich wüsste nciht dass ich mir da selber die rechte genommen habe => wierstrass funktion um backup, arbeiten, etc auszubremsen
+
+
+
+also die psychiatrie öffnet meinen computer und meine daten, verhindert dass cih backup machen kann, richtet mich ab backup auf github oder dem hostpoint server [1]
+
+
+[1] unbekannt: lsöcht github heraus, sagt es sei alles die schuld von github => also da schauen wer nach dem die psychiatreie mich mit paranoia dazu gebrach rthat backup auf hostpoint uz machen da dran war
+
+
+herr urs blum und das terrornetzwerk und cyber-terrornetzwekr we3lches urs blum in der Zürihc Versichrung mit zB dem Herrn grabriel riela betreibt
+
+
+
+
+marc@debian:~/HCG21$ git rev-parse HEAD
+74c22dae6b161f32749bceee6ef19f3176f2d85f
+
+marc@debian:~/HCG22$ git rev-parse HEAD
+39fa1531929972f204a57c3c774f0c2961f87c9a
+
+
+dynamisches updatedes knapsack-problem algorithmsu, hat man wieder genug platz geschaffen füllt etwas / jemand den platz wieder
+
+
+unbekannt:
+es werden haftbefehle gegen die herren gedruckt
+
+das problem ist, dass urs blum permanent sowohl schweizer als auch ausländer finden welche für blutgelder eine Rolle (rolle ist der herr bender, job wäre das richtige wort) als Terrorist oder Cyber-Terrorsist annehmen
+
+
+
+
