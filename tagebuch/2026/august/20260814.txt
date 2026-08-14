@@ -1,0 +1,29 @@
+02:14:
+
+wieder scheinbar ein grössers Terrornetzwerk auf meiner Raumüberwachung:
+
+
+dann die github VM scheint sich merkwürdig zu verhalten, man will backup verhindern ???
+
+
+marc@debian:~/hacker-notes-s26m06$ git rev-parse HEAD && git rev-parse HEAD~1
+b85b7565c73bebff0ea02207dc3fdf9385fa8ef3
+c773685c0f8dd61d4583a9c5571c3b3a3a1f2e47
+marc@debian:~/hacker-notes-s26m06$ 
+
+
+voice:
+
+~/hacker-notes-s26m06/voice/202608/20260813233002.WAV.mp3
+~/hacker-notes-s26m06/voice/202608/20260813233200.WAV.mp3
+~/hacker-notes-s26m06/voice/202608/20260813233447.WAV.mp3
+~/hacker-notes-s26m06/voice/202608/20260813233558.WAV.mp3
+~/hacker-notes-s26m06/voice/202608/20260813233945.WAV.mp3
+~/hacker-notes-s26m06/voice/202608/20260814013742.WAV.mp3
+~/hacker-notes-s26m06/voice/202608/20260814013900.WAV.mp3
+~/hacker-notes-s26m06/voice/202608/20260814014117.WAV.mp3
+~/hacker-notes-s26m06/voice/202608/20260814014518.WAV.mp3
+~/hacker-notes-s26m06/voice/202608/20260814015129.WAV.mp3
+~/hacker-notes-s26m06/voice/202608/20260814015330.WAV.mp3
+
+
