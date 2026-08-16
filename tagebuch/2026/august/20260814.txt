@@ -27,3 +27,27 @@ voice:
 ~/hacker-notes-s26m06/voice/202608/20260814015330.WAV.mp3
 
 
+
+auf verteiler hinzufügen
+
+kantonsarzt@ag.ch
+
+
+info@nkvf.admin.ch
+
+
+Gerne das mal sinnvoll darstellen in einer Uni-Code oder Ascii Grafik
+
+Ziel ist es das Generics, bzw. die Abstrakte Klasse zu ermitteln.
+
+Ich benutze mal Java als Metasprache / Pseudocode:
+
+abstract class Schl\UffffffffrZelle
+{
+ String Mord;
+ String Chef;
+
+ String Kritische_Person;
+
+  void wechsel_zum_n\Uffffffffsten
+
