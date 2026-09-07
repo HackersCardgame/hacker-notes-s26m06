@@ -2,36 +2,85 @@
 
 
 scans:
-hacker-notes-s26m06/scans/58/5818-5827.pdf
+~/hacker-notes-s26m06/scans/58/5818-5827.pdf
 
 voice:
-hacker-notes-s26m06/voice/202609/R20260903-155356.WAV.mp3
-hacker-notes-s26m06/voice/202609/R20260903-161152.WAV.mp3
-hacker-notes-s26m06/voice/202609/R20260903-172010.WAV.mp3
-hacker-notes-s26m06/voice/202609/R20260903-173132.WAV.mp3
-hacker-notes-s26m06/voice/202609/R20260903-173257.WAV.mp3
-hacker-notes-s26m06/voice/202609/R20260903-174635.WAV.mp3
-hacker-notes-s26m06/voice/202609/R20260903-190110.WAV.mp3
-hacker-notes-s26m06/voice/202609/R20260903-190900.WAV.mp3
-hacker-notes-s26m06/voice/202609/R20260904-123952.WAV.mp3
-hacker-notes-s26m06/voice/202609/R20260905-184938.WAV.mp3
-hacker-notes-s26m06/voice/202609/R20260905-215136.WAV.mp3
-hacker-notes-s26m06/voice/202609/R20260905-215359.WAV.mp3
-hacker-notes-s26m06/voice/202609/R20260905-215504.WAV.mp3
-hacker-notes-s26m06/voice/202609/R20260905-215625.WAV.mp3
-hacker-notes-s26m06/voice/202609/R20260905-215834.WAV.mp3
-hacker-notes-s26m06/voice/202609/R20260905-215938.WAV.mp3
-hacker-notes-s26m06/voice/202609/R20260906-170020.WAV.mp3
-hacker-notes-s26m06/voice/202609/R20260906-205151.WAV.mp3
-hacker-notes-s26m06/voice/202609/R20260906-205329.WAV.mp3
-hacker-notes-s26m06/voice/202609/R20260906-205429.WAV.mp3
-hacker-notes-s26m06/voice/202609/R20260906-205521.WAV.mp3
-hacker-notes-s26m06/voice/202609/R20260906-205631.WAV.mp3
-hacker-notes-s26m06/voice/202609/R20260906-205822.WAV.mp3
-hacker-notes-s26m06/voice/202609/R20260906-205929.WAV.mp3
-hacker-notes-s26m06/voice/202609/R20260906-210007.WAV.mp3
-hacker-notes-s26m06/voice/202609/R20260906-210335.WAV.mp3
-hacker-notes-s26m06/voice/202609/R20260906-210939.WAV.mp3
-hacker-notes-s26m06/voice/202609/R20260906-211036.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260903-155356.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260903-161152.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260903-172010.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260903-173132.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260903-173257.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260903-174635.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260903-190110.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260903-190900.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260904-123952.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260905-184938.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260905-215136.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260905-215359.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260905-215504.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260905-215625.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260905-215834.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260905-215938.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260906-170020.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260906-205151.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260906-205329.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260906-205429.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260906-205521.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260906-205631.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260906-205822.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260906-205929.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260906-210007.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260906-210335.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260906-210939.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260906-211036.WAV.mp3
 
 weckung ca 20:30, bzw schlafdeprivation und erneute drohungen durch mutmasslich urs blum und sein terrornetzwerk
+
+
+
+03:03:
+
+ich hab da noch eine Frage zum Thema "Baby-Hitler" ...
+
+... es gibt hier in Aarau so einen Psychiater. Einige Äzte nennen ihn ehrfürchtig oder zynisch "den Kaiser von Aarau". Und der Typ hat mindestens 3 Neffen. Einer hocke permanent in der Psychiatrie Königsfelden weil er ein "Korsakov Syndrom" hätte. ABER der Psychiater wäre eigentlich derjenige welcher sich wie ein "Korsakov-Syndromler" verhält, zwar alles immer schon mit Bibel-Versen getarnt, aber nach einer Weile merkt man das schon.
+
+Müsste man dann den / die Neffen vom "Kaiser von Aarau" auch in die Sparte "Baby-Hitler" einsortieren ?
+
+Dann gab es beim Thema Präsident Kurz in Österreich ja öfters mal den Post "Baby-Hitler töten", aber das fände ich auch daneben, weil dann wäre ich ja nicht besser wie Hitler + Co.
+
+Ausserdem das mit dem Absägen von Kurz hat der Strache mit seinem Kokain-Video ja schon eigentlich selber in Teilen erledigt.
+
+
+
+
+03:21:
+
+pizza machen und kurz über die frage reflektiert.
+
+wir wollen die Situation ja nicht eskalieren lassen sondern das problem mit den Korrupten Amtspersonen hier in Aarau eindämmen und die Justiz dazu bringen die Korrupten und Faulen Äpfel rauszuwerfen.
+
+[DELETED]
+und ich VERMUTE, dass der Herr Urs Blum welcher wirst case nicht nur mit dem Mord an den 3 ABB adminstratoren in verbindung steht sondern auch mit dem Doppelmord Belser AG jetzt seine Auftragnehmer (Psychiater Pfisterer und seine Neffen Zschokke) verraten hat um sich und die Zürich Versicherung aus dem Fokus als Auftraggeber an Baby-Hitler zu ziehen
+
+scans:
+~/hacker-notes-s26m06/scans/58/5827-5829.pdf
+
+voice:
+~/hacker-notes-s26m06/voice/202609/R20260906-214058.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260906-214315.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260906-214543.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260907-000619.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260907-000836.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260907-003304.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260907-003408.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260907-003601.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260907-004203.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260907-005836.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260907-015852.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260907-020051.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260907-021047.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260907-021406.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260907-021553.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260907-021833.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260907-022133.WAV.mp3
+
