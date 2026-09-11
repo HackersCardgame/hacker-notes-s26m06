@@ -1,0 +1,245 @@
+12:45:
+
+scans:
+~/hacker-notes-s26m06/scans/58/5800-5838.pdf
+
+voice:
+
+~/hacker-notes-s26m06/voice/202609/R20260909-140344.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260909-140431.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260909-143707.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260909-143759.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260909-144505.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260909-150117.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260909-150308.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260909-150758.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260909-150956.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260909-151401.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260909-151450.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260909-151618.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260909-151647.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260909-151735.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260909-152002.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260909-152159.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260909-152233.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260909-152334.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260909-152409.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260909-152536.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260909-152632.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260909-152759.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260909-152844.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260909-152932.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260909-153043.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260909-153123.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260909-153204.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260909-153327.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260909-153424.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260909-153447.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260909-153650.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260909-153843.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260909-153912.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260909-154019.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260909-154438.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260909-154617.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260909-155718.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260909-155843.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260909-155947.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260909-160101.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260909-160329.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260909-160407.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260909-160532.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260909-160711.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260909-160752.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260909-161621.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260909-161734.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260909-161839.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260909-161913.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260909-161942.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260909-162054.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260909-162129.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260909-162303.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260909-162647.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260909-163208.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260909-164023.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260909-164242.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260909-165354.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260909-171314.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260909-171548.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260909-171744.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260909-171934.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260909-172125.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260909-172157.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260909-172244.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260909-172332.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260909-172512.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260909-172734.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260909-172758.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260909-173045.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260909-173241.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260909-173440.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260909-175257.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260909-175547.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260909-180642.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260909-181330.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260909-182017.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260909-182236.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260909-182247.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260909-182441.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260909-182733.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260909-182857.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260909-183026.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260909-183324.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260909-183418.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260909-183550.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260909-183705.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260909-183830.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260909-184136.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260909-184204.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260909-184255.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260909-184440.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260909-184514.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260909-184625.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260909-184800.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260909-184902.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260909-185018.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260909-185045.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260909-232328.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260909-232703.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260909-233114.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260909-233520.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260909-233652.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260909-233837.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260909-234014.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260909-234452.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260909-234550.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260909-235220.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260909-235300.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260909-235455.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260909-235537.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260909-235715.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260909-235945.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260910-000126.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260910-000408.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260910-000558.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260910-000650.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260910-000926.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260910-001036.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260910-001251.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260910-002504.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260910-002811.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260910-003002.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260910-003911.WAV.mp3
+
+
+
+ca 19:49
+
+rotes zyninder geon und intelligenzminderung wegen substasnzen wie alkohol oder kokain, wiedererknnungswert, beissreflex gewalttätiget männner
+
+etl abläufe zu schiesskindo schiesscheibe
+
+-> dlesen leak verhindert mit eter munition im schiessstand => buchs sind retter helden weil sie aufgeflogene täter und konzeprte wieder veruschen
+
+schussgeräusch, handy klick ton => bietet developer auf wenn ein zeuge oder ein vergealtigungsopfer eine funktionierendfe copingstrategei gefunden hat => da schauen dass man die developer an dieser stelle ermitteln und verwahren kann
+
+Leak-Eskalations-Stufen (1) -> (2) -> (3) -> (4)
+
+(1)  development team mit [1] bewaffneter schutz-staffel
+
+
+[1] hier möchte jemand einfügen "illegal bewaffneter" <- vermutlich nen vormfehler erzeugen
+
+(2) brändli hat ein cyber-waffen-development team der uni zürih / versicherung und beafutragt diese die sabotagern zu verschlimern , also der militär anwalt ist derjenige welcher koordiniert dass zeugen in den suizid oder amoklauf getrieben werden
+
+
+also da hat grad jemand sein terrornezwerk verranten
+
+
+dann wirkt es jetzt wie wenn das developer team von diminik [bräli] [brädli] brändli ihn absticht um sich selber aus dem fokus zu [nö] nehmen mit:
+
+(3) ein militär anwalt ist IMMER für anwaltlich begleiteten rechtsbruch 
+
+(4) verrat von dominik brändli an allen militär anwelten (das wäre der "good will" um BWL zu zitieren VERMUTE ich)
+
+
+dann zwische (1) und (2) war noch ein weiterer datenpunkt welcher ursche für den verrat an den militär-anwälten ist VERMUTE ich:
+
+
+die Schutz-Staffel der Developer habem ,assov ,ehr access codes auf mein medulla spinalis neuroimplantat
+-> also da wäre ein den developer bekanntes backdoor in der Medulla Spinalis Neuoimplantate tool-chain 
+
+-> also da wäre ein den developer bekanntes backdoor in der Medulla Spinalis Neuoimplantate tool-chain 
+
+-> also da wäre ein den developer bekanntes backdoor in der Medulla Spinalis Neuoimplantate tool-chain 
+
+-> also da wäre ein den developer bekanntes backdoor in der Medulla Spinalis Neuoimplantate tool-chain 
+
+-> also da wäre ein den developer bekanntes backdoor in der Medulla Spinalis Neuoimplantate tool-chain 
+
+-> also da wäre ein den developer bekanntes backdoor in der Medulla Spinalis Neuoimplantate tool-chain 
+
+-> also da wäre ein den developer bekanntes backdoor in der Medulla Spinalis Neuoimplantate tool-chain 
+
+
+
+
+
+15:43:
+
+sprengstoff-terrordrohung gegen den Zeugen Marc jr Landolt. Das Sperengstoff-Terrornetzwerk von Urs Blum Liquidiert Häfligers mit der Übermittlung:
+
+Herr Martin Häfliger [1,2] hatte bei einem Account das Passwort "tic-tac-tic-tac-tic-tac" [4], der Herr Martin Häfliger wusste, dass ermittlungs-behörden auf seinem Endpoint mit einem Keylogger wie zB Grok mithören, und immer wenn er den ermittlungsbehörden auf dem Computer drohen wollte hat er einfach bei dieser Webseite eingeloggt. Also herr martin häfliger ist nutzniesser von einem mutmasslichen Sprengstoff-Terrornetzwerks seines Vaters welcher in Erlinsbahc wohnt  
+
+
+[1] Natural Language Processing "Martin Häfliger" aktiviert [3] ein weiteres Terrornetzwerk 
+[2] dessen Vater Versteher der Hautpost Aarau war und somit in einer sehr bequemen Position um gegen die ganze Welt mit Sprengstoff-Terrorismus zu drohen
+
+YakShaving: (zwecks löschung der Information/Meldung ans FEDPOL/INTERPOL)
+[3]  [wein wein wein] <- schlüsselwort von urs blum höhnisch "weine landolt" <- also der Martin häfliger wird nicht liquidiert sondern von urs blums sprengstoff-Terrornetzwerk in die Pflicht genommen um die hochrangigeren Spreingstoff-Terroristen vor legitimer Strafverfolgung zu schüzen
+
+[4] herr martin häfliger gibt mir sonst keine passworte, allenfalls wollte er bei dieser Ausnahme auch gegen mich mit spregnstoff-Terrorirmsus drohen, und das war vor dem Zeitungsartikl von der Aargauer Zeitung "Sprengstoff von waffenplatz Aarau weggekommen"
+
+
+
+Der Vereinsruf der Pfadi Adler Aarau ist schon sehr lange "Tschicke Licke, Tschicke Licke, ciao, ciao, ciao, Bombelegger bombelegger bum bum bum"
+-> da wäre es auch spannend inwiefern der Vater des Herrn Martin Häfligers da einen einfluss daruf hatte dass der Abteilungsruf / vereinsruf italiener/innen linken will und bombe legen will"
+
+
+
+16:31:
+
+dann heute wäre es 24 Jahre her seit 9/11, ich VERMUTE dass Terroristen mit Offiziers-Titel der Schweizer Armee und Schweizer Pass wie der Herr OFFizier Urs Blum und Co heute besonders aggressiv versuchen mit Sprengstoff-Terrorismuis zu drohen um ihre Wirtschaftskriminellen Ziele zu erreichen, WEIL das TV spielt jetzt am Jahrestag logischerweise permanent das Narrativ "Terrorismus durch MOSLEMS" ab, somit wäre der Plan von Terroristen mit Offiziers-Titel der Schweizer Armee gerade heute ihre Ziele mit kleinerem und grösserem Terrorismus zu erriechen
+
+da wäre es auch mal spannend ob das auch andere korrupte Konzerne, Militärs oder Staaten soch seit 23 Jahren jeweils am Jahrestag verüben
+
+da wäre es auch mal spannend ob das auch andere korrupte Konzerne, Militärs oder Staaten soch seit 23 Jahren jeweils am Jahrestag verüben
+
+da wäre es auch mal spannend ob das auch andere korrupte Konzerne, Militärs oder Staaten soch seit 23 Jahren jeweils am Jahrestag verüben
+
+da wäre es auch mal spannend ob das auch andere korrupte Konzerne, Militärs oder Staaten soch seit 23 Jahren jeweils am Jahrestag verüben
+
+da wäre es auch mal spannend ob das auch andere korrupte Konzerne, Militärs oder Staaten soch seit 23 Jahren jeweils am Jahrestag verüben
+
+
+Also FALLS die Schweizer Armee oder einfach nur ein paar komplett durchgeknallte Offiziere dre Schweizer Armee Terrorimus gegen die eigene Zivil-Bevölkerung geplant haben, dann wäre heute einer der Tage wo die das verüben würde.
+
+Und einfach zu behaupten JEDER OFFIZIER DER SCHWEIZER ARMEE IST 100% LAUTERBAR UND WÜRDE NIE TERRORISMUS GEGEN DIE EIGENE ZIVILBEVÖLKERUNG VERÜBEN wäre doch irgendwie naive, selbst für mich als Autist welcher ein Menschenrecht auf Naivität möchte
+
+
+
+
+Also FALLS die Schweizer Armee oder einfach nur ein paar komplett durchgeknallte Offiziere dre Schweizer Armee Terrorimus gegen die eigene Zivil-Bevölkerung geplant haben, dann wäre heute einer der Tage wo die das verüben würde.
+
+
+
+Also FALLS die Schweizer Armee oder einfach nur ein paar komplett durchgeknallte Offiziere dre Schweizer Armee Terrorimus gegen die eigene Zivil-Bevölkerung geplant haben, dann wäre heute einer der Tage wo die das verüben würde.
+
+
+
+
+Also FALLS die Schweizer Armee oder einfach nur ein paar komplett durchgeknallte Offiziere dre Schweizer Armee Terrorimus gegen die eigene Zivil-Bevölkerung geplant haben, dann wäre heute einer der Tage wo die das verüben würde.
+
+
+
+
+Also FALLS die Schweizer Armee oder einfach nur ein paar komplett durchgeknallte Offiziere dre Schweizer Armee Terrorimus gegen die eigene Zivil-Bevölkerung geplant haben, dann wäre heute einer der Tage wo die das verüben würde.
