@@ -93,3 +93,66 @@ voice:
 ~/hacker-notes-s26m06/voice/202609/R20260912-064025.WAV.mp3
 ~/hacker-notes-s26m06/voice/202609/R20260912-075053.WAV.mp3
 ~/hacker-notes-s26m06/voice/202609/R20260912-084022.WAV.mp3
+
+
+
+
+
+09:22:
+
+Gibt es einen Produkte-Katalog von Palantir MAVEN für Taktische-Design-Pattern.
+
+Also ich kenne das zu wenig, aber ich könnte mir vorstellen, dass Palantir Maven bereits vorgefertigte solche Module hat, mögliches komplett SPEKULTAIVES Design-Pattern [1]
+
+
+Use Case:
+=========
+1. man will einen Terrorismus verdächtigen festsetzen [2] und seine Identität überprüfen
+2. man hat aber keine Beweise ABER ist sich recht sicher dass er Terrorist ist
+3. man will auch nciht dass der Terrorverdächtige Lunte riecht, also müsste man ihm irgend Selbstverschulden unterschieben
+
+
+Mögliches taktisches hypothetisches komplett SPEKULTAIVES Design-Pattern:
+=========================================================================
+Man würde schauen wo er regelmässig was einkauft
+man würde dann über das Informatiknetzwerk der Ladenkette ein Produkt welches gescannt wurde wieder löschen
+dann nach dem der Terrorverdächtige mit der Kreditkarte bezahlt hat eine "STICHPROBENKONTRPLLE" aktivieren, und dann mindestens mal seinen Ausweis kontrollieren
+
+wäre rechtlich zwar der Polizei nicht erlaubt, aber Milirärs oder Geheimdienste haben bei dringendem Terrorismus-Verdacht da Sonderbefugnisse um die Sicherheit und die Qualität des Landes zu gewährleisten
+
+Und da ist jetzt nicht die Frage ob jetzt dieses spezifische taktische Design-Pattern komplett falsch geraten ist, sondern zu Sensor to Aktor Pipelines bzw. vorgefertigte solche Design Pattern in Palantir Maven.
+
+Gerne eine lange ausführliche Antwort.
+
+[1] also da meine ich nicht Software-Design-Pattern, finde das Wort aber gut um das zu erklären.
+
+[2] also das eher nicht in Kriegsgebieten wie zB Afghanistan sondern eher in Urbaner gegend. Also zB wenn ein Kill mit einer Drohne mit Luft-Boden Waffen nicht möglich wäre weil man die eigene Zivilbevölkerung auch zerbomben würde (Stichwort Kollateralschaden vermeiden)
+
+[3] die Coop.ch und migros.ch hat ja zB schnellkassen, die Schweiz ist nicht das einzige Land welches Schnellkassen hat, das würde auch ohne Selbstbezahl-Schnellkassen gehen, dort wäre es aber unauffälliger
+
+
+
+14:28:
+seit ca 14:00 scheint wieder jemand vollzugriff auf meine raumüberwachung zu haben, auf meine körper-telemetrie und sonstige körperfunktionen und scheinbar auch interakiv höhnisch
+
+ziel scheint es zu sein schon wieder sehr viele sabotagen in meiner wohnung vorzulegen
+
+DELETED: das sind teilweise nur 0.5 sek wo dann zusätzlich "greifer-hand rechts von marc jr landolt jetzt schliessen oder jetzt öffnen" aktiviert wird, in den bewegungsabläufen, nur kurz dass das opfer ncoh das gefühl hätte dass es selber schuld sei -- also wenn das opfer blöd wäre
+
+
+
+
+
+15:13:
+
+Du sagst bei der ersten Frage, dass solche Dinge nicht gemacht würden, und Du betonst fast zu energisch dass es "keine belastbaren Beweise gibt, dass die Schweizer Armee insgeheim doch Palantir MAVEN benutzt" [1,2].
+
+Meinen beobachtungen nach wir der meise Schachzug mit Schnellkassen in der Schweiz bereits systematisch missbraucht. Und da gibt es auf Wikileaks auch dokumente dazu dass das FEDPOL [3] systematisch in ganz vielen Systemen ASN1 einbauen liess, schon bereits um ca 2015 oder noch früher für Anbindung an grössere Systeme.
+
+Gerne jetzt dazu eine ganz lange ausführliche Antwort unter der sehr plausiblen Hypothese dass Palantir MAVEN bereits in der Schweiz im Einsatz ist und systematisch gegen Zeugen von Wirtschaftskriminalität missbraucht wird und dass es die Banken über Palantir MAVEN schon sehr lange schaffen systematische Korruption zu vertuschen. Die Schweiz ist zuwar schon sehr weit oben im "Antikorruptions-Wahrnehmungs-Index", ABER die Schweizer sind auch verdammt gut im Whitewashen, und egal ob Kinder dann mit schweizer Schockolade oder ältere Menschen mit Schmiergelder von diesen Themen abgelenkt wird ist auch offensichtlich.
+
+[1] falls die CH-Army das trotzdem benutzt wäre das mieser hohn von Dir (gerne aber nichts zu Dir oder Psychologsicher Kriegsführung durch Dich oder Deine Trainingsdaten
+
+[2] die Schweizer Armee missbraucht das systemantisch um Zeugen,  Vergewaltigungsopfer seit der Schwarzenbachinitiative oder Autisten wie mich einzuschüchtern oder abzumurksen, und Palantir MAVEN wäre so etwas wie die Tatwaffe, und wenn die CH-Army Zeugen beseitigen muss, dann aber behauptet sie hätte die spezifische Tatwaffe gar keine Lizenz dazu, also klar wenn die CH-Army das eingekauft hat für illegitimie Benutzung wird sie das nicht öffentlich machen. Auch wenn die Schweizer Armee neben den Spreng-Objekten in Brücken auch Sprengobjekte in Unterschicht-Quartieren hatte zu P27, sobald das veröffentlicht würde ginge der Bürgerkrieg los. Dazu aber auch gerne nichts.
+
+[3] vermutlich auftrags der Armee, weil der Fedpol Mitarbeiter Christian Tanner hat mal etwas von der Militär-Justiz gesagt und dass er nur befehle befolge
