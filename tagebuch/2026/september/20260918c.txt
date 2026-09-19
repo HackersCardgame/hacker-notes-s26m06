@@ -1,143 +1,36 @@
-04:35:
+05:55:
 
-Fri Sep 18 04:33:50 AM CEST 2026
-richtige datei von heute
-
+jemand wirft wieder mit einem ganzen Handgranaten sprengfallen "buffet" nach mir
 
 
+dann eraster tissues / chemitroden mit lösch einwirkungsdauer
 
-malware: noch kein update gemacht, die malware wird vermutlcih über einen anderen kanal als über das debian deb repository verteilt, so etwas wie der ochestrator welchen zuber hatte
+gelöscht hätte werden sollen:
+
+Was passiert mit den Tätern welche vorsätzlich kinder ermordet haben und was mit denen welche "nur" proaktiv weggeschaut haben. also rechtlcih passiert nichts weil das system korrupt ist, aber derne gewissen [1] wird sie zu dauerndem selbsthass treiben, dann mehr substanzmissbrauch, mehr consumerism, kein exit, hass auf menschen welche nicht so blöod waren, sich als wedding crasher feiern, ...
+
+part 2:
+ewiger selbsthass, weine herr blum, blum weine
 
 
-
-malware geht auf datenträger ID uder UUID vermute ich:
-(sdkarte mit den sprachnotizen ist an diesem Computer nicht lesbar, selbes setting und andere mikrosd geht
-
-screenshot:
-~/hacker-notes-s26m06/bugreport/dieFehlerMeldungHatVonCardAufFILESgewechselt.png
--> da sollte ich vermutlich mal rasch in den Source schauen was es Bedeutet wenn dort CARD steht
-
-Fri Sep 18 04:53:05 AM CEST 2026
-doch noch funktioniert, das Diktiergerät macht irgend ein merkwürdiges Partitions-System...
+[1] hau den lukas, hau den landolt, kasten, elektronik, wissen, schuld, schuldbewusstesein <- hier versucht jetzt jemand mit einem geringeren verbrechen die täterturppenmoral aufzupäppeln
 
 
 
+und mit jeder tat wird deren selbsthass grösser, deren kompromat-datenbank länger, deren fremdbestimmbarkeit verbessert
 
-voice:
-~/hacker-notes-s26m06/voice/202609/R20260916-053046.WAV.mp3
-~/hacker-notes-s26m06/voice/202609/R20260916-061248.WAV.mp3
-~/hacker-notes-s26m06/voice/202609/R20260916-061459.WAV.mp3
-~/hacker-notes-s26m06/voice/202609/R20260916-061722.WAV.mp3
-~/hacker-notes-s26m06/voice/202609/R20260916-062627.WAV.mp3
-~/hacker-notes-s26m06/voice/202609/R20260916-063154.WAV.mp3
-~/hacker-notes-s26m06/voice/202609/R20260916-070852.WAV.mp3
-~/hacker-notes-s26m06/voice/202609/R20260916-073214.WAV.mp3
-~/hacker-notes-s26m06/voice/202609/R20260916-075244.WAV.mp3
-~/hacker-notes-s26m06/voice/202609/R20260916-080146.WAV.mp3
-~/hacker-notes-s26m06/voice/202609/R20260916-080402.WAV.mp3
-~/hacker-notes-s26m06/voice/202609/R20260916-082424.WAV.mp3
-~/hacker-notes-s26m06/voice/202609/R20260916-082445.WAV.mp3
-~/hacker-notes-s26m06/voice/202609/R20260916-082539.WAV.mp3
-~/hacker-notes-s26m06/voice/202609/R20260916-082643.WAV.mp3
-~/hacker-notes-s26m06/voice/202609/R20260916-082933.WAV.mp3
-~/hacker-notes-s26m06/voice/202609/R20260916-083622.WAV.mp3
-~/hacker-notes-s26m06/voice/202609/R20260916-083840.WAV.mp3
-~/hacker-notes-s26m06/voice/202609/R20260916-084045.WAV.mp3
-~/hacker-notes-s26m06/voice/202609/R20260916-085158.WAV.mp3
-~/hacker-notes-s26m06/voice/202609/R20260916-085217.WAV.mp3
-~/hacker-notes-s26m06/voice/202609/R20260916-085248.WAV.mp3
-~/hacker-notes-s26m06/voice/202609/R20260916-085419.WAV.mp3
-~/hacker-notes-s26m06/voice/202609/R20260916-090142.WAV.mp3
-~/hacker-notes-s26m06/voice/202609/R20260916-090401.WAV.mp3
-~/hacker-notes-s26m06/voice/202609/R20260916-090536.WAV.mp3
-~/hacker-notes-s26m06/voice/202609/R20260916-090628.WAV.mp3
-~/hacker-notes-s26m06/voice/202609/R20260916-090906.WAV.mp3
-~/hacker-notes-s26m06/voice/202609/R20260916-091003.WAV.mp3
-~/hacker-notes-s26m06/voice/202609/R20260916-091050.WAV.mp3
-~/hacker-notes-s26m06/voice/202609/R20260916-091241.WAV.mp3
-~/hacker-notes-s26m06/voice/202609/R20260916-092038.WAV.mp3
-~/hacker-notes-s26m06/voice/202609/R20260916-092152.WAV.mp3
-~/hacker-notes-s26m06/voice/202609/R20260916-092224.WAV.mp3
-~/hacker-notes-s26m06/voice/202609/R20260916-092341.WAV.mp3
-~/hacker-notes-s26m06/voice/202609/R20260916-092438.WAV.mp3
-~/hacker-notes-s26m06/voice/202609/R20260916-092506.WAV.mp3
-~/hacker-notes-s26m06/voice/202609/R20260916-092631.WAV.mp3
-~/hacker-notes-s26m06/voice/202609/R20260916-092716.WAV.mp3
-~/hacker-notes-s26m06/voice/202609/R20260916-092834.WAV.mp3
-~/hacker-notes-s26m06/voice/202609/R20260916-092917.WAV.mp3
-~/hacker-notes-s26m06/voice/202609/R20260916-094034.WAV.mp3
-~/hacker-notes-s26m06/voice/202609/R20260916-094105.WAV.mp3
-~/hacker-notes-s26m06/voice/202609/R20260916-094344.WAV.mp3
-~/hacker-notes-s26m06/voice/202609/R20260916-094522.WAV.mp3
-~/hacker-notes-s26m06/voice/202609/R20260916-094633.WAV.mp3
-~/hacker-notes-s26m06/voice/202609/R20260916-094725.WAV.mp3
-~/hacker-notes-s26m06/voice/202609/R20260916-094801.WAV.mp3
-~/hacker-notes-s26m06/voice/202609/R20260916-102355.WAV.mp3
-~/hacker-notes-s26m06/voice/202609/R20260916-102429.WAV.mp3
-~/hacker-notes-s26m06/voice/202609/R20260916-102459.WAV.mp3
-~/hacker-notes-s26m06/voice/202609/R20260916-104619.WAV.mp3
-~/hacker-notes-s26m06/voice/202609/R20260916-110510.WAV.mp3
-~/hacker-notes-s26m06/voice/202609/R20260916-111006.WAV.mp3
-~/hacker-notes-s26m06/voice/202609/R20260916-111049.WAV.mp3
-~/hacker-notes-s26m06/voice/202609/R20260916-111304.WAV.mp3
-~/hacker-notes-s26m06/voice/202609/R20260916-111423.WAV.mp3
-~/hacker-notes-s26m06/voice/202609/R20260916-112146.WAV.mp3
-~/hacker-notes-s26m06/voice/202609/R20260916-112842.WAV.mp3
-~/hacker-notes-s26m06/voice/202609/R20260916-112931.WAV.mp3
-~/hacker-notes-s26m06/voice/202609/R20260916-112948.WAV.mp3
-~/hacker-notes-s26m06/voice/202609/R20260916-114708.WAV.mp3
-~/hacker-notes-s26m06/voice/202609/R20260916-114909.WAV.mp3
-~/hacker-notes-s26m06/voice/202609/R20260916-115310.WAV.mp3
-~/hacker-notes-s26m06/voice/202609/R20260916-115610.WAV.mp3
-~/hacker-notes-s26m06/voice/202609/R20260916-120307.WAV.mp3
-~/hacker-notes-s26m06/voice/202609/R20260916-120512.WAV.mp3
-~/hacker-notes-s26m06/voice/202609/R20260916-120644.WAV.mp3
-~/hacker-notes-s26m06/voice/202609/R20260916-120839.WAV.mp3
-~/hacker-notes-s26m06/voice/202609/R20260916-121050.WAV.mp3
-~/hacker-notes-s26m06/voice/202609/R20260916-121158.WAV.mp3
-~/hacker-notes-s26m06/voice/202609/R20260916-121334.WAV.mp3
-~/hacker-notes-s26m06/voice/202609/R20260916-121400.WAV.mp3
-~/hacker-notes-s26m06/voice/202609/R20260916-121429.WAV.mp3
-~/hacker-notes-s26m06/voice/202609/R20260916-122511.WAV.mp3
-~/hacker-notes-s26m06/voice/202609/R20260916-122747.WAV.mp3
-~/hacker-notes-s26m06/voice/202609/R20260916-123010.WAV.mp3
-~/hacker-notes-s26m06/voice/202609/R20260916-123703.WAV.mp3
-~/hacker-notes-s26m06/voice/202609/R20260916-123747.WAV.mp3
-~/hacker-notes-s26m06/voice/202609/R20260916-123807.WAV.mp3
-~/hacker-notes-s26m06/voice/202609/R20260916-123838.WAV.mp3
-~/hacker-notes-s26m06/voice/202609/R20260916-123852.WAV.mp3
-~/hacker-notes-s26m06/voice/202609/R20260916-123945.WAV.mp3
-~/hacker-notes-s26m06/voice/202609/R20260916-124001.WAV.mp3
-~/hacker-notes-s26m06/voice/202609/R20260916-124037.WAV.mp3
-~/hacker-notes-s26m06/voice/202609/R20260916-124406.WAV.mp3
-~/hacker-notes-s26m06/voice/202609/R20260916-124453.WAV.mp3
-~/hacker-notes-s26m06/voice/202609/R20260916-124529.WAV.mp3
-~/hacker-notes-s26m06/voice/202609/R20260916-124631.WAV.mp3
-~/hacker-notes-s26m06/voice/202609/R20260916-125003.WAV.mp3
-~/hacker-notes-s26m06/voice/202609/R20260916-125358.WAV.mp3
-~/hacker-notes-s26m06/voice/202609/R20260916-125550.WAV.mp3
-~/hacker-notes-s26m06/voice/202609/R20260916-125951.WAV.mp3
-~/hacker-notes-s26m06/voice/202609/R20260916-130046.WAV.mp3
-~/hacker-notes-s26m06/voice/202609/R20260916-130146.WAV.mp3
-~/hacker-notes-s26m06/voice/202609/R20260916-130159.WAV.mp3
-~/hacker-notes-s26m06/voice/202609/R20260916-130256.WAV.mp3
-~/hacker-notes-s26m06/voice/202609/R20260916-130342.WAV.mp3
-~/hacker-notes-s26m06/voice/202609/R20260916-130439.WAV.mp3
-~/hacker-notes-s26m06/voice/202609/R20260916-130718.WAV.mp3
-~/hacker-notes-s26m06/voice/202609/R20260917-070902.WAV.mp3
-~/hacker-notes-s26m06/voice/202609/R20260917-071000.WAV.mp3
-~/hacker-notes-s26m06/voice/202609/R20260917-073754.WAV.mp3
-~/hacker-notes-s26m06/voice/202609/R20260917-074615.WAV.mp3
-~/hacker-notes-s26m06/voice/202609/R20260917-085139.WAV.mp3
-~/hacker-notes-s26m06/voice/202609/R20260917-152437.WAV.mp3
-~/hacker-notes-s26m06/voice/202609/R20260917-152707.WAV.mp3
-~/hacker-notes-s26m06/voice/202609/R20260917-160803.WAV.mp3
-~/hacker-notes-s26m06/voice/202609/R20260917-160901.WAV.mp3
-~/hacker-notes-s26m06/voice/202609/R20260917-191905.WAV.mp3
-~/hacker-notes-s26m06/voice/202609/R20260917-192113.WAV.mp3
-~/hacker-notes-s26m06/voice/202609/R20260917-192147.WAV.mp3
-~/hacker-notes-s26m06/voice/202609/R20260917-192347.WAV.mp3
-~/hacker-notes-s26m06/voice/202609/R20260917-192505.WAV.mp3
-~/hacker-notes-s26m06/voice/202609/R20260917-192810.WAV.mp3
-~/hacker-notes-s26m06/voice/202609/R20260917-192858.WAV.mp3
+auf kinder dreinschlagen
+auf schwächere dreinschlagen
+substanzmissbrauch
+consumierism
+escapism
+macht ausweiten
+macht ausweiten müssen weil sie sonst doch noch im knast landen
+
+VERMUTE ich jetzt mal
+
+
+dann müssen die vermutlich auch ihre frauen und kinder einsperren oder mindestens isolieren, sonst würden die frauen und kinder erfahren dass der mann ein mörder oder sogar ein kindsmorder ist
+
+und je nach dem welche kinder sie ermordet haben stehen sie im krieg mit anderen reichen familien udn dynastien wo sie kinder ermordet haben
 

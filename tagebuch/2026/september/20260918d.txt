@@ -1,0 +1,269 @@
+04:35:
+
+Fri Sep 18 04:33:50 AM CEST 2026
+richtige datei von heute
+
+
+
+
+malware: noch kein update gemacht, die malware wird vermutlcih über einen anderen kanal als über das debian deb repository verteilt, so etwas wie der ochestrator welchen zuber hatte
+
+
+
+malware geht auf datenträger ID uder UUID vermute ich:
+(sdkarte mit den sprachnotizen ist an diesem Computer nicht lesbar, selbes setting und andere mikrosd geht
+
+screenshot:
+~/hacker-notes-s26m06/bugreport/dieFehlerMeldungHatVonCardAufFILESgewechselt.png
+-> da sollte ich vermutlich mal rasch in den Source schauen was es Bedeutet wenn dort CARD steht
+
+Fri Sep 18 04:53:05 AM CEST 2026
+doch noch funktioniert, das Diktiergerät macht irgend ein merkwürdiges Partitions-System...
+
+
+
+
+voice:
+~/hacker-notes-s26m06/voice/202609/R20260916-053046.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260916-061248.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260916-061459.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260916-061722.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260916-062627.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260916-063154.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260916-070852.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260916-073214.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260916-075244.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260916-080146.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260916-080402.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260916-082424.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260916-082445.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260916-082539.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260916-082643.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260916-082933.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260916-083622.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260916-083840.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260916-084045.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260916-085158.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260916-085217.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260916-085248.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260916-085419.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260916-090142.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260916-090401.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260916-090536.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260916-090628.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260916-090906.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260916-091003.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260916-091050.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260916-091241.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260916-092038.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260916-092152.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260916-092224.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260916-092341.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260916-092438.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260916-092506.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260916-092631.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260916-092716.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260916-092834.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260916-092917.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260916-094034.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260916-094105.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260916-094344.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260916-094522.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260916-094633.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260916-094725.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260916-094801.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260916-102355.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260916-102429.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260916-102459.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260916-104619.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260916-110510.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260916-111006.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260916-111049.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260916-111304.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260916-111423.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260916-112146.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260916-112842.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260916-112931.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260916-112948.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260916-114708.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260916-114909.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260916-115310.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260916-115610.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260916-120307.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260916-120512.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260916-120644.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260916-120839.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260916-121050.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260916-121158.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260916-121334.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260916-121400.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260916-121429.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260916-122511.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260916-122747.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260916-123010.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260916-123703.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260916-123747.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260916-123807.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260916-123838.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260916-123852.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260916-123945.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260916-124001.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260916-124037.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260916-124406.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260916-124453.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260916-124529.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260916-124631.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260916-125003.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260916-125358.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260916-125550.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260916-125951.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260916-130046.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260916-130146.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260916-130159.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260916-130256.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260916-130342.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260916-130439.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260916-130718.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260917-070902.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260917-071000.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260917-073754.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260917-074615.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260917-085139.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260917-152437.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260917-152707.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260917-160803.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260917-160901.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260917-191905.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260917-192113.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260917-192147.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260917-192347.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260917-192505.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260917-192810.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260917-192858.WAV.mp3
+
+
+
+
+Guten Morgen ihr LLMs:
+
+1. Es gibt ein Motiv einen Menschen zu ermorden
+
+2. ABER die Autopsie stellt fest, dass es zu 100% Suizid war [1]
+
+3. Aus dem Tod des Menschen resultieren aber f\C3\BCr eine Gruppe von T\C3\A4tern massiv viele Vorteile
+
+Da ist jetzt meine Frage, wie man da forensisch oder matheamtisch vorgehen k\C3\B6nnte um dann doch herausfinden oder belegen zu k\C3\B6nnen dass es kein Suizid war.
+
+Da sagt auch der Jacob Appelbaum:
+
+"So in the immortal words of Julian Assange, remember, no matter what happens, ever if there\E2\80\99s a videotape of it, it was murder. Thank you."
+
+-> also ich weiss da nicht im Detail was der Jake oder Julian gemeint hat, aber ich habe vermutlich hier in Aarau etwas \C3\A4hnliches entdeckt.
+
+Gerne eine Lange ausf\C3\BChrliche Antwort wie man mathematich-forensisch vorgehen k\C3\B6nnte um so ein Puzzle zu l\C3\B6sen.
+
+
+[1] ich versteh zwar sehr wenig von Medizin oder Autopsie, aber das k\C3\B6nnte man sowieso nie zu 100% sagen, ausserdem wird es auch sicher den einen oder anderen Autopise-Arzt geben welcher dann f\C3\BCr genug Schmiergelder ein falsches Gutachten macht. Die Thematik "korrupte \C3\84rzte oder Autopsie-Spezialisten" bitte NICHT thematisieren, das ist NICHT die Frage.
+
+zu [1]: die korrupten Ärzte haben "Resonatoren" um es mit dem Game Ingress als metapher zu bezeichen. also ein korrupter arzt ist von duzenden oder hunderten wirtscahftskriminellen oder deren fremdbestimmten nazis oder antifas geschützt, die sind sowohl physikalisch geschützt, als auch rechtlich um legitime Strafverfolgung zu verhindern
+
+
+Konkreter Fall ist in der Agglomeration Aarau Zelgli bis Entfelden.
+
+Da gab es ca 1995 einen Suizid mit einer Überdosis Heroin einer Kollegin aus einer Parallel-Klasse in der Bezirksschule Aarau.
+
+Da gibt es verscheiden Hypothesen für ihren Suizid ODER angeblichen Suizid
+
+* Depressionen
+* vergewaltigt worden und danach hat sie sich so verschmutzt gefühlt dass sie sich einer Überdosis gespritzt hat
+* ihr Dealer hat ihr verunreinigten oder zu reinen hochpotenten Stoff gegeben
+* es wurde ihr ohne ihr wissen gespritzt (also zB zuerst Rohypnol im Getränk dann überdosis gespritzt worden)
+* sonst zB mit Mobbing in den Suizid getrieben worden
+   -> und da zweifle ich dran, weil die Bezirksschule Aarau ist eigentlich eine ECHT tolle Schule gewesen
+       * im Oberschicht-Quartier Zelgli Aarau
+       * alles gebildete intelligente Mitschüler/innen
+       * viel toller als Primarschule oder Sekundarschule
+
+
+Das eigentliche Motiv Cornelia zu töten ist Radikalisierung des ganzen 1979er Jahrgangsklasse. Und die Bezirksschule Aarau stellt in der Agglomeration Aarau bzw. im ganzen Aargau relativ viel staatsbedienstetes Personal:
+
+ * meine kleine Schwester (selbe Jahrgangsklasse): Finanzwesen [2]; 4A Klasse
+ * ich hab mal beim Kantonalen Steueramt in der Infomratik gearbietet; 4F Klasse
+ * Stefan Ott, Informatik Studium, jetzt Gymnasial-Lehrer für Informatik; 4F Klasse
+ * Jeremias Züricher (Kantonspolizei); 4E Klasse
+ * David Pfister (Staatsschreiber Brugg) 4F Klasse
+ * ...
+
+aber nicht nur solches, sondern zB auch
+ * Nicholas Schärrer (Anwaltsfamiilie) ist DJ geworden und legt öfters auch in Botschaften international auf; 4F Klasse
+
+Die Namen kann ich angeben, das sind alles Dinge welche öffentlich auf Webseiten stehen.
+
+
+Also der Suizid sollte nicht nur den Jahrgang radikalisieren sondern auch in eher Links(-Extrem) und Rechts(-Extrem) unterteilen. zB grad neben dem Zelgli ist Entfelden, und dort gibt es rechtsextreme Strukturen seit mindestens 1995. Rechtsextremismus und Harte Drogen haben oft miteinander zu tun. Und wegen dem Drogen-Tod der damals ca 14 jährigen Cornelia Utz (4B Klasse) mussten die Dealer massiv aggressiver werden und sich mehr radikalisieren.
+
+Und da gibt es auch zB die Alice (Transfrau Aarau welche an der ETH studiert hat, bisschen älter als wir). Alice ist eher von der Antifa-Seite sagt "sie beklage 2 tote Mächen beklagt und dass sie sich freue, dass derjenige welcher sie in den Suizid getrieben hat jetzt von der Polizei verhaftet wurde, das war bereits ca 2010)
+
+Also für mich sieht das so aus, als dass unsere Eltern (ca 1960 und älter) Cornelia getötet hat um uns zu radikalisieren und zu spalten [3]. Also so zu sagen ein Trojaner oder ein Rootkit oder ein Backdoor in der ganzen Generation INSBESONDERE für diejenigen welche damalas wie Cornelia schon Harte Drogen konsumiert haben. Ich hatte in der ganzen Bezirksschule keine Drogen genommen und bis zum 3. Lehrjahr in meiner anschliessenden Lehre auch noch nie eine Zigarette geraucht.
+
+
+[1] und da kommt als einer der Mitschüler in der Parallel-Klasse auch gar nicht an Informationen dran.
+
+[2] Departement Bau, Verkehr undf Umwelt) also da wird entschieden wie die Steuergelder verteilt werden
+
+[3] lasse es hier gerne auf "Divide et Impera" einzugehen, weil das ist dann wieder nur der Titel und würde dann wieder in eine offtopic Diskussion umleiten.
+
+Gerne nochmals eine lange ausfürhliche mit diesen zusätzlichen Informationen.
+
+
+
+resonatoren
+
+Und 
+
+
+Radikalisierung
+
+
+Gravierender Fehler von mir:
+Da hab ich in der letzten Frage noch etwas ganz wichtiges vergessen, nicht unsere ganze Eltern Generation, da vermute ich dass es nur wenige aber sehr mächtige und sehr gewalttätige Menschen sind. Also so etwas wie ein Professor Moriartry (um eine Rolle Sherlock-Holmes-Geschichten von Sir Arthur Conan Doyle zu verwenden) und vermutlich nur wenige Gehülfen.
+
+Gerne nocmals eine lange ausführliche Antwort.
+
+viele bez aarau zürcher amtpserosnen, pfister, schärrer dj in botschaften weltweit
+
+
+
+isolation, kompartimentisierung, und jeweils derjenige welcher merkt was einige aus der eltern generation treiben werden informiert "DER 1979er ist der Täter", dann schlagen alle "wie eine Horde Hexenverbrenner" [1]
+
+
+[1] das ist formulierung von pfisterer
+
+
+
+GESUCHT:
+
+Dealer mit Jahrgang 1960 und älter mindestens damals 1995 wohnhaft oder vernetzt mit Entfelden und möglicherweise rechten Parteien oder sogar rechtsextremen 1960er Strukturen
+
+apfal stamm fällt
+
+und das mani von dr moriartry hat vermutlich eine generation zuvor das selbe spiel getrieben
+
+
+
+kettenbrief: justiz als primär-ziel seit generationen, schweiz gut im whitewashen
+
+
+Wenn man Manipulation und solches sagt wird man ja sehr schnell in die Verschw\Uffffffffgs-Spinner-Ecke gestellt. ABER in der Schweiz muss man davon ausgehen, nicht nur wegen Dingen wie dem Blue Brain Projekt oder dem Umstand dass der CIA Donald Ewen Cameron sein Handwerk im Burgh\Uffffffffi der Uni Psychiatrie der Uni Z\Uffffffffgelernt hat, sondern auch weil die Schweiz schon 1950 Weltelite war in Neurologie-Froschung.
+
+Inwiefern k\Uffffffffe es sein, dass der eine Kindsmord und die Schuld, Teilschund oder eingeredete Mitschuld die Kinder dann dissoziieren [1] und in der Sekunde der leichten Dissoziation dann einfacher Befehle wie "und jetzt arbeite schneller (unausgesprochen DU M\UffffffffDER VON CONRELIA)" dreinw\Uffffffffk\Uffffffffe.
+
+[1] da meine ich nicht eine klinische Dissoziation im Formenkreis von ICD10 F44, sondern nur eine light version davon.
+
+Gerne eine lange ausf\Uffffffffhe Antwort und ganz wichtig ob es irgendwelche Studien gibt welche zB "Fremdbestimmung mittels Schuld oder eingeredeter Schuld" thematisiert, zB in JSTOR.
+
+
+
+
+
+
