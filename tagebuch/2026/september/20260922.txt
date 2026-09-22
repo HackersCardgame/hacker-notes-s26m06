@@ -1,0 +1,67 @@
+02:53:
+
+FRAGE an die OSINT und OpenResearch Community welche gut zB in Mathe oder Systemdynamics sind:
+             ================================
+
+
+Unter der hypothetischen Prämisse, dass es bestimmtes Wissen gibt, welches dann postum duzende oder hunderte von Morden / Suiziden welche die Zürich Versicherung erfolgreich vertuschen konnte dann doch mit der Zürich Versichrung in Verbindung bringt 
+
+
+also wie das Beispiel dass die Zürich Versicherung aggressiv Access Codes anderer Firmen und Konzerne erpresst hat und paralell auch immer Justiz beteiligt oder zu mittätern gemacht hat
+
+
+... unter der hypothetischen Prämisse dass dieses Wissen nie an die öffentlichkeit gelangen darf weil dann alle vertuschten Straftaten und Morde auf einen schlag auffliegen würden
+
+A) wie könnte man postum solche Dinge erkennen
+    -> also die Zürich Versicherung hat Überwachung,
+       sich vielleicht sogar mit schmiergeldern sich
+       beim BÜPF eingekauft
+       
+    -> aus der Perspektive der Zürich Versicherung wäre
+       die Selektoren-Kombination 
+       * Zürich Versicherung
+       * versuchte
+       * ab 1997
+       * sich die Access Codes von ELVIA's
+       * illegal anzueignen
+
+    => dieses rule set wüssten aber nur die Korrupten Mitarbieter
+    => ABER dieses Rule Set würde dann diverses unheil aktivieren
+    => zB suizide von Vergewaltigungsopfern seit der Schwarzenbach
+       initiative welche oft auch von Amtspersonen oder Offizieren verübt wurde
+       
+       ABER dieses für anständige Zivilisten unsichtbare Rule-Set
+       wäre der Event-Trigger welcher dann grösseren Terror aktiviert
+       
+       
+       WIE FINDET MAN SO EIN unsichtbares RULE SET raus so, dass
+       die Ermittlung vor Gericht [1] zulässig sind
+       
+
+X:  High Priority Zensur-Liste korrupter Mitarbeiter der Zürich Versicherung
+ * zB Zürich hat Eliva ab 1997 unterwandert
+
+ 
+X -> Y
+ 
+ 
+Y: duzende Suizide und Beziehungsdelkte im Umfeld der Amtspersonen oder des Zeugen werden aktiviert
+
+
+    -> das gibt dann so viel aufwand und arbeit und wirst case weitere tote Opfer, dass
+    X komplett aus dem Fokus gelöscht würde
+    
+
+ 
+B) gibt es da listen oder einen algorithmus um solche Dinge welche ein korrupter
+   versicherer um jeden Preis zensieren müsste erkennen oder mindestens erahnen oder erraten
+   (tcp/ip Sequenz-Nummer) können, bevor es aktiviert wurde.
+   
+   
+C) verkauft irgend ein ziviler oder militärsicher Software-Hersteller genau solche Software und hat diese allenfalls an die Zürich versicherung verkauft?
+
+
+
++ letzter GIT COMMIT auch das Zip.zip
+
+s
