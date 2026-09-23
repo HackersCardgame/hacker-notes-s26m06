@@ -1,0 +1,73 @@
+05:30:
+
+die letzten Tage war grad wieder SEEEEEEHR mühsamelig ...
+
+
+scans:
+~/hacker-notes-s26m06/scans/58/5875-5884.pdf
+
+
+voice:
+~/hacker-notes-s26m06/voice/202609/R20260920-063059.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260920-071044.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260920-072725.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260920-073750.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260920-074152.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260920-075535.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260920-080115.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260920-080157.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260920-080253.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260920-081006.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260920-081534.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260920-081647.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260920-081713.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260920-081731.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260920-082633.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260920-083048.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260920-083150.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260920-084118.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260920-163013.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260920-164108.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260920-170440.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260920-170506.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260920-170538.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260920-170555.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260920-170623.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260921-085615.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260921-105414.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260921-105554.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260921-125016.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260921-133002.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260921-133145.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260921-133255.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260921-140338.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260921-150000.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260921-211217.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260921-212002.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260922-000702.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260922-000837.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260922-000919.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260922-003150.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260922-014229.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260922-014313.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260922-014414.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260923-023906.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260923-034414.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260923-034556.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260923-034757.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260923-034954.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260923-051236.WAV.mp3
+
+
+
+
+ABER noch etwas rausgefunden.
+
+* Die Bitwig Developer sind ja von Ableton Live gegangen oder gegagen worden.
+* so weit ich weiss, ist Surge XT auch von den selben Leuten welche jetzt Bitwig entwickeln
+* und das Surge XT wurde eingestellt
+* und da wurde dann der Source aber freigegeben und ist jetzt ein open source projekt
+
+=> somit besteheb gute Chaccen, dass wenn jemand Bitwig wirtschaftlich versenkt, dass dann von Bitwig auch der Source an die OpenSource Community übergeben wird
+
+
