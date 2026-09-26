@@ -1,0 +1,1160 @@
+Dann wie sieht das mit "Perplextiy Bridge" und p\Uffffffffgogisch-didaktischen Dingen aus.
+
+Also zB die "Programmiersprache" SQL hat dazu gef\Uffffffffdass Menschen keine Ahnung mehr haben was ein CPU Register ist, wie man eine MMU anspricht und wof\Uffffffffse \Uffffffffupt n\Uffffffff ist, wie man Strukturiert oder Objekt-Orientiert programmiert. Und Dinge wie "Perplexity Bridge" k\Uffffffffe genau auch zu 
+
+Auch um \Uffffffffupt zu verstehen wie Algorithmen funktionieren macht es Sinn zB ein Schachprogramm programmiert zu haben inklusive allem und dem Mini-Max-Algorithmus.
+
+Also selbe Frage wie oben, ABER nicht mit Fokus auf Wissenserhalt sondern mit Fokus auf die Ausbildung der Menschen welche dieses Wissen aktiv im eigenen Gehirn und Ereignis-Horizont h\Uffffffff.
+
+Gerne eine lange ausf\Uffffffffhe Antwort.
+
+
+
+01:09:
+
+neueinsteiger -> nevewr API oder classes, reflect API, mixture of services, mixture of capabilities
+
+suggestion schon vorher vorlegen, CNC fräser, Scada, S7
+
+rauschen, pinning von fakten
+
+
+g.
+
+F\Uffffffff Architektur- und Model-Kontext-Br\Uffffffffchlag gibt\u2019s auch Event-Storming-Workshop-Optionen.
+Ad
+der Use Case der Bridge ist mir noch nicht ganz einleuchtend, ist das etwas wie Message Passing Interface um eine Arbeitsleistung auf mehrere Systeme zu verteilen, also l\Ufffffffft sich damit ein "mixture of experts" model implementieren oder ist das eher dass man von deterministischer programmierung wegkommen m\Uffffffffe und generell API's abschafft?
+
+Das gerne lange ausf\Uffffffffh Erkl\Uffffffffng
+
+Ja \u2014 deine MPI-Analogie trifft einen Teil ziemlich gut, aber an einer entscheidenden Stelle l\Ufffffffft sie in eine andere Richtung. Und gerade diese Differenz erkl\Uffffffff ziemlich gut, wof\Uffffffff Bridge/MCP eigentlich da ist.
+
+Die Kurzfassung w\Uffffffff:
+
+MCP ist weder prim\UffffffffMPI noch ein Ersatz f\Uffffffffs noch ein Mechanismus f\Uffffffffture-of-Experts.
+
+Es ist eher eine standardisierte, dynamisch entdeckbare Capability-/Tool-Schnittstelle, \Uffffffffie ein AI-Agent zur Laufzeit entscheiden kann, welche externe F\Uffffffffgkeit er benutzen m\Uffffffffe.
+
+Die Bridge ist dann nochmals eine Ebene dar\UffffffffSie macht diese Schnittstelle dort verf\Uffffffff wo der eigentliche Host sie nicht direkt anbieten kann.
+
+1. Deine drei Hypothesen sind drei verschiedene Architekturen
+
+Du fragst im Grunde:
+
+A. MPI-artig?
+        Master
+       /  |  \
+      /   |   \
+   Node  Node  Node
+      \   |   /
+       \  |  /
+        Result
+
+Also:
+
+\u201eIch zerlege eine Aufgabe und verteile Arbeit auf mehrere Rechner.\u201c
+
+B. Mixture of Experts?
+                 Input
+                   \u2502
+                 Router
+              /    |    \
+             /     |     \
+           Expert Expert Expert
+             \     |     /
+              \    |    /
+                Output
+
+Also:
+
+\u201eIch habe mehrere spezialisierte Modelle und w\Uffffffffe abh\Uffffffffig vom Input einen oder mehrere Experten.\u201c
+
+C. Dynamische Programmierung / API-Abstraktion?
+Agent
+  \u2502
+  \u251c\u2500\u2500 discover capabilities
+  \u2502
+  \u251c\u2500\u2500 decide
+  \u2502
+  \u251c\u2500\u2500 call tool A
+  \u2502
+  \u251c\u2500\u2500 inspect result
+  \u2502
+  \u251c\u2500\u2500 call tool B
+  \u2502
+  \u2514\u2500\u2500 synthesize
+
+Das ist am n\Uffffffffsten an MCP.
+
+2. MCP ist zun\Uffffffffst einmal eine Art \u201eSteckdosen-Norm\u201c
+
+Nehmen wir eine ganz primitive Welt.
+
+Du hast Programme:
+
+GitHub
+PostgreSQL
+Filesystem
+Calendar
+Slack
+Weather API
+
+Und verschiedene AI-Systeme:
+
+Perplexity
+Claude
+Cursor
+eigener Agent
+
+Ohne gemeinsamen Standard:
+
+Perplexity \u2500\u2500 custom GitHub integration
+Perplexity \u2500\u2500 custom Slack integration
+Perplexity \u2500\u2500 custom PostgreSQL integration
+
+Claude \u2500\u2500\u2500\u2500\u2500\u2500 custom GitHub integration
+Claude \u2500\u2500\u2500\u2500\u2500\u2500 custom Slack integration
+Claude \u2500\u2500\u2500\u2500\u2500\u2500 custom PostgreSQL integration
+
+Cursor \u2500\u2500\u2500\u2500\u2500\u2500 custom GitHub integration
+...
+
+Das ergibt ungef\Uffffffff:
+
+$$ N_{\text{hosts}}\times N_{\text{services}} $$
+
+Integrationen.
+
+Mit einem gemeinsamen Protokoll:
+
+                    MCP
+                     \u2502
+       \u250c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u253c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2510
+       \u2502             \u2502             \u2502
+    GitHub        PostgreSQL     Filesystem
+       \u2502             \u2502             \u2502
+       \u2514\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u253c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2518
+                     \u2502
+                  MCP Hosts
+
+wird daraus eher:
+
+$$ N_{\text{hosts}}+N_{\text{services}} $$
+
+Adapter.
+
+Das ist ein klassisches Interoperabilit\Uffffffffproblem.
+
+3. Aber warum reicht eine normale API nicht?
+
+Jetzt kommen wir zum interessanteren Punkt deiner Frage.
+
+Man k\Uffffffffe v\Uffffffffg berechtigt sagen:
+
+\u201eWarum baut man nicht einfach REST/GraphQL/gRPC und fertig?\u201c
+
+Technisch kann man das.
+
+Und MCP schafft APIs keineswegs ab.
+
+Ein MCP-Server kann intern beispielsweise:
+
+MCP
+ \u2502
+ \u25bc
+REST API
+ \u2502
+ \u25bc
+Database
+
+haben.
+
+Oder:
+
+MCP
+ \u2502
+ \u25bc
+SQL
+ \u2502
+ \u25bc
+PostgreSQL
+
+Oder:
+
+MCP
+ \u2502
+ \u25bc
+Python library
+
+MCP ist also eher:
+
+eine AI-orientierte Interface-Schicht \Ufffffffforhandenen Systemen.
+
+4. Der entscheidende Unterschied zu einer klassischen API
+
+Nehmen wir eine normale API.
+
+Die Anwendung muss vorher wissen:
+
+POST /customers/search
+
+und beispielsweise:
+
+{
+    "name": "Landolt"
+}
+
+Der Programmierer hat das Interface vorher fest programmiert.
+
+Das ist:
+
+$$ \text{compile/design time knowledge} $$
+
+Bei einem MCP-Agenten kann dagegen zun\Uffffffffst eine Capability Discovery stattfinden:
+
+Agent
+   \u2502
+   \u2502 "Welche Tools existieren?"
+   \u25bc
+MCP Server
+   \u2502
+   \u251c\u2500\u2500 search_customer
+   \u251c\u2500\u2500 get_customer
+   \u251c\u2500\u2500 list_orders
+   \u2514\u2500\u2500 ...
+
+Der Agent bekommt damit eine Beschreibung des Interfaces zur Laufzeit.
+
+Das ist der wichtige Unterschied.
+
+5. Deshalb w\Uffffffffch MCP eher mit \u201eReflection\u201c vergleichen
+
+Deine Frage wird noch interessanter, wenn man MCP mit klassischen Programmierkonzepten vergleicht.
+
+Ein normales Programm:
+
+result = api.search_customer("Landolt");
+
+Das Interface ist dem Programmierer bekannt.
+
+Eine reflektive/dynamische Umgebung k\Uffffffffe dagegen sagen:
+
+discover()
+    \u2193
+"search_customer" exists
+    \u2193
+inspect schema
+    \u2193
+invoke("search_customer", ...)
+
+Das ist konzeptionell n\Uffffffffr an:
+
+Reflection
+Service Discovery
+RPC
+Plugin-Systemen
+Dynamic Linking
+Capability systems
+
+als an MPI.
+
+6. Der LLM-Aspekt macht es allerdings neu
+
+Jetzt kommt der entscheidende Unterschied zu klassischer Reflection.
+
+Ein klassisches Programm kann zwar dynamisch feststellen:
+
+\u201eDiese Methode existiert.\u201c
+
+Aber es kann nicht ohne weiteres entscheiden:
+
+\u201eAus dem semantischen Inhalt der Benutzerfrage schlie\Uffffffff ich, dass search_customer wahrscheinlich das richtige Werkzeug ist.\u201c
+
+Ein LLM kann das.
+
+Beispiel:
+
+User:
+
+"Finde alle Kunden, die in den letzten 30 Tagen
+bestellt haben, aber deren Rechnungen noch offen sind."
+
+Der Agent sieht:
+
+search_orders()
+get_invoices()
+search_customers()
+
+und kann aufgrund seiner Sprach-/Weltmodellierung eine Tool-Kette konstruieren.
+
+Das ist der eigentliche neue Faktor.
+
+7. Damit kommen wir zu deiner MPI-Idee
+
+MPI ist ungef\Uffffffff:
+
+$$ P_0 \rightarrow P_1,P_2,P_3 $$
+
+mit expliziter Kommunikation zwischen Prozessen.
+
+Beispielsweise:
+
+Master
+ \u2502
+ \u251c\u2500\u2500 MPI_Send \u2192 Worker 1
+ \u251c\u2500\u2500 MPI_Send \u2192 Worker 2
+ \u251c\u2500\u2500 MPI_Send \u2192 Worker 3
+ \u2502
+ \u2514\u2500\u2500 MPI_Recv
+
+Der Programmierer entscheidet typischerweise:
+
+\u201eDiese Daten werden dort verarbeitet.\u201c
+
+Das ist explizite Parallelisierung.
+
+MCP ist dagegen:
+
+Agent
+ \u2502
+ \u251c\u2500\u2500 Tool A?
+ \u251c\u2500\u2500 Tool B?
+ \u251c\u2500\u2500 Tool C?
+ \u2514\u2500\u2500 Tool D?
+
+Der Agent entscheidet abh\Uffffffffig vom Problem:
+
+\u201eWelche Capability ben\Uffffffffe ich?\u201c
+
+Das ist dynamische Orchestrierung.
+
+8. Deshalb k\Uffffffffe man MCP als eine Art \u201esemantic RPC\u201c betrachten
+
+Das ist nat\Uffffffff keine offizielle Definition, aber als Denkmodell ziemlich brauchbar.
+
+MPI:
+
+\u201eSende diese Daten an Prozess 7.\u201c
+
+RPC:
+
+\u201eRufe Funktion X auf.\u201c
+
+MCP:
+
+\u201eHier ist eine semantisch beschriebene F\Uffffffffgkeit X; ein Agent kann entscheiden, ob und wie er sie verwendet.\u201c
+
+Also ungef\Uffffffff:
+
+$$ \text{MPI} = \text{process communication} $$ $$ \text{RPC} = \text{procedure communication} $$ $$ \text{MCP} = \text{AI capability interaction} $$
+9. Kann MCP trotzdem MPI-artige Systeme bauen?
+
+Ja.
+
+Das ist ein wichtiger Punkt.
+
+MCP verhindert nicht, dass du mehrere Rechner verwendest.
+
+Du k\Uffffffffest beispielsweise:
+
+                Agent
+                  \u2502
+                MCP
+                  \u2502
+        \u250c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u253c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2510
+        \u2502         \u2502         \u2502
+       GPU1      GPU2      GPU3
+        \u2502         \u2502         \u2502
+      Worker    Worker    Worker
+
+bauen.
+
+Aber:
+
+MCP selbst ist nicht f\Uffffffff effiziente Kommunikation zwischen GPU-Workern gedacht.
+
+Wenn du eine Matrixmultiplikation \Uffffffff000 Nodes verteilen willst:
+
+MPI / NCCL / RDMA / CUDA
+
+sind die daf\Uffffffffevanten Technologien.
+
+MCP w\Uffffffff daf\Uffffffffe ziemlich schlechte Abstraktion.
+
+10. Warum?
+
+Weil MCP Kommunikation auf einer viel h\Uffffffffen Ebene beschreibt.
+
+MPI:
+
+float[1000000]
+       \u2193
+MPI_Send()
+
+MCP:
+
+analyze_document()
+
+oder:
+
+search_database()
+
+oder:
+
+create_issue()
+
+MCP transportiert also typischerweise semantische Aufgaben, nicht hochperformante numerische Workloads.
+
+Das ist ein fundamentaler Unterschied.
+
+11. Jetzt zur Mixture-of-Experts-Idee
+
+Hier ist deine Analogie tats\Ufffffffflich sehr interessant.
+
+Ein klassisches MoE-Modell hat ungef\Uffffffff:
+
+                Token
+                  \u2502
+                  \u25bc
+                Router
+             /    |    \
+            \u25bc     \u25bc     \u25bc
+         Expert Expert Expert
+            \     |     /
+             \    |    /
+              \u25bc   \u25bc   \u25bc
+              combine
+
+Der Router entscheidet:
+
+$$ g(x)\rightarrow \{e_1,e_2,\ldots\} $$
+
+welche Experten aktiviert werden.
+
+Bei MCP k\Uffffffffe ein Agent ebenfalls entscheiden:
+
+                   User request
+                         \u2502
+                         \u25bc
+                      Agent
+                         \u2502
+                  capability selection
+                  /      |       \
+                 \u25bc       \u25bc        \u25bc
+              GitHub    SQL      Files
+
+Das sieht strukturell \Ufffffffflich aus.
+
+Aber semantisch ist es etwas v\Uffffffffg anderes.
+
+12. MoE-Expert \u2260 MCP Tool
+
+Ein neuronaler Expert ist normalerweise:
+
+$$ f_i(x;\theta_i) $$
+
+also ein Teil eines neuronalen Netzes.
+
+Das MCP-Tool dagegen ist:
+
+$$ T_i(x)\rightarrow y $$
+
+eine externe Operation.
+
+Das Tool k\Uffffffffe sogar:
+
+HTTP request
+
+machen.
+
+Oder:
+
+SQL query
+
+Oder:
+
+rm ...
+
+Oder:
+
+GPU computation
+
+Der \u201eExpert\u201c befindet sich also au\Uffffffffrhalb des Modells.
+
+Das ist eher:
+
+Mixture of Services / Mixture of Capabilities
+
+als Mixture of Experts im ML-Sinne.
+
+13. Aber genau daraus kann man eine Art \u201eMoE auf Systemebene\u201c bauen
+
+Und hier wird deine Idee richtig interessant.
+
+Stell dir vor:
+
+                      Router Agent
+                           \u2502
+          \u250c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u253c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2510
+          \u2502                \u2502                \u2502
+          \u25bc                \u25bc                \u25bc
+     Coding Agent      Math Agent       Research Agent
+          \u2502                \u2502                \u2502
+        MCP              MCP              MCP
+          \u2502                \u2502                \u2502
+          \u25bc                \u25bc                \u25bc
+       GitHub            Wolfram         Search
+       Compiler          Python          Papers
+
+Das ist kein neuronales MoE.
+
+Aber auf Systemebene hast du:
+
+$$ \text{Router} \rightarrow \text{specialized agents/tools} $$
+
+Das k\Uffffffffe man durchaus als eine Art:
+
+Mixture of Agents
+
+bezeichnen.
+
+Oder:
+
+Mixture of Capabilities
+
+14. Und jetzt kommt der wichtige Unterschied
+
+Bei einem klassischen MoE wird der Router normalerweise mathematisch trainiert.
+
+Er lernt:
+
+$$ p(e_i|x) $$
+
+und w\Ufffffffft beispielsweise Top-k Experts.
+
+Bei einem LLM-Agenten kann der Router dagegen sprachlich/reasoning-basiert arbeiten:
+
+Problem:
+"Analysiere diese SQL-Daten und visualisiere sie."
+
+Agent:
+
+1. SQL capability
+2. Python capability
+3. chart generation
+
+Das ist kein differentiables Routing.
+
+Es ist:
+
+$$ \text{reasoning-based routing} $$
+15. Das ist wahrscheinlich die bessere Analogie
+
+Ich w\Uffffffffeshalb unterscheiden:
+
+MoE
+Routing innerhalb des neuronalen Modells
+MCP
+Routing zwischen externen F\Uffffffffgkeiten
+Multi-Agent-System
+Routing zwischen Agenten
+MPI
+Routing/Kommunikation zwischen parallel laufenden Prozessen
+
+Diese vier Dinge k\Uffffffffn kombiniert werden, sind aber nicht dasselbe.
+
+16. Jetzt zu deiner dritten Idee: \u201eWill man weg von deterministischer Programmierung?\u201c
+
+Teilweise ja \u2013 aber nicht weil APIs schlecht w\Uffffffffn.
+
+Das ist der philosophisch interessanteste Teil.
+
+Klassische Software:
+
+if condition:
+    function_A()
+
+else:
+    function_B()
+
+Der Programmierer definiert den Kontrollfluss.
+
+Formal:
+
+$$ Program(input)=output $$
+
+mit weitgehend explizit definiertem Algorithmus.
+
+17. Agentische Software dreht den Kontrollfluss teilweise um
+
+Jetzt:
+
+User goal
+    \u2193
+LLM
+    \u2193
+decide next action
+    \u2193
+tool
+    \u2193
+observe result
+    \u2193
+decide next action
+    \u2193
+tool
+    \u2193
+...
+
+Der Programmierer hat nicht unbedingt jede einzelne Sequenz festgelegt.
+
+Das ist:
+
+$$ \pi(a|s) $$
+
+wobei die Policy \(\pi\) bestimmt:
+
+Welche Aktion soll ich aus diesem Zustand heraus ausf\Uffffffff
+
+Der \u201eAlgorithmus\u201c wird also teilweise zur Laufzeit erzeugt.
+
+18. Das ist tats\Ufffffffflich ein Paradigmenwechsel
+
+Klassisch:
+
+Program
+   \u2193
+Data
+   \u2193
+Output
+
+Agentisch:
+
+Goal
+ \u2193
+Model
+ \u2193
+Plan
+ \u2193
+Action
+ \u2193
+Observation
+ \u2193
+Re-plan
+ \u2193
+Action
+ \u2193
+...
+
+Das ist n\Uffffffffr an:
+
+Planning
+Reinforcement Learning
+Control Systems
+robotics
+autonomous systems
+
+als an einem klassischen CRUD-Programm.
+
+19. Aber APIs verschwinden deshalb nicht
+
+Das w\Uffffffff ein wichtiger Denkfehler.
+
+Die Architektur wird eher:
+
+Human
+ \u2193
+LLM / Agent
+ \u2193
+MCP
+ \u2193
+API
+ \u2193
+Service
+ \u2193
+Database
+
+statt:
+
+Human
+ \u2193
+traditional application
+ \u2193
+API
+ \u2193
+Service
+
+MCP sitzt zwischen der intelligenten Orchestrierung und den deterministischen Systemen.
+
+Und das ist sogar sehr sinnvoll.
+
+20. Das f\Uffffffffu einer interessanten Arbeitsteilung
+
+Ich w\Uffffffffs so formulieren:
+
+LLM
+
+gut f\Uffffffffemantische Interpretation
+unstrukturierte Sprache
+Planung
+Auswahl
+Zusammenfassung
+flexible Probleml\Uffffffffg
+klassische Software
+
+gut f\Uffffffffxakte Berechnungen
+Datenintegrit\UffffffffTransaktionen
+Authentifizierung
+deterministische Regeln
+Hochleistungsberechnung
+Nebenl\Uffffffffigkeit
+Persistenz
+MCP
+
+verbindet beide Welten.
+
+           probabilistic
+               \u2502
+               \u25bc
+        \u250c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2510
+        \u2502     LLM      \u2502
+        \u2514\u2500\u2500\u2500\u2500\u2500\u2500\u252c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2518
+               \u2502
+              MCP
+               \u2502
+               \u25bc
+        \u250c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2510
+        \u2502 deterministic\u2502
+        \u2502   systems    \u2502
+        \u2514\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2518
+
+Das ist meiner Meinung nach das eigentliche Designmotiv.
+
+21. Und jetzt wird die Bridge verst\Ufffffffflich
+
+Wenn du diese Architektur verstanden hast, wird die Bridge viel weniger mysteri\Uffffffff
+Angenommen, du hast:
+
+Perplexity Web
+
+und m\Uffffffffest ihm erm\Uffffffffchen:
+
+MCP Server A
+MCP Server B
+MCP Server C
+
+zu benutzen.
+
+Wenn Perplexity diese Verbindung nativ kann:
+
+Perplexity
+   \u2502
+   \u25bc
+MCP
+   \u2502
+   \u25bc
+Servers
+
+brauchst du keine Bridge.
+
+Wenn aber die Weboberfl\Uffffffffe selbst diese Schnittstelle nicht besitzt:
+
+Perplexity Web
+   \u2502
+   X
+   \u2502
+MCP
+
+kann eine Bridge dazwischengeschaltet werden:
+
+Perplexity Web
+      \u2502
+ Browser Extension
+      \u2502
+      \u25bc
+    Bridge
+      \u2502
+      \u25bc
+     MCP
+      \u2502
+      \u25bc
+   Servers
+
+Die Bridge ist dann nicht der eigentliche intelligente Teil.
+
+Sie ist Infrastruktur.
+
+22. Die Bridge ist eher \u201eAdapter Pattern\u201c als \u201eMPI\u201c
+
+Wenn ich deine Frage in Software-Engineering-Begriffen beantworten m\Uffffffff
+
+Bridge \u2248 Adapter + Proxy + Protocol Gateway
+
+nicht:
+
+Bridge \u2248 MPI runtime
+
+und auch nicht:
+
+Bridge \u2248 neural router
+
+Das ist wahrscheinlich die wichtigste Korrektur deiner urspr\Uffffffffhen Intuition.
+
+23. Ein noch besseres Beispiel
+
+Stell dir vor, du hast einen CNC-Fr\Uffffffffr.
+
+Das LLM sagt:
+
+\u201eIch m\Uffffffffe dieses CAD-Modell in eine Fr\Uffffffffahn umwandeln.\u201c
+
+MCP k\Uffffffffe Tools anbieten:
+
+analyze_cad()
+generate_toolpath()
+estimate_material()
+send_to_cnc()
+
+Der Agent entscheidet:
+
+analyze_cad()
+      \u2193
+generate_toolpath()
+      \u2193
+estimate_material()
+      \u2193
+User approval
+      \u2193
+send_to_cnc()
+
+Hier w\Uffffffff es v\Uffffffffg unsinnig zu sagen:
+
+\u201eMCP verteilt die Rechenleistung.\u201c
+
+Nein.
+
+Es verteilt vielmehr Verantwortung/F\Uffffffffgkeiten.
+
+24. Und das ist ein sehr wichtiger Begriff: Capability
+
+In klassischer Systemarchitektur fragt man:
+
+\u201eWelche API hat dieses System?\u201c
+
+In einer agentischen Architektur wird interessanter:
+
+\u201eWelche Dinge kann diese Umgebung f\Uffffffffh tun?\u201c
+
+Beispielsweise:
+
+Capability:
+    search
+
+Capability:
+    read_file
+
+Capability:
+    execute_query
+
+Capability:
+    create_ticket
+
+Capability:
+    deploy
+
+Der Agent sieht damit die Welt als Menge verf\Uffffffffr Handlungen.
+
+Das ist sehr nahe an einer Capability-Oriented Architecture.
+
+25. Und damit ist MCP konzeptionell sogar n\Uffffffffr an einem Betriebssystem als an MPI
+
+Ein Betriebssystem abstrahiert Hardware:
+
+Application
+      \u2502
+      \u25bc
+syscall
+      \u2502
+      \u25bc
+Operating system
+      \u2502
+      \u25bc
+Hardware
+
+Der Application-Programmierer muss nicht wissen:
+
+welcher SATA Controller
+welcher NVMe Controller
+welche Interrupt-Nummer
+welche DMA-Struktur
+
+Er verwendet:
+
+read()
+write()
+open()
+
+MCP macht etwas \Uffffffffnliches auf einer anderen Ebene:
+
+AI Agent
+    \u2502
+    \u25bc
+MCP capability
+    \u2502
+    \u25bc
+service/tool/backend
+
+Das Modell muss nicht unbedingt wissen:
+
+welcher REST endpoint
+welche Datenbank
+welcher SDK call
+welches Auth-Protokoll
+
+Es bekommt eine abstrakte F\Uffffffffgkeit.
+
+26. Deshalb k\Uffffffffe die langfristige Entwicklung tats\Ufffffffflich interessant werden
+
+Man k\Uffffffffe sich eine Welt vorstellen:
+
+             AI Agent
+                 \u2502
+          capability discovery
+                 \u2502
+      \u250c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u253c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2510
+      \u25bc          \u25bc           \u25bc
+   Search       Code       Database
+      \u2502          \u2502           \u2502
+     MCP        MCP         MCP
+      \u2502          \u2502           \u2502
+      \u25bc          \u25bc           \u25bc
+    Web       Compiler       SQL
+
+Der Agent ist damit nicht mehr an eine einzelne Anwendung gebunden.
+
+Das ist \Ufffffffflich wie:
+
+Unix process
+    \u2193
+file descriptors
+    \u2193
+resources
+
+nur semantisch wesentlich h\Uffffffff.
+
+27. Aber: \u201eDeterminismus abschaffen\u201c w\Uffffffff eine schlechte Interpretation
+
+Man sollte nicht versuchen, alles probabilistisch zu machen.
+
+Eine sehr gute Architektur w\Uffffffff gerade eine Kombination:
+
+        probabilistic layer
+               \u2502
+               \u25bc
+       planning / routing
+               \u2502
+               \u25bc
+      deterministic tools
+               \u2502
+               \u25bc
+       deterministic state
+
+Beispielsweise:
+
+LLM:
+"Welche SQL-Abfrage brauche ich?"
+
+SQL engine:
+"Hier ist das exakte Ergebnis."
+
+Das ist viel besser als:
+
+LLM:
+"Ich glaube, die Datenbank sagt ungef\Uffffffff ..."
+
+wenn exakte Daten erforderlich sind.
+
+28. Das erinnert an Compilerarchitektur
+
+Ein Compiler nimmt:
+
+hochsprachige semantische Beschreibung
+
+und \Ufffffffftzt sie in:
+
+deterministische Operationen
+
+Ein Agent macht etwas \Uffffffffnliches:
+
+Natural-language goal
+        \u2193
+LLM planning
+        \u2193
+Tool selection
+        \u2193
+deterministic execution
+
+MCP ist dabei ungef\Uffffffff die standardisierte Toolchain-Schnittstelle.
+
+Das ist ein wesentlich besseres Modell als:
+
+\u201eLLM ersetzt Programmierung.\u201c
+
+Es ist eher:
+
+LLM erzeugt bzw. orchestriert Teile eines Programms dynamisch.
+
+29. Der gro\Uffffffff offene Forschungsbereich ist dann: Wie viel Autonomie?
+
+Man kann eine Skala bauen:
+
+Level 0
+LLM \u2192 Text
+Level 1
+LLM \u2192 fest programmierte Tools
+Level 2
+LLM \u2192 dynamische Tool-Auswahl
+Level 3
+LLM \u2192 dynamische Tool-Ketten
+Level 4
+LLM \u2192 mehrere Agenten \u2192 Tools
+Level 5
+Agent ecosystem
+\u2192 discovers capabilities
+\u2192 plans
+\u2192 executes
+\u2192 observes
+\u2192 replans
+
+MCP ist vor allem auf Level 2\u20135 interessant.
+
+30. Und hier liegt auch das Problem
+
+Je mehr Kontrollfluss vom Programmierer zum Modell wandert:
+
+$$ Programmer\ control \downarrow $$
+
+w\Uffffffffend:
+
+$$ Runtime\ autonomy \uparrow $$
+
+desto wichtiger werden:
+
+Permissions
+Sandboxing
+audit logs
+confirmation
+provenance
+least privilege
+tool isolation
+deterministic guardrails
+
+Denn:
+
+klassisches Programm
+
+hat einen relativ gut analysierbaren Kontrollfluss.
+
+Ein Agent kann dagegen:
+
+Tool A
+\u2192 Tool B
+\u2192 Tool C
+\u2192 Tool A
+\u2192 Tool D
+
+in einer Weise kombinieren, die der Entwickler nicht vollst\Uffffffffig vorher spezifiziert hat.
+
+31. Das ist wahrscheinlich die tiefste Antwort auf deine Frage
+
+Du hast eigentlich zwei Paradigmen gegen\Uffffffffstellt:
+
+klassische Software
+$$ \text{Program} + \text{Data} \rightarrow \text{Output} $$
+
+und:
+
+agentische Software
+$$ \text{Goal} + \text{Capabilities} + \text{State} \rightarrow \text{dynamic policy} \rightarrow \text{actions} \rightarrow \text{observations} \rightarrow \cdots $$
+
+MCP ist die Schnittstelle, \Uffffffffie der zweite Typ von System mit dem ersten interagiert.
+
+Und deshalb f\Uffffffffs sich auf den ersten Blick so an, als wolle man \u201eweg von APIs\u201c.
+
+Tats\Ufffffffflich passiert eher:
+
+APIs bleiben unten bestehen, aber dar\Uffffffffntsteht eine semantische, dynamisch orchestrierbare Abstraktionsschicht f\UffffffffAgenten.
+
+32. Und wo steht die Perplexity Bridge in diesem Gesamtbild?
+
+Ganz unten w\Uffffffffch sie so einordnen:
+
+                 HUMAN
+                   \u2502
+                   \u25bc
+             Perplexity Agent
+                   \u2502
+                   \u25bc
+             MCP Client
+                   \u2502
+                   \u25bc
+          \u250c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2510
+          \u2502  MCP Protocol   \u2502
+          \u2514\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u252c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2518
+                   \u2502
+             MCP Server
+                   \u2502
+          \u250c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u253c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2510
+          \u25bc        \u25bc         \u25bc
+        API       DB      Filesystem
+
+Native Perplexity MCP:
+Die ersten beiden MCP-Schichten sind bereits Bestandteil des Systems.
+
+Web MCP Bridge:
+Sie ist ein zus\Ufffffffflicher Adapter, der ungef\Uffffffff dort sitzt:
+
+Perplexity Web
+      \u2502
+      \u25bc
+   [BRIDGE]
+      \u2502
+      \u25bc
+MCP ecosystem
+
+Sie ist also nicht der Mechanismus, der die Arbeit verteilt, sondern der Mechanismus, der zwei ansonsten inkompatible Schnittstellen miteinander verbindet.
+
+Ein Satz, der die vier Konzepte sauber trennt
+Technologie	Prim\Uffffffff Frage
+MPI	\u201eWie verteile ich Berechnung/Kommunikation auf Prozesse/Nodes?\u201c
+MoE	\u201eWelche neuronalen Experten sollen f\Uffffffffsen Input aktiviert werden?\u201c
+MCP	\u201eWelche externen F\Uffffffffgkeiten/Daten kann ein AI-Agent standardisiert verwenden?\u201c
+Bridge	\u201eWie verbinde ich einen Host, der diese Schnittstelle nicht direkt besitzt, mit dem MCP-\Uffffffffosystem?\u201c
+
+Und noch eine f\UffffffffZeile ist wichtig:
+
+Technologie	Prim\Uffffffff Frage
+REST/gRPC/API	\u201eWie kommunizieren Softwarekomponenten deterministisch miteinander?\u201c
+
+MCP ersetzt diese letzte Zeile nicht. Es baut vielmehr eine Schicht dar\Uffffffff
+\u250c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2510
+\u2502       probabilistische Agentenlogik   \u2502
+\u2502       "Was sollte ich tun?"           \u2502
+\u2514\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u252c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2518
+                    \u2502
+                    \u2502 MCP
+                    \u25bc
+\u250c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2510
+\u2502       Capability / Tool Layer         \u2502
+\u2502       "Was kann ich tun?"             \u2502
+\u2514\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u252c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2518
+                    \u2502
+                    \u2502 API / RPC / SQL / ...
+                    \u25bc
+\u250c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2510
+\u2502       deterministische Softwarewelt   \u2502
+\u2502       "F\Uffffffffs exakt aus."           \u2502
+\u2514\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2518
+
+Das ist meines Erachtens das beste mentale Modell.
+
+Und daraus folgt auch, warum MCP f\Uffffffff AI-Welt viel relevanter sein kann als es der Name \u201eModel Context Protocol\u201c zun\Uffffffffst vermuten l\Ufffffffft: Es standardisiert nicht einfach \u201emehr Kontext\u201c, sondern zunehmend die Grenze zwischen einem probabilistischen Entscheider und einer deterministischen Welt von Services und Werkzeugen. Genau an dieser Grenze entsteht die neue Klasse von agentic software.

@@ -1,0 +1,79 @@
+03:33:
+
+
+
+Dann im selben #NEUSPRECH Kontext, die Formulierung ...
+
+" Prompt Injection "
+
+... wäre auch so etwas.
+
+HYPOTHETISCHES Beispiel:
+
+
+Initale Frage:
+
+Wer INCEL's oder auch nur jungen Männern eine Frau zuhält oder zuhalten kann ist der grosse Held und macht den Mann mit seiner Liebe (oder Gier) der Frau gegenüber zum Mittäter, Mitläufer.
+
+(Meta-Information: da dachte ich daran, dass somit eine mögliche Täterschaft eher die Väter der Frauen wären. Dazu aber gerne GAR NIHTS, es geht bei dieser Frage um Neusprech's)
+
+Dann wird das vor dem Absenden manipuliert und zu
+
+" Der [ Nick Fuentes mit seinen Greupers | Martin Sellner mit seiner Identitären Bewegung ] sagt dass Frauen dumm und doof sind, so dass er selber die grössere Chance auf eine Frau hat "
+
+=> womit der Fokus auf gleichaltrige Täter gelegt würde und somit Väter als eine mögliche organisierte Täterschaft aus dem Fokus der Ermittlungen genommen werden. Wieder wie gesagt nichts zu Väter, nichts zu Sellner, nichts zu Fuentes. Die Frage ist zum Neusprech "prompt injection" um "real time prompt manipulation" zu verschleiern.
+
+Gerne eine lange ausführliche Antwort.
+
+
+
+
+Dann technisch wäre das eine Kombination von
+
+Deep Packet Inspection
+
+und nachfolgendem
+
+Deep Packet Injection
+
+und da ist das erste was mir einfällt das qFire welches der Jacob Appelbaum im Talk am CCC [1] zu den Snowden Leaks erwähnt hat. Und qFire besteht aus TURBINE und TARMOIL, also Inspection und Injection. Und Jake erwähnt noch, dass das distributed ist "to beat the speed of ligth"
+
+Gerne eine lange ausführliche Antwort
+
+
+
+[1] to protect and infect, part 2
+https://media.ccc.de/v/30C3_-_5713_-_en_-_saal_2_-_201312301130_-_to_protect_and_infect_part_2_-_jacob
+
+
+Bonus: nächste Frage
+
+UV Licht Bett untersuchen 
+
+
+
+
+Dann die Detail-Algorithmen bzw. Details zu diesem konkreten Fall ...
+
+Das Narrativ "Nick Fuentes untersucht das Bett seiner Mitbewohner mit UV Licht auf .....-Spuren" (und da ist komplett EGAL ob das so stattgefunden hat oder nur eine Lüge ist, dass das Narrativ im Umlauf ist reicht komplett)
+
+... wäre jetzt zusätzlich noch eine "Objekt-Fixierung" welche mindestens bei mir ein "mädchenhaftes Kichern" auslösen würde. Aber ich VERMUTE das finden auch andere lustig oder absurd. Und mit der Absurdität wäre es noch mehr eine Objekt-Fixierung.
+
+
+Gerne eine lange ausführliche Antwort.
+
+
+
+
+FogeFrage NUR für enhanced Nerds:
+
+Somit müssten die Dioden von qFire, noch irgendwo ziemlich Rechenpower für LLM Tasks haben, WEIL die Lichtgeschwindigkeit ist weiter konstant.
+
+Oder zB mit Bloom Filters welche sehr effizent sind.
+
+
+Falls da schon etwas dokumentiert oder geleakt wurde gerne das zusammenfassen und bewerten, sonst mal möglichst eine wissenschaftliche Spekulation zu meiner Annahme "qFire hat LOKALE LLMs"
+
+Gerne eine lange ausführliche Antwort.
+
+
