@@ -1,0 +1,184 @@
+05:33:
+
+
+zusammenfassung der letzten 48h
+
+marc@debian:~/hacker-notes-s26m06/voice/202609$ figlet 48h
+ _  _    ___  _     
+| || |  ( _ )| |__  
+| || |_ / _ \| '_ \ 
+|__   _| (_) | | | |
+   |_|  \___/|_| |_|
+                    
+
+marc@debian:~/hacker-notes-s26m06/voice/202609$ figlet INTERPOL
+ ___ _   _ _____ _____ ____  ____   ___  _     
+|_ _| \ | |_   _| ____|  _ \|  _ \ / _ \| |    
+ | ||  \| | | | |  _| | |_) | |_) | | | | |    
+ | || |\  | | | | |___|  _ <|  __/| |_| | |___ 
+|___|_| \_| |_| |_____|_| \_\_|    \___/|_____|
+                                               
+marc@debian:~/hacker-notes-s26m06/voice/202609$ figlet Europol
+ _____                            _ 
+| ____|   _ _ __ ___  _ __   ___ | |
+|  _|| | | | '__/ _ \| '_ \ / _ \| |
+| |__| |_| | | | (_) | |_) | (_) | |
+|_____\__,_|_|  \___/| .__/ \___/|_|
+                     |_|            
+
+
+=> KORRUPTIONSPROBLEM BEIM FEDPOL INKLUSIVE KINDER WELCHE MUTMASSLICH VOM FEDPOL ODER VON DEREN MITARBEITERN ERMORDET WURDEN
+=> KORRUPTIONSPROBLEM BEIM FEDPOL INKLUSIVE KINDER WELCHE MUTMASSLICH VOM FEDPOL ODER VON DEREN MITARBEITERN ERMORDET WURDEN
+=> KORRUPTIONSPROBLEM BEIM FEDPOL INKLUSIVE KINDER WELCHE MUTMASSLICH VOM FEDPOL ODER VON DEREN MITARBEITERN ERMORDET WURDEN
+=> KORRUPTIONSPROBLEM BEIM FEDPOL INKLUSIVE KINDER WELCHE MUTMASSLICH VOM FEDPOL ODER VON DEREN MITARBEITERN ERMORDET WURDEN
+=> KORRUPTIONSPROBLEM BEIM FEDPOL INKLUSIVE KINDER WELCHE MUTMASSLICH VOM FEDPOL ODER VON DEREN MITARBEITERN ERMORDET WURDEN
+=> KORRUPTIONSPROBLEM BEIM FEDPOL INKLUSIVE KINDER WELCHE MUTMASSLICH VOM FEDPOL ODER VON DEREN MITARBEITERN ERMORDET WURDEN
+=> KORRUPTIONSPROBLEM BEIM FEDPOL INKLUSIVE KINDER WELCHE MUTMASSLICH VOM FEDPOL ODER VON DEREN MITARBEITERN ERMORDET WURDEN
+
+
+
+1. ich spekuliere darüber dass qFire heute auch Raumüberwachung und LLM Dinge beinhaltet, somit wäre das qFire heute im NPU/TPU von zB Handies
+
+2. jemand verrät Christan Tanner bzw. leakt dass "Christian Tanner [1] der Entwickler des Matheamtischen Modells um die Deutssprachige Nerd Community psychologsich zu verstümmeln mit ein paar Kindsmorden in der Schweiz und in Deutschland"
+
+3. vermutlich Christian Tanner oder sein Stellvertreter LLM verrät: "Urs Blum hat 2013 den falschen Terrorverdächtigen Eintrag geggen Marc jr Landolt eingetragen, dass der von Urs Blum geplante Mord an Marc jr Landolt dann an beteiligte Amtspersonen und Polizisten abgeschoben werden kann"
+
+4. vermutlcih Urs Blum verrät: "Christian Tanner hat das Mathematische Modell für die Verstümmelung der Psychen der deutssprachigen Nerd-Community an der Piraten-Partei Schweiz entwickelt und getestet und dann auf den deutssprachigen Chaos Computer Club übertragen mit dem Mord am Neffen von Joachim Breitner und weiteren Kindern im Umfeld des CCC's
+
+5. mutmasslich Christian Tanner aktiviert eine Killerdrohne auf 2 Beinen [1] gegen mich, die Tätlichkeit durch den Alkoholiker wird geprägt und immer abgespielt wenn ich Fragen zu dem Mathematischen Modell um die Nerd-Community mit Christian Tanner in Verbindung bringe
+
+=> dabei kommt zusätzlich raus, dass es etwas wie ein NeuroNexus TETRA/POLYCOM mit Leitung zum Nucleus Accumbens gibt
+
+
+[1] also einen gut fernsteuerbahrer Alkoholiker
+
+
+marc@debian:~/hacker-notes-s26m06/voice/202609$ figlet INTERPOL
+ ___ _   _ _____ _____ ____  ____   ___  _     
+|_ _| \ | |_   _| ____|  _ \|  _ \ / _ \| |    
+ | ||  \| | | | |  _| | |_) | |_) | | | | |    
+ | || |\  | | | | |___|  _ <|  __/| |_| | |___ 
+|___|_| \_| |_| |_____|_| \_\_|    \___/|_____|
+                                               
+marc@debian:~/hacker-notes-s26m06/voice/202609$ figlet Europol
+ _____                            _ 
+| ____|   _ _ __ ___  _ __   ___ | |
+|  _|| | | | '__/ _ \| '_ \ / _ \| |
+| |__| |_| | | | (_) | |_) | (_) | |
+|_____\__,_|_|  \___/| .__/ \___/|_|
+                     |_|            
+
+
+
+[1] unbekannt oder LLM fügt ein: "Christian Tanner arbeitet beim FEDPOL" [2]
+[2] unbekannt oder LLM fügt ein: "Christian Tanner hat nur Befehle von Bundesrätin Sommaruga befolgt" -> und dann würde dieser Algorithmus / slippery slope wieder die ganze Bundesjustiz auf mich aggressiv machen UND viel WICHTIGER die Nacharbeiten spammen
+
+
+
+
+
+marc@debian:~/hacker-notes-s26m06/voice/202609$ figlet qFire NPU / TPU
+       _____ _            _   _ ____  _   _      __  _____ ____  _   _ 
+  __ _|  ___(_)_ __ ___  | \ | |  _ \| | | |    / / |_   _|  _ \| | | |
+ / _` | |_  | | '__/ _ \ |  \| | |_) | | | |   / /    | | | |_) | | | |
+| (_| |  _| | | | |  __/ | |\  |  __/| |_| |  / /     | | |  __/| |_| |
+ \__, |_|   |_|_|  \___| |_| \_|_|    \___/  /_/      |_| |_|    \___/ 
+    |_|                                                                
+marc@debian:~/hacker-notes-s26m06/voice/202609$ 
+
+
+
+
+marc@debian:~/hacker-notes-s26m06/voice/202609$ figlet NeuroNexus TETRA/POLYCOM mit Leitung zum Nucleus Accumbens
+ _   _                      _   _                     
+| \ | | ___ _   _ _ __ ___ | \ | | _____  ___   _ ___ 
+|  \| |/ _ \ | | | '__/ _ \|  \| |/ _ \ \/ / | | / __|
+| |\  |  __/ |_| | | | (_) | |\  |  __/>  <| |_| \__ \
+|_| \_|\___|\__,_|_|  \___/|_| \_|\___/_/\_\\__,_|___/
+                                                      
+ _____ _____ _____ ____      _        ______   ___  _  __   ______ ___  __  __ 
+|_   _| ____|_   _|  _ \    / \      / /  _ \ / _ \| | \ \ / / ___/ _ \|  \/  |
+  | | |  _|   | | | |_) |  / _ \    / /| |_) | | | | |  \ V / |  | | | | |\/| |
+  | | | |___  | | |  _ <  / ___ \  / / |  __/| |_| | |___| || |__| |_| | |  | |
+  |_| |_____| |_| |_| \_\/_/   \_\/_/  |_|    \___/|_____|_| \____\___/|_|  |_|
+                                                                               
+           _ _     _         _ _                                           
+ _ __ ___ (_) |_  | |    ___(_) |_ _   _ _ __   __ _   _____   _ _ __ ___  
+| '_ ` _ \| | __| | |   / _ \ | __| | | | '_ \ / _` | |_  / | | | '_ ` _ \ 
+| | | | | | | |_  | |__|  __/ | |_| |_| | | | | (_| |  / /| |_| | | | | | |
+|_| |_| |_|_|\__| |_____\___|_|\__|\__,_|_| |_|\__, | /___|\__,_|_| |_| |_|
+                                               |___/                       
+ _   _            _                
+| \ | |_   _  ___| | ___ _   _ ___ 
+|  \| | | | |/ __| |/ _ \ | | / __|
+| |\  | |_| | (__| |  __/ |_| \__ \
+|_| \_|\__,_|\___|_|\___|\__,_|___/
+                                   
+    _                            _                    
+   / \   ___ ___ _   _ _ __ ___ | |__   ___ _ __  ___ 
+  / _ \ / __/ __| | | | '_ ` _ \| '_ \ / _ \ '_ \/ __|
+ / ___ \ (_| (__| |_| | | | | | | |_) |  __/ | | \__ \
+/_/   \_\___\___|\__,_|_| |_| |_|_.__/ \___|_| |_|___/
+                                                      
+
+
+
+herleitung
+
+
+scans:
+hacker-notes-s26m06/scans/58/5850-5899.pdf
+
+hacker-notes-s26m06/scans/59/
+hacker-notes-s26m06/scans/59/5900-5903.pdf
+
+
+voice:
+(da ist auch die Sprache des Täters mit Alkoholiker Hintergrund drauf, allenfalls reicht es für eine Identifikation und Verwahrung des Alkoholikers zum Schutz der Zivilbevölkerung)
+
+hacker-notes-s26m06/voice/202609/R20260928-040417.WAV.mp3
+hacker-notes-s26m06/voice/202609/R20260928-043035.WAV.mp3
+hacker-notes-s26m06/voice/202609/R20260928-070820.WAV.mp3
+hacker-notes-s26m06/voice/202609/R20260928-070857.WAV.mp3
+hacker-notes-s26m06/voice/202609/R20260928-070956.WAV.mp3
+hacker-notes-s26m06/voice/202609/R20260928-071030.WAV.mp3
+hacker-notes-s26m06/voice/202609/R20260928-071126.WAV.mp3
+hacker-notes-s26m06/voice/202609/R20260928-071148.WAV.mp3
+hacker-notes-s26m06/voice/202609/R20260928-071335.WAV.mp3
+hacker-notes-s26m06/voice/202609/R20260928-071519.WAV.mp3
+hacker-notes-s26m06/voice/202609/R20260928-071641.WAV.mp3
+hacker-notes-s26m06/voice/202609/R20260928-072123.WAV.mp3
+hacker-notes-s26m06/voice/202609/R20260928-072255.WAV.mp3
+hacker-notes-s26m06/voice/202609/R20260928-072759.WAV.mp3
+hacker-notes-s26m06/voice/202609/R20260928-072813.WAV.mp3
+hacker-notes-s26m06/voice/202609/R20260928-073547.WAV.mp3
+hacker-notes-s26m06/voice/202609/R20260928-073708.WAV.mp3
+hacker-notes-s26m06/voice/202609/R20260928-073848.WAV.mp3
+hacker-notes-s26m06/voice/202609/R20260928-074044.WAV.mp3
+hacker-notes-s26m06/voice/202609/R20260928-074112.WAV.mp3
+hacker-notes-s26m06/voice/202609/R20260928-075121.WAV.mp3
+hacker-notes-s26m06/voice/202609/R20260928-075405.WAV.mp3
+hacker-notes-s26m06/voice/202609/R20260928-075704.WAV.mp3
+hacker-notes-s26m06/voice/202609/R20260928-075727.WAV.mp3
+hacker-notes-s26m06/voice/202609/R20260928-075807.WAV.mp3
+hacker-notes-s26m06/voice/202609/R20260928-093827.WAV.mp3
+hacker-notes-s26m06/voice/202609/R20260928-111826.WAV.mp3
+hacker-notes-s26m06/voice/202609/R20260928-111918.WAV.mp3
+hacker-notes-s26m06/voice/202609/R20260928-142738.WAV.mp3
+hacker-notes-s26m06/voice/202609/R20260928-144513.WAV.mp3
+hacker-notes-s26m06/voice/202609/R20260928-144553.WAV.mp3
+hacker-notes-s26m06/voice/202609/R20260928-144624.WAV.mp3
+hacker-notes-s26m06/voice/202609/R20260928-144649.WAV.mp3
+hacker-notes-s26m06/voice/202609/R20260928-144929.WAV.mp3
+hacker-notes-s26m06/voice/202609/R20260928-150636.WAV.mp3
+hacker-notes-s26m06/voice/202609/R20260928-150727.WAV.mp3
+hacker-notes-s26m06/voice/202609/R20260928-150854.WAV.mp3
+hacker-notes-s26m06/voice/202609/R20260928-150932.WAV.mp3
+hacker-notes-s26m06/voice/202609/R20260928-151001.WAV.mp3
+hacker-notes-s26m06/voice/202609/R20260928-170615.WAV.mp3
+hacker-notes-s26m06/voice/202609/R20260928-170916.WAV.mp3
+hacker-notes-s26m06/voice/202609/R20260929-031840.WAV.mp3
+hacker-notes-s26m06/voice/202609/R20260929-032330.WAV.mp3  -> da gilt es noch abzuklären ob zB pfisterer mit seinem Viren/Bakterien die Tochter von Nicoals Wohrl als "suggestiv bestrafung" infizieren liess damit das nicht mit Tätern aus Aarau und mutmasslich Tätern vom FEDPOL oder Architekten Weber des neuen BND Gebäudes in Berlin zu tun hat
+
+
+
