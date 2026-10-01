@@ -127,58 +127,84 @@ herleitung
 
 
 scans:
-hacker-notes-s26m06/scans/58/5850-5899.pdf
+~/hacker-notes-s26m06/scans/58/5850-5899.pdf
 
-hacker-notes-s26m06/scans/59/
-hacker-notes-s26m06/scans/59/5900-5903.pdf
+~/hacker-notes-s26m06/scans/59/
+~/hacker-notes-s26m06/scans/59/5900-5903.pdf
 
 
 voice:
 (da ist auch die Sprache des Täters mit Alkoholiker Hintergrund drauf, allenfalls reicht es für eine Identifikation und Verwahrung des Alkoholikers zum Schutz der Zivilbevölkerung)
 
-hacker-notes-s26m06/voice/202609/R20260928-040417.WAV.mp3
-hacker-notes-s26m06/voice/202609/R20260928-043035.WAV.mp3
-hacker-notes-s26m06/voice/202609/R20260928-070820.WAV.mp3
-hacker-notes-s26m06/voice/202609/R20260928-070857.WAV.mp3
-hacker-notes-s26m06/voice/202609/R20260928-070956.WAV.mp3
-hacker-notes-s26m06/voice/202609/R20260928-071030.WAV.mp3
-hacker-notes-s26m06/voice/202609/R20260928-071126.WAV.mp3
-hacker-notes-s26m06/voice/202609/R20260928-071148.WAV.mp3
-hacker-notes-s26m06/voice/202609/R20260928-071335.WAV.mp3
-hacker-notes-s26m06/voice/202609/R20260928-071519.WAV.mp3
-hacker-notes-s26m06/voice/202609/R20260928-071641.WAV.mp3
-hacker-notes-s26m06/voice/202609/R20260928-072123.WAV.mp3
-hacker-notes-s26m06/voice/202609/R20260928-072255.WAV.mp3
-hacker-notes-s26m06/voice/202609/R20260928-072759.WAV.mp3
-hacker-notes-s26m06/voice/202609/R20260928-072813.WAV.mp3
-hacker-notes-s26m06/voice/202609/R20260928-073547.WAV.mp3
-hacker-notes-s26m06/voice/202609/R20260928-073708.WAV.mp3
-hacker-notes-s26m06/voice/202609/R20260928-073848.WAV.mp3
-hacker-notes-s26m06/voice/202609/R20260928-074044.WAV.mp3
-hacker-notes-s26m06/voice/202609/R20260928-074112.WAV.mp3
-hacker-notes-s26m06/voice/202609/R20260928-075121.WAV.mp3
-hacker-notes-s26m06/voice/202609/R20260928-075405.WAV.mp3
-hacker-notes-s26m06/voice/202609/R20260928-075704.WAV.mp3
-hacker-notes-s26m06/voice/202609/R20260928-075727.WAV.mp3
-hacker-notes-s26m06/voice/202609/R20260928-075807.WAV.mp3
-hacker-notes-s26m06/voice/202609/R20260928-093827.WAV.mp3
-hacker-notes-s26m06/voice/202609/R20260928-111826.WAV.mp3
-hacker-notes-s26m06/voice/202609/R20260928-111918.WAV.mp3
-hacker-notes-s26m06/voice/202609/R20260928-142738.WAV.mp3
-hacker-notes-s26m06/voice/202609/R20260928-144513.WAV.mp3
-hacker-notes-s26m06/voice/202609/R20260928-144553.WAV.mp3
-hacker-notes-s26m06/voice/202609/R20260928-144624.WAV.mp3
-hacker-notes-s26m06/voice/202609/R20260928-144649.WAV.mp3
-hacker-notes-s26m06/voice/202609/R20260928-144929.WAV.mp3
-hacker-notes-s26m06/voice/202609/R20260928-150636.WAV.mp3
-hacker-notes-s26m06/voice/202609/R20260928-150727.WAV.mp3
-hacker-notes-s26m06/voice/202609/R20260928-150854.WAV.mp3
-hacker-notes-s26m06/voice/202609/R20260928-150932.WAV.mp3
-hacker-notes-s26m06/voice/202609/R20260928-151001.WAV.mp3
-hacker-notes-s26m06/voice/202609/R20260928-170615.WAV.mp3
-hacker-notes-s26m06/voice/202609/R20260928-170916.WAV.mp3
-hacker-notes-s26m06/voice/202609/R20260929-031840.WAV.mp3
-hacker-notes-s26m06/voice/202609/R20260929-032330.WAV.mp3  -> da gilt es noch abzuklären ob zB pfisterer mit seinem Viren/Bakterien die Tochter von Nicoals Wohrl als "suggestiv bestrafung" infizieren liess damit das nicht mit Tätern aus Aarau und mutmasslich Tätern vom FEDPOL oder Architekten Weber des neuen BND Gebäudes in Berlin zu tun hat
+~/hacker-notes-s26m06/voice/202609/R20260928-040417.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260928-043035.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260928-070820.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260928-070857.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260928-070956.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260928-071030.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260928-071126.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260928-071148.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260928-071335.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260928-071519.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260928-071641.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260928-072123.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260928-072255.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260928-072759.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260928-072813.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260928-073547.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260928-073708.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260928-073848.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260928-074044.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260928-074112.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260928-075121.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260928-075405.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260928-075704.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260928-075727.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260928-075807.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260928-093827.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260928-111826.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260928-111918.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260928-142738.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260928-144513.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260928-144553.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260928-144624.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260928-144649.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260928-144929.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260928-150636.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260928-150727.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260928-150854.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260928-150932.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260928-151001.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260928-170615.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260928-170916.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260929-031840.WAV.mp3
+~/hacker-notes-s26m06/voice/202609/R20260929-032330.WAV.mp3  -> da gilt es noch abzuklären ob zB pfisterer mit seinem Viren/Bakterien die Tochter von Nicoals Wohrl als "suggestiv bestrafung" infizieren liess damit das nicht mit Tätern aus Aarau und mutmasslich Tätern vom FEDPOL oder Architekten Weber des neuen BND Gebäudes in Berlin zu tun hat
 
+
+06:12:
+
+alexander horst, das nest, alexander zschokke von oben herab vom hungerberg, falsche spur zur katholischen Pfadi-Gruppe
+
+
+
+Wie gross ist die Gefahr ...
+
+... dass wenn Bundespolizei in einem fremden Land Kinder ermordet hat ...
+
+... um sich geltung zu verschaffen oder Access Codes oder Recourcen erpressen zu können ...
+
+... dass dann die Bundespolizei im eigenen Land versucht Diplomaten-Systeme oder Internationale Zeugenschutzprogramme auszuhebeln?
+
+
+
+Gerne eine lange ausführliche Antwort mal nicht spezifische welches Land sondern eher konzeptionell.
+
+
+
+14:52:
+
+dann hab ich gestern die notiz gemacht, dass oft nach 12:00 bis ca 17:00 der totale terror inklusive induzierter Epielepsie aktiviert wird.
+
+das sind kurze zugriffe von vielen triebtätern welche sich an mir aberagerien wollen und/oder der Upload von allen aktuell der täterschaft verfügbaren teilweise persistenten neurowaffen, also a16 und a16b karte. und wenn es Autonome Software Systeme sind wie der Mars rover werden die zuvor auf mcih, meine abläufe, meine wohnung ... parametrisiert
 
 
