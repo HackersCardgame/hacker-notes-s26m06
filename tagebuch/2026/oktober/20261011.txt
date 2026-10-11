@@ -44,3 +44,24 @@ voice:
 ~/hacker-notes-s26m06/voice/202610/R20261011-003456.WAV.mp3
 
 
+
+
+04:35:
+
+voice:
+
+~/hacker-notes-s26m06/voice/202610/R20261011-025250.WAV.mp3
+~/hacker-notes-s26m06/voice/202610/R20261011-025317.WAV.mp3
+~/hacker-notes-s26m06/voice/202610/R20261011-025346.WAV.mp3
+~/hacker-notes-s26m06/voice/202610/R20261011-025444.WAV.mp3
+~/hacker-notes-s26m06/voice/202610/R20261011-025542.WAV.mp3
+~/hacker-notes-s26m06/voice/202610/R20261011-025624.WAV.mp3
+~/hacker-notes-s26m06/voice/202610/R20261011-025645.WAV.mp3
+~/hacker-notes-s26m06/voice/202610/R20261011-025714.WAV.mp3
+~/hacker-notes-s26m06/voice/202610/R20261011-030210.WAV.mp3
+~/hacker-notes-s26m06/voice/202610/R20261011-030426.WAV.mp3
+~/hacker-notes-s26m06/voice/202610/R20261011-030527.WAV.mp3
+~/hacker-notes-s26m06/voice/202610/R20261011-030839.WAV.mp3
+~/hacker-notes-s26m06/voice/202610/R20261011-031104.WAV.mp3
+~/hacker-notes-s26m06/voice/202610/R20261011-042143.WAV.mp3
+
