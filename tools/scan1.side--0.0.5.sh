@@ -95,3 +95,7 @@ pdfunite "${pdf_files[@]}" duplex_scan.pdf
 #rm -rf temp_vorder temp_rueck
 
 echo "Fertig! Das kombinierte PDF wurde als 'duplex_scan.pdf' gespeichert."
+
+rm -rf temp_*
+mv duplex_scan.pdf ~
+rm rueckseiten.pdf  vorderseiten.pdf
