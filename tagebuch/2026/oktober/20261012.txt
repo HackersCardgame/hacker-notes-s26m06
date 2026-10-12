@@ -5,9 +5,9 @@ scans:
 => also technisch schmerzimplnatat ohr + induzierte Epilepsie, und das wieder vor dem Psychiatrie-Kontroll-Termin.
 
 
-hacker-notes-s26m06/scans/59/5900-5949.pdf
-hacker-notes-s26m06/scans/59/5943-5949.pdf
-hacker-notes-s26m06/scans/59/5950-5953.pdf
+~/hacker-notes-s26m06/scans/59/5900-5949.pdf
+~/hacker-notes-s26m06/scans/59/5943-5949.pdf
+~/hacker-notes-s26m06/scans/59/5950-5953.pdf
 
 
 
@@ -15,26 +15,26 @@ hacker-notes-s26m06/scans/59/5950-5953.pdf
 voice:
 
 
-hacker-notes-s26m06/voice/202610/R20261011-170712.WAV.mp3
-hacker-notes-s26m06/voice/202610/R20261011-171036.WAV.mp3
-hacker-notes-s26m06/voice/202610/R20261011-171145.WAV.mp3
-hacker-notes-s26m06/voice/202610/R20261011-171259.WAV.mp3
-hacker-notes-s26m06/voice/202610/R20261011-171519.WAV.mp3
-hacker-notes-s26m06/voice/202610/R20261011-173740.WAV.mp3
-hacker-notes-s26m06/voice/202610/R20261011-174530.WAV.mp3
-hacker-notes-s26m06/voice/202610/R20261011-174609.WAV.mp3
-hacker-notes-s26m06/voice/202610/R20261011-175003.WAV.mp3
-hacker-notes-s26m06/voice/202610/R20261011-175515.WAV.mp3
-hacker-notes-s26m06/voice/202610/R20261011-175716.WAV.mp3
-hacker-notes-s26m06/voice/202610/R20261011-185814.WAV.mp3
-hacker-notes-s26m06/voice/202610/R20261011-191127.WAV.mp3
-hacker-notes-s26m06/voice/202610/R20261011-191157.WAV.mp3
-hacker-notes-s26m06/voice/202610/R20261011-191301.WAV.mp3
-hacker-notes-s26m06/voice/202610/R20261011-191331.WAV.mp3
-hacker-notes-s26m06/voice/202610/R20261011-195729.WAV.mp3
-hacker-notes-s26m06/voice/202610/R20261011-202918.WAV.mp3
-hacker-notes-s26m06/voice/202610/R20261011-203628.WAV.mp3
-hacker-notes-s26m06/voice/202610/R20261011-204525.WAV.mp3
+~/hacker-notes-s26m06/voice/202610/R20261011-170712.WAV.mp3
+~/hacker-notes-s26m06/voice/202610/R20261011-171036.WAV.mp3
+~/hacker-notes-s26m06/voice/202610/R20261011-171145.WAV.mp3
+~/hacker-notes-s26m06/voice/202610/R20261011-171259.WAV.mp3
+~/hacker-notes-s26m06/voice/202610/R20261011-171519.WAV.mp3
+~/hacker-notes-s26m06/voice/202610/R20261011-173740.WAV.mp3
+~/hacker-notes-s26m06/voice/202610/R20261011-174530.WAV.mp3
+~/hacker-notes-s26m06/voice/202610/R20261011-174609.WAV.mp3
+~/hacker-notes-s26m06/voice/202610/R20261011-175003.WAV.mp3
+~/hacker-notes-s26m06/voice/202610/R20261011-175515.WAV.mp3
+~/hacker-notes-s26m06/voice/202610/R20261011-175716.WAV.mp3
+~/hacker-notes-s26m06/voice/202610/R20261011-185814.WAV.mp3
+~/hacker-notes-s26m06/voice/202610/R20261011-191127.WAV.mp3
+~/hacker-notes-s26m06/voice/202610/R20261011-191157.WAV.mp3
+~/hacker-notes-s26m06/voice/202610/R20261011-191301.WAV.mp3
+~/hacker-notes-s26m06/voice/202610/R20261011-191331.WAV.mp3
+~/hacker-notes-s26m06/voice/202610/R20261011-195729.WAV.mp3
+~/hacker-notes-s26m06/voice/202610/R20261011-202918.WAV.mp3
+~/hacker-notes-s26m06/voice/202610/R20261011-203628.WAV.mp3
+~/hacker-notes-s26m06/voice/202610/R20261011-204525.WAV.mp3
 
 
 
@@ -125,6 +125,19 @@ marc@debian:~/hacker-notes-s26m06/voice/202610$ figlet FEDPOL
 FALLS das verifiziert werden kann ist HAUPTKUNDSCHAFT von Blackhat Gear Justiz, korrupte Polizisten und Amtspersonen um rechtsfälle zu manipulieren
 
 
+~/hacker-notes-s26m06/voice/202610/R20261012-064827.WAV.mp3
+~/hacker-notes-s26m06/voice/202610/R20261012-065046.WAV.mp3
+~/hacker-notes-s26m06/voice/202610/R20261012-065227.WAV.mp3
+~/hacker-notes-s26m06/voice/202610/R20261012-072924.WAV.mp3
+~/hacker-notes-s26m06/voice/202610/R20261012-073055.WAV.mp3
+~/hacker-notes-s26m06/voice/202610/R20261012-091800.WAV.mp3
+~/hacker-notes-s26m06/voice/202610/R20261012-092341.WAV.mp3
+~/hacker-notes-s26m06/voice/202610/R20261012-092353.WAV.mp3
+
+
+
+
+Dann gerne abklären ob der Jürg Stalder mit Jan Ebbinger im selben Auftragskiller-Netzwerk ist. Weil da gibt es den Vorfall, dass Jan Ebbinger meine kleine Schwester Ursula defloriert hat und ihr ein falsches Heiratsversprechen gegeben hat, und das dann aber gebrochen hat und jetzt ist sie wenn sie ihre medikamente nicht nimmt nur noch am häulen oder suizidal
 
 
 
