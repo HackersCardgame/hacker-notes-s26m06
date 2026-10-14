@@ -25,50 +25,50 @@ Dann die Fälle Vergwealtigung an Marc jr Landolt, vergewaltigzung an Ursula Lan
 
 scans:
 
-hacker-notes-s26m06/scans/59/5954-5971.pdf
+~/hacker-notes-s26m06/scans/59/5954-5971.pdf
 
 
 voice:
 
-hacker-notes-s26m06/voice/202610/R20261012-094810.WAV.mp3
-hacker-notes-s26m06/voice/202610/R20261012-094916.WAV.mp3
-hacker-notes-s26m06/voice/202610/R20261012-094926.WAV.mp3
-hacker-notes-s26m06/voice/202610/R20261012-094957.WAV.mp3
-hacker-notes-s26m06/voice/202610/R20261012-095151.WAV.mp3
-hacker-notes-s26m06/voice/202610/R20261012-095813.WAV.mp3
-hacker-notes-s26m06/voice/202610/R20261012-100002.WAV.mp3
-hacker-notes-s26m06/voice/202610/R20261012-100251.WAV.mp3
-hacker-notes-s26m06/voice/202610/R20261012-101023.WAV.mp3
-hacker-notes-s26m06/voice/202610/R20261012-101531.WAV.mp3
-hacker-notes-s26m06/voice/202610/R20261012-101734.WAV.mp3
-hacker-notes-s26m06/voice/202610/R20261012-101806.WAV.mp3
-hacker-notes-s26m06/voice/202610/R20261012-130219.WAV.mp3
-hacker-notes-s26m06/voice/202610/R20261012-150348.WAV.mp3
-hacker-notes-s26m06/voice/202610/R20261012-151146.WAV.mp3
-hacker-notes-s26m06/voice/202610/R20261012-151504.WAV.mp3
-hacker-notes-s26m06/voice/202610/R20261012-164533.WAV.mp3
-hacker-notes-s26m06/voice/202610/R20261012-164619.WAV.mp3
-hacker-notes-s26m06/voice/202610/R20261012-183722.WAV.mp3
-hacker-notes-s26m06/voice/202610/R20261012-183951.WAV.mp3
-hacker-notes-s26m06/voice/202610/R20261012-184125.WAV.mp3
-hacker-notes-s26m06/voice/202610/R20261012-184328.WAV.mp3
-hacker-notes-s26m06/voice/202610/R20261012-184352.WAV.mp3
-hacker-notes-s26m06/voice/202610/R20261012-190608.WAV.mp3
-hacker-notes-s26m06/voice/202610/R20261012-190704.WAV.mp3
-hacker-notes-s26m06/voice/202610/R20261012-191124.WAV.mp3
-hacker-notes-s26m06/voice/202610/R20261012-191307.WAV.mp3
-hacker-notes-s26m06/voice/202610/R20261012-192350.WAV.mp3
-hacker-notes-s26m06/voice/202610/R20261012-192516.WAV.mp3
-hacker-notes-s26m06/voice/202610/R20261012-192607.WAV.mp3
-hacker-notes-s26m06/voice/202610/R20261013-082751.WAV.mp3
-hacker-notes-s26m06/voice/202610/R20261013-083059.WAV.mp3
-hacker-notes-s26m06/voice/202610/R20261013-083121.WAV.mp3
-hacker-notes-s26m06/voice/202610/R20261013-083227.WAV.mp3
-hacker-notes-s26m06/voice/202610/R20261013-083317.WAV.mp3
-hacker-notes-s26m06/voice/202610/R20261013-083336.WAV.mp3
-hacker-notes-s26m06/voice/202610/R20261013-083448.WAV.mp3
-hacker-notes-s26m06/voice/202610/R20261013-083554.WAV.mp3
-hacker-notes-s26m06/voice/202610/R20261013-130517.WAV.mp3
+~/hacker-notes-s26m06/voice/202610/R20261012-094810.WAV.mp3
+~/hacker-notes-s26m06/voice/202610/R20261012-094916.WAV.mp3
+~/hacker-notes-s26m06/voice/202610/R20261012-094926.WAV.mp3
+~/hacker-notes-s26m06/voice/202610/R20261012-094957.WAV.mp3
+~/hacker-notes-s26m06/voice/202610/R20261012-095151.WAV.mp3
+~/hacker-notes-s26m06/voice/202610/R20261012-095813.WAV.mp3
+~/hacker-notes-s26m06/voice/202610/R20261012-100002.WAV.mp3
+~/hacker-notes-s26m06/voice/202610/R20261012-100251.WAV.mp3
+~/hacker-notes-s26m06/voice/202610/R20261012-101023.WAV.mp3
+~/hacker-notes-s26m06/voice/202610/R20261012-101531.WAV.mp3
+~/hacker-notes-s26m06/voice/202610/R20261012-101734.WAV.mp3
+~/hacker-notes-s26m06/voice/202610/R20261012-101806.WAV.mp3
+~/hacker-notes-s26m06/voice/202610/R20261012-130219.WAV.mp3
+~/hacker-notes-s26m06/voice/202610/R20261012-150348.WAV.mp3
+~/hacker-notes-s26m06/voice/202610/R20261012-151146.WAV.mp3
+~/hacker-notes-s26m06/voice/202610/R20261012-151504.WAV.mp3
+~/hacker-notes-s26m06/voice/202610/R20261012-164533.WAV.mp3
+~/hacker-notes-s26m06/voice/202610/R20261012-164619.WAV.mp3
+~/hacker-notes-s26m06/voice/202610/R20261012-183722.WAV.mp3
+~/hacker-notes-s26m06/voice/202610/R20261012-183951.WAV.mp3
+~/hacker-notes-s26m06/voice/202610/R20261012-184125.WAV.mp3
+~/hacker-notes-s26m06/voice/202610/R20261012-184328.WAV.mp3
+~/hacker-notes-s26m06/voice/202610/R20261012-184352.WAV.mp3
+~/hacker-notes-s26m06/voice/202610/R20261012-190608.WAV.mp3
+~/hacker-notes-s26m06/voice/202610/R20261012-190704.WAV.mp3
+~/hacker-notes-s26m06/voice/202610/R20261012-191124.WAV.mp3
+~/hacker-notes-s26m06/voice/202610/R20261012-191307.WAV.mp3
+~/hacker-notes-s26m06/voice/202610/R20261012-192350.WAV.mp3
+~/hacker-notes-s26m06/voice/202610/R20261012-192516.WAV.mp3
+~/hacker-notes-s26m06/voice/202610/R20261012-192607.WAV.mp3
+~/hacker-notes-s26m06/voice/202610/R20261013-082751.WAV.mp3
+~/hacker-notes-s26m06/voice/202610/R20261013-083059.WAV.mp3
+~/hacker-notes-s26m06/voice/202610/R20261013-083121.WAV.mp3
+~/hacker-notes-s26m06/voice/202610/R20261013-083227.WAV.mp3
+~/hacker-notes-s26m06/voice/202610/R20261013-083317.WAV.mp3
+~/hacker-notes-s26m06/voice/202610/R20261013-083336.WAV.mp3
+~/hacker-notes-s26m06/voice/202610/R20261013-083448.WAV.mp3
+~/hacker-notes-s26m06/voice/202610/R20261013-083554.WAV.mp3
+~/hacker-notes-s26m06/voice/202610/R20261013-130517.WAV.mp3
 
 
 HOCHRECHNUNG AUF 10'000 bis 100'000 Menschen welche nicht therapierbar sind, bzw hat die Schweizer Armee von Anfang an geplant alle diese Menschen zu ermorden
