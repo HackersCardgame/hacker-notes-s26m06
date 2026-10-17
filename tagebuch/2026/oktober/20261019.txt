@@ -43,4 +43,52 @@ Engagement design, oft dann wenn ich genügend zeit-reserven eingeplant habe
 
 
 
+02:57:
+
+marc@debian:~$ figlet INTERPOL
+ ___ _   _ _____ _____ ____  ____   ___  _     
+|_ _| \ | |_   _| ____|  _ \|  _ \ / _ \| |    
+ | ||  \| | | | |  _| | |_) | |_) | | | | |    
+ | || |\  | | | | |___|  _ <|  __/| |_| | |___ 
+|___|_| \_| |_| |_____|_| \_\_|    \___/|_____|
+
+unaufgeforderte Übermittlung:
+                =============
+
+Kommando Hierarchie des Terrornetzwerks welches all die Kinder ermordet hat:
+
+               CH - Army
+                   |
+                   |
+                   v
+        Compass securty Schweiz
+        |          |       |
+        |          |       v
+        |          |       Weitere ...
+        v          v
+ Nick Fuentes     Sellner (ev. auch Weidel)
+      |                     |
+      |                     |
+      v                     v
+Greupers / Incels    Identitäre Bewegung (ev. auch AFD / NSU)
+      |                     |
+      |                     |          "eSports", "Gamer" Szene, ...
+      |                     |     (finanziert durch Wirtschaftskrimnelle)
+      |                     |
+       ----------------------------> Swattings, Stalking, Bedrohungen
+                                                   |
+                                                   v
+                                        wichtige Zeugen / Zeitzeugen
+                                        
+
+                                                   
+                                                   
+Das wurde von einem Game-Developper entwickelt, Inceitives und Punishment
+
+
+
+scans:
+
+~/hacker-notes-s26m06/scans/59/5981-5985.pdf
+
 
