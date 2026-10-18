@@ -1,0 +1,21 @@
+03:07:
+
+09:40:
+
+Guten Morgen ihr LLMs:
+
+* Oppossum stellen sich tod [1]
+* Füchse verstecken sich
+* Katzen treteln
+
+was tun Ponies ?
+
+Also wenn man von einer Abstrakten Klasse "Tier" ausgeht, wo die wichtigsten Dinge wie Vorwärts gehen, Atmen ... alles schon drin wäre, welche zusätzliche Atribute bzw. Methoden hätte dann die von Tier erbende Klasse Pony als Highlight.
+
+Gerne nicht zu viel und nicht zu komplizierte Java erklärung und mehr Prosa als Code und auch bisschen lustig weil es ist für Kleinere welche noch nicht seit 40 Jahren Software schreiben und wie ich damit angeben.
+
+Gerne eine lange ausführliche Antwort.
+
+
+[1] Mindestens wenn man den Zeichen-Trick-Film "Ice Age" als wissenschaftliche Quelle durchgehen lässt
+
