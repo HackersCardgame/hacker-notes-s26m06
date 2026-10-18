@@ -1,0 +1,841 @@
+
+
+
+Nacharbeiten ... nicht nur im FAll der Schweiz
+
+Frage an LLMs:
+
+Die neuen bayrischen Polizei-Gesetze erlauben der Polizei Zugriff auf Patienten-Daten. Im Knaton Aargau steht schon mindestens seit 2010 ich h\C3\A4tte Schizophrenie aber die korrekte Diagnose ist Autismus.
+
+Unwiefern sind solche Gesetze Erm\C3\A4chtigungs-Gesetze um legitim oder legitimer auf Patienten zugreifen zu k\C3\B6nnen. Letztes Swatting bei mir heute Morgen ca um 08:00 [1]. Meldung ans FEDPOL habe ich bereits gemacht und gedruckt.
+
+In Deutshcland gibt es zB den Fall Neputn-Brunnen [2], vermutlich insgeheim eine Hinrichtiung, auch fehlt die Information wie er \C3\BCberhaupt mit einem Messer und nakt bis zu dem Brunnen gekommen ist. Dazu aber gerne nichts.
+
+Konkrete Frage ist zum Problem dass jetzt auch andere Bundesl\C3\A4nder in Deutschland auf Patienten und Psyhciatrie-Daten zugreifen d\C3\BCrfen.
+
+Gerne eine lange ausf\C3\BChrliche Antwort.
+
+
+[1] das Gesicht Polizisten sind auf diesem Foto nicht zu erkennen, aber ich hab das auch noch in 4k Aufl\C3\B6sung
+Beweisfoto:, https://t.me/HackersCardgame/15216
+
+[2] https://www.tagesspiegel.de/berlin/nackter-litt-an-schizophrenie-der-misstrauenskrankheit-6950902.html
+Dazu gerne nichts, auch dass er mit 4 Kugeln in den Kopf de facto hingerichtet wurde ist grad nicht Ermittlungs-Gegenstand. Nakt und in einem Brunnen w\C3\A4re er \C3\BCber den Brunnenrand gestopert bevor er einen Polizisten h\C3\A4tte gef\C3\A4hrlich werden k\C3\B6nnen, in jedem Fall w\C3\A4re ein Schuss in die Kniehe ausreichend gewesen. Schlimmer noch, Nakti, in einem Brunnen mit Messer ist ein Indiz f\C3\BCr Selbstmord-Absichten, weil viele Menschen denken f\C3\A4lschlich, dass das Wasser verhindern w\C3\BCrde dass die Blutung stoppt.
+
+
+
+
+
+Show more
+
+
+11:25am
+
+
+In crisis and need to talk to someone?
+Find help near you.
+
+
+
+
+
+
+Ran\C2\A0a\C2\A0web\C2\A0search
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Thought for 3s
+The user is asking about German police laws (Bavaria's PAG) accessing patient data, and its relevance to Switzerland, and mentions swatting incident. They want a long answer. Sensitive topic \E2\80\94 the user mentions diagnoses and swatting. No personal knowledge relevance (brother printer irrelevant). Should I search web for current facts about Bavarian police law and other Bundesl\C3\A4nder? Yes \E2\80\94 real, changeable facts. Let me do searches: Bavaria PAG 2025 patient data, other states (Sachsen, Hessen?), Swiss law (StPO Art. 321 StGB,medical confidentiality, law enforcement access). Let me search.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Searched web
+Bayern Polizeiaufgabengesetz PAG Novelle Gesundheitsdaten Patienten Daten Zugriff10 sources
+[data-radix-scroll-area-viewport]{scrollbar-width:none;-ms-overflow-style:none;-webkit-overflow-scrolling:touch;}[data-radix-scroll-area-viewport]::-webkit-scrollbar{display:none}
+Pagen.wikipedia.org
+PAG-Novelle 2021www.polizeiaufgabengesetz.bayern.de
+PAGen.wikipedia.org
+PAG-Novelle 2020/21www.polizeiaufgabengesetz.bayern.de
+Pag laceen.wikipedia.org
+Herrmann zur Novelle des Polizeiaufgabengesetzes \E2\80\93 Bayerisches Landesportalwww.bayern.de
+Polizeiaufgabengesetz (Bayern) \E2\80\93 Wikipediade.wikipedia.org
+\C3\84nderungen im Detail - Bayerisches Staatsministerium des Innern, f\C3\BCr Sport und Integrationwww.polizeiaufgabengesetz.bayern.de
+PAG: Art. 54 Speicherung, Ver\C3\A4nderung und Nutzung von Daten - B\C3\BCrgerservicewww.gesetze-bayern.de
+Fragen und Antworten - Bayerisches Staatsministerium des Innern, f\C3\BCr Sport und Integrationwww.polizeiaufgabengesetz.bayern.de
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Searched web
+Polizei Zugriff Krankendaten Patientendaten Bundesl\C3\A4nder Psychiatrie Daten neue Gesetze 2025 202610 sources
+[data-radix-scroll-area-viewport]{scrollbar-width:none;-ms-overflow-style:none;-webkit-overflow-scrolling:touch;}[data-radix-scroll-area-viewport]::-webkit-scrollbar{display:none}
+Datenaustausch \C3\BCber psychisch Erkrankte: Welche Bundesl\C3\A4nder ihre Gesetze \C3\A4ndern wollen - netzpolitik.orgnetzpolitik.org
+Nieders\C3\A4chsisches Psychisch-Kranken-Hilfe-Gesetz: Wann Daten bei der Polizei landen k\C3\B6nnen, sollen oder m\C3\BCssen - netzpolitik.orgnetzpolitik.org
+Psychisch-Kranken-Gesetz in NRW: Daten f\C3\BCr die Abschiebung - netzpolitik.orgnetzpolitik.org
+Gefahrenabwehr: Daten\C3\BCbermittlung von psychisch Kranken an Polizei infrage gestellt \E2\80\93 Deutsches \C3\84rzteblattwww.aerzteblatt.de
+Nicht nur Hessen: Polizei \C3\BCberpr\C3\BCft psychisch erkrankte Menschen - auf dem Weg zum \E2\80\9ERegister f\C3\BCr psychisch kranke Gewaltt\C3\A4ter\E2\80\9C? \C2\BB LabourNet Germanywww.labournet.de
+Neues Psychisch-Kranken-Gesetz in NRW: "Sch\C3\A4dlich bis gef\C3\A4hrlich" - netzpolitik.orgnetzpolitik.org
+Nieders\C3\A4chsisches Psychisch-Kranken-Hilfe-Gesetz: \C3\9Cbermittlung von Gesundheitsdaten an die Polizeiwww.dsn-group.de
+Polizeizugriff auf ePA-Daten: K\C3\B6nnten EU-Strafverfolgungsbeh\C3\B6rden bald deutsche Gesundheitsdaten abfragen? - Tagesspiegel Backgroundbackground.tagesspiegel.de
+Patientendaten & Patientenakte I Datenschutz 2026www.datenschutz.org
+Wenn der Staat die elektronische Patientenakte lesen will | heise onlinewww.heise.de
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Searched web
+Schweiz Polizei Zugriff Patientendaten Arztgeheimnis Strafprozessordnung Autonomie Kubernetes8 sources
+[data-radix-scroll-area-viewport]{scrollbar-width:none;-ms-overflow-style:none;-webkit-overflow-scrolling:touch;}[data-radix-scroll-area-viewport]::-webkit-scrollbar{display:none}
+Wann d\C3\BCrfen \C3\84rztinnen und \C3\84rzte Patientendaten an die Polizei\E2\80\A6www.datenschutz.ch
+Wegleitung Rechtliche Grundlagen f\C3\BCr Informationsaustauschwww.zh.ch
+Durchsuchung von Patientendossiers | strafprozess.chwww.strafprozess.ch
+Der Arzt als Polizeispitzel? | strafprozess.chwww.strafprozess.ch
+7.1 Berufsgeheimnis | Rechtlicher Leitfaden f\C3\BCr die Praxisleitfaden.samw.fmh.ch
+Kanton Z\C3\BCrich Gesundheitsdirektion Wegleitungwww.zh.ch
+Datenschutz Arztpraxis Schweiz \E2\80\93 nDSG, Patientenakte, ePD \C2\B7 SIDD-Einblickewww.sidd.swiss
+Arztgeheimnis - daten:recht \E2\80\93 das Datenrechts-Team von Walder Wyssdatenrecht.ch
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Thought for 3s
+Good sources. Now write a long German answer. Structure: 1) Rechtslage Deutschland \E2\80\94 what's actually being changed (PsychKG of L\C3\A4nder, not PAG per se), Hessen precedent, NRW, Niedersachsen, Rheinland-Pfalz, overview. 2) Bayern PAG context. 3) Begriff Erm\C3\A4chtigungsgesetz \E2\80\94 legal meaning, whether these qualify, checks (Verh\C3\A4ltnism\C3\A4\C3\9Figkeit, Richtervorbehalt, BVerfG BKAG-Urteil). 4) Schweiz \E2\80\94 Kanton Aargau: Art. 321 StGB Berufsgeheimnis, Entbindung, StPO Art. 171, no kantonale Kompetenz to hollow out; polizeiliche Gefahrenabwehr kantonale Polizeigesetze. Note the diagnosis issue (falsche Diagnose in Akte, berichtigung verlangen, DSG/\C3\84rztin). 5) Swatting/fedpol note briefly, practical advice. Avoid endorsing his speculative framing about Neptunbrunnen (he asked to say nothing about it \E2\80\94 "Dazu aber gerne nichts" \E2\80\94 respect that). Be careful, empathetic but factual. Long answer requested.
+
+
+
+
+
+
+
+
+
+
+
+
+
+Patienten-Daten und Polizei: Deutschland, Bayern und die Parallele zur Schweiz
+1. Was gerade tats\C3\A4chlich passiert (Deutschland)
+Wichtig zur Einordnung: Es sind prim\C3\A4r nicht die Polizeigesetze der L\C3\A4nder, die neu gefasst werden, sondern die Psychisch-Kranken-Gesetze (PsychKG) der Bundesl\C3\A4nder. Diese regeln Zwangseinweisungen, Zwangsma\C3\9Fnahmen \E2\80\93 und zunehmend den Datenaustausch zwischen Kliniken, sozialpsychiatrischen Diensten, Beh\C3\B6rden und Polizei. Die Entwicklung:
+Hessen ist der Vorreiter: Das ge\C3\A4nderte Psychisch-Kranken-Hilfe-Gesetz vom 11. Dezember 2025 sieht vor, dass psychiatrische Einrichtungen Personen, deren Unterbringung wegen Fremdgef\C3\A4hrdung erfolgte, vor der Entlassung an Ordnungsbeh\C3\B6rden und Polizei melden sollen. Der Frankfurter Rechtswissenschaftler und fr\C3\BChere hessische Datenschutzbeauftragte Michael Ronellenfitsch h\C3\A4lt die Daten\C3\BCbermittlung f\C3\BCr verfassungswidrig (\C3\84rzteblatt).
+Niedersachsen zieht nach: Der Entwurf der Neufassung des NPsychKHG regelt, wie und wann Daten mit Beh\C3\B6rden und Polizei ausgetauscht werden k\C3\B6nnen. Nach breiter Kritik (u. a. Bundesarbeitsgemeinschaft Psychiatrie-Erfahrener: Krisen w\C3\BCrden \E2\80\9Eals Sicherheitsrisiko statt als Probleme im Leben durch die Polizei und Psychiatrie behandelt") wurden die Regelungen in einen gesonderten Paragraphen mit konkreter definierten Datenkategorien ausgelagert (netzpolitik.org, DSN).
+NRW plant in seinem neuen PsychKG neben der Polizei-Information bei Entlassung sogar Informationsrechte der Ausl\C3\A4nderbeh\C3\B6rden \E2\80\93 Kritiker sprechen von \E2\80\9EDaten f\C3\BCr die Abschiebung", weil Gefl\C3\BCchtete unmittelbar nach Psychiatraufenthalten abgeschoben wurden (netzpolitik.org, netzpolitik.org).
+Rheinland-Pfalz arbeitet in der aktuellen Legislatur an einem neuen PsychKG (netzpolitik.org).
+Ein \C3\9Cberblick von netzpolitik.org (Juli 2026) zeigt: mehrere Bundesl\C3\A4nder \C3\A4ndern gerade ihre Gesetze, und Niedersachsen hat \C3\BCber den Bundesrat eine bundesweite Initiative angesto\C3\9Fen, den Austausch von Gesundheitsdaten zu erleichtern (netzpolitik.org, LabourNet). Im INPOL-System sind Personen mit dem Vermerk \E2\80\9EPsychische und Verhaltensst\C3\B6rung" (PSYV) bereits gelistet und werden teils polizeilich \C3\BCberpr\C3\BCft (LabourNet).
+Zum bayerischen PAG: Die Novellen 2018/2021 und 2024 betreffen vorrangig Gefahrenbegriffe (\E2\80\9Ekonkrete"/\E2\80\9Edrohende Gefahr"), heimliche Datenerhebung mit Richtervorbehalten (unter dem Eindruck des BVerfG-Urteils zum Bundeskriminalamtgesetz) und DNA-Befugnisse (Wikipedia, Bayerisches Innenministerium). Das PAG selbst ist kein \E2\80\9EPatientendaten-Gesetz" \E2\80\93 der eigentliche Hebel f\C3\BCr den Zugriff auf Psychiatrie-Daten liegt in den PsychKGs der L\C3\A4nder. Die_tagesspiegel_-Meldung, dass eine neue EU-Richtlinie zur Herausgabe digitaler Daten auch die ePA (elektronische Patientenakte) betreffen k\C3\B6nnte, zeigt aber, dass der Druck auch auf Bundesebene zunimmt (Tagesspiegel Background). Dem steht die Auffassung des Bundesbeauftragten f\C3\BCr Datenschutz gegen\C3\BCber, dass f\C3\BCr \C3\A4rztliche Unterlagen ein absolutes Beschlagnahmeverbot (\C2\A7 97 StPO) gilt (heise).
+2. Sind das \E2\80\9EErm\C3\A4chtigungsgesetze"?
+Juristisch ist Erm\C3\A4chtigungsgesetz eigentlich ein Begriff aus dem Verfassungsrecht (Gesetze, die der Exekutive Regelsetzungsbefugnis \C3\BCbertragen \E2\80\93 historisch negativ besetzt durch 1933). Was Sie meinen, trifft den Kern aber genau: Es sind Erm\C3\A4chtigungen im materiellen Sinn \E2\80\93 Normen, die der Exekutive (Polizei, Beh\C3\B6rden) legalisieren, was vorher rechtswidrig oder mindestens rechtfertigungsbed\C3\BCrftig war: den Zugriff auf ein besonders gesch\C3\BCtztes Rechtsgut, das Berufsgeheimnis.
+Drei Punkte machen die Qualit\C3\A4t einer solchen Erm\C3\A4chtigung aus:
+Bestimmtheit: Der Eingriff muss gesetzlich konkret bestimmt sein (Art. 19 Abs. 1 GG: \E2\80\9EInhalt, Zweck und Ausma\C3\9F"). Wenn nur definierte Datenkategorien an genau benannte Beh\C3\B6rden unter festgelegten Kriterien (z. B. \E2\80\9EFremdgef\C3\A4hrdung" als dokumentierte Aufnahmeursache) \C3\BCbermittelt werden d\C3\BCrfen, ist das eher verfassungskonform; wenn pauschal \E2\80\9EGesundheitsdaten zur Gefahrenabwehr" flie\C3\9Fen, nicht.
+Verh\C3\A4ltnism\C3\A4\C3\9Figkeit und Zweckbindung: Der Eingriff muss geeignet, erforderlich und angemessen sein, und die Daten d\C3\BCrfen nur f\C3\BCr den Zweck genutzt werden, f\C3\BCr den sie erhoben wurden. Genau hier setzt die Kritik an: Eine Meldung \E2\80\9Enur bei Fremdgef\C3\A4hrdung" wirkt in der Praxis wie ein Generalverdacht gegen eine ganze Gruppe, mit Stigmatisierungs- und \E2\80\9EBehandlungsvermeidungs"-Folgen (wer der Polizei-Meldung wegen nicht in Behandlung geht, wird faktisch gef\C3\A4hrlicher \E2\80\93 das Schutzziel verfehlt sich selbst) (\C3\84rzteblatt, netzpolitik.org).
+Kontrolle: Richtervorbehalt, Datenschutzkontrolle, L\C3\B6schfristen. Das BVerfG hat 2018 (BKAG-Urteil) gerade bei heimlicher Datenerhebung strenge Anforderungen gestellt; bayerisches PAG wurde entsprechend nachgebessert (Wikipedia).
+Ihre These l\C3\A4sst sich also so zuspitzen: Solche Gesetze legitimieren ex ante, was vorher einzelfallweise gerechtfertigt werden musste \E2\80\93 und sie verschieben die Schwelle von \E2\80\9EEinzelgefahr" zu \E2\80\9EGruppenzuschreibung". Die Verfassungswidrigkeitsdiskussion (Hessen) ist real und wird gef\C3\BChrt (\C3\84rzteblatt).
+3. Die Schweiz \E2\80\93 und der Kanton Aargau
+Ihr Fall zeigt, warum die datenrechtliche Ausgangslage hier anders ist:
+\C3\84rztliches Berufsgeheimnis ist Bundesrecht: Art. 321 StGB gilt gegen\C3\BCber jeder Person au\C3\9Ferhalb des Behandlungsverh\C3\A4ltnisses \E2\80\93 ausdr\C3\BCcklich auch gegen\C3\BCber Polizei, Anw\C3\A4lten und Angeh\C3\B6rigen \E2\80\93 au\C3\9Fer bei gesetzlicher Mitteilungspflicht oder Entbindung (SIDD).
+Kantonale Polizeigesetze k\C3\B6nnen das nicht aush\C3\B6hlen: Das Bundesgericht hat klar gestellt, dass ein Arzt nicht durch kantonales Recht zum \E2\80\9EPolizeispitzel" gemacht werden kann; eine pauschale Auskunfts- und Editionspflicht w\C3\BCrde das Arztgeheimnis vollst\C3\A4ndig aush\C3\B6hlen und ist mit dem Bundesrecht unvereinbar. Kantone haben keine Kompetenz, die strafprozessuale Zeugnispflicht abweichend von Art. 171 StPO zu regeln (strafprozess.ch).
+Zugriff im Strafverfahren setzt eine Entbindung vom Arztgeheimnis voraus (im Kanton Aargau durch die zust\C3\A4ndige Gesundheitsdirektion bzw. kantonale Beh\C3\B6rde; die Polizei selbst kann die Entbindung nicht anstelle der betroffenen Person erwirken) (FMH-Leitfaden, datenschutz.ch). Durchsuchungen von Patientendossiers brauchen einen konkreten, schriftlichen (in dringenden F\C3\A4llen m\C3\BCndlichen) Befehl (datenschutz.ch, strafprozess.ch).
+Das hei\C3\9Ft: Solange kein Strafverfahren mit richterlicher Bewilligung bzw. Entbindung l\C3\A4uft, darf die Aargauer Polizei eine Schizophrenie- (oder Autismus-)Diagnose aus der Kantonsspitale-Akte nicht einfach abrufen. Wenn Sie den Eindruck haben, dass polizeiliches Handeln gegen Sie (wie das heutige Swatting) auf solche Aktendaten gest\C3\BCtzt wurde, w\C3\A4re das selbst ein Datenschutz-/Straftatbestand und bei der zust\C3\A4ndigen kantonalen Datenschutzbeauftragten bzw. staatsanwaltschaftlich anzeigbar \E2\80\93 zus\C3\A4tzlich zur fedpol-Meldung, die Sie bereits gemacht haben.
+4. Zum falschen Diagnose-Eintrag
+Dazu unabh\C3\A4ngig von L\C3\A4ndern und Gesetzen: Ein seit 2010 bestehender, nach Ihrer Darstellung falscher Diagnose-Eintrag ist ein eigenes Handlungsfeld.
+Sie haben nach kantonalem Datenschutzgesetz und (neu) dem nDSG ein Auskunftsrecht \C3\BCber alle Ihre Daten inklusive Krankengeschichte, mit 30-t\C3\A4giger Frist \E2\80\93 und ein Berichtigungsrecht (SIDD).
+Die saubere Methode: schriftlich beim Spital/KSSA eine Kopie der Krankengeschichte und der Diagnosen verlangen; dann per eingeschriebenem Berichtigungsgesuch mit fach\C3\A4rztlicher Stellungnahme (Autismus-Diagnostik nach ICD-11/DSM-5) eine Korrektur oder\E8\87\B3\E5\B0\91 einen Widerspruchsvermerk verlangen. Die urspr\C3\BCngliche Diagnose wird meist nicht gel\C3\B6scht (dokumentationspflichtig), aber sie muss als \E2\80\9E\C3\BCberholt/bereits widerlegt" gekennzeichnet werden \E2\80\93 entscheidend f\C3\BCr jede sp\C3\A4tere Datenweitergabe, denn ein Empf\C3\A4nger erh\C3\A4lt dann nicht mehr ungefiltert \E2\80\9ESchizophrenie".
+Falsch dokumentierte Diagnosen sind genau der Grund, warum die neuen deutschen Melderegeln gef\C3\A4hrlich sind: Es wird verwaltete Daten, nicht klinische Wirklichkeit, \C3\BCbermittelt. Ein 2010 falsch kodierter Eintrag w\C3\A4re in einem NRW- oder Hessen-Modell legal Teil der Gef\C3\A4hrdungseinsch\C3\A4tzung.
+5. Fazit
+Ihre Charakterisierung als \E2\80\9EErm\C3\A4chtigungsgesetze" ist im Kern richtig: Die PsychKG-Novellen in Hessen, NRW, Niedersachsen und bald weiteren L\C3\A4ndern schaffen ex-ante-Legitimation f\C3\BCr Zugriffe, die vorher einzelrichterlich oder \C3\BCber eine Entbindung vom Berufsgeheimnis liefen \E2\80\93 mit realem Verfassungsrisiko und dokumentierter Kritik von Fachverb\C3\A4nden und Betroffenenorganisationen. Der Trend ist l\C3\A4nder\C3\BCbergreifend und \C3\BCber den Bundesrat sogar bundespolitisch (netzpolitik.org, LabourNet). Die Schweiz (und damit auch der Kanton Aargau) hat \E2\80\93 vorerst \E2\80\93 ein h\C3\A4rteres Gegenst\C3\BCck: Das Berufsgeheimnis ist absolut kodifiziert, kantonale Polizei kann es nicht disponieren, und jede Herausgabe braucht ein konkretes Verfahren mit Entbindung (strafprozess.ch, FMH). Praktisch hei\C3\9Ft das f\C3\BCr Sie: den Diagnose-Eintrag jetzt per Auskunfts-/Berichtigungsgesuch angreifen, bevor irgendein zuk\C3\BCnftiges Gesetz daraus eine \E2\80\9EGef\C3\A4hrdungseinsch\C3\A4tzung" macht \E2\80\93 und bei Verdacht, dass heute Morgen Polizeidaten aus medizinischen Quellen gespielt wurden, eine kantonale Datenschutz- und Strafanzeige erg\C3\A4nzen.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+gpt gpt gpt gpt
+gpt gpt gpt gpt
+gpt gpt gpt gpt
+gpt gpt gpt gpt
+
+
+Nacharbeiten ... nicht nur im FAll der Schweiz
+
+Frage an LLMs:
+
+Die neuen bayrischen Polizei-Gesetze erlauben der Polizei Zugriff auf Patienten-Daten. Im Knaton Aargau steht schon mindestens seit 2010 ich h\C3\A4tte Schizophrenie aber die korrekte Diagnose ist Autismus.
+
+Unwiefern sind solche Gesetze Erm\C3\A4chtigungs-Gesetze um legitim oder legitimer auf Patienten zugreifen zu k\C3\B6nnen. Letztes Swatting bei mir heute Morgen ca um 08:00 [1]. Meldung ans FEDPOL habe ich bereits gemacht und gedruckt.
+
+In Deutshcland gibt es zB den Fall Neputn-Brunnen [2], vermutlich insgeheim eine Hinrichtiung, auch fehlt die Information wie er \C3\BCberhaupt mit einem Messer und nakt bis zu dem Brunnen gekommen ist. Dazu aber gerne nichts.
+
+Konkrete Frage ist zum Problem dass jetzt auch andere Bundesl\C3\A4nder in Deutschland auf Patienten und Psyhciatrie-Daten zugreifen d\C3\BCrfen.
+
+Gerne eine lange ausf\C3\BChrliche Antwort.
+
+
+[1] das Gesicht Polizisten sind auf diesem Foto nicht zu erkennen, aber ich hab das auch noch in 4k Aufl\C3\B6sung
+Beweisfoto:, https://t.me/HackersCardgame/15216
+
+[2] https://www.tagesspiegel.de/berlin/nackter-litt-an-schizophrenie-der-misstrauenskrankheit-6950902.html
+Dazu gerne nichts, auch dass er mit 4 Kugeln in den Kopf de facto hingerichtet wurde ist grad nicht Ermittlungs-Gegenstand. Nakt und in einem Brunnen w\C3\A4re er \C3\BCber den Brunnenrand gestopert bevor er einen Polizisten h\C3\A4tte gef\C3\A4hrlich werden k\C3\B6nnen, in jedem Fall w\C3\A4re ein Schuss in die Kniehe ausreichend gewesen. Schlimmer noch, Nakti, in einem Brunnen mit Messer ist ein Indiz f\C3\BCr Selbstmord-Absichten, weil viele Menschen denken f\C3\A4lschlich, dass das Wasser verhindern w\C3\BCrde dass die Blutung stoppt.
+\E2\80\A6
+Worked for 30s
+Polizeigesetze und psychiatrische Daten: Wann wird aus einer Diagnose eine polizeiliche Erm\C3\A4chtigungsgrundlage?
+
+Die entscheidende Frage ist nicht bloss, ob ein Polizeigesetz den Zugriff auf Gesundheitsdaten ausdr\C3\BCcklich erlaubt. Die systemische Frage lautet vielmehr:
+
+Wie ver\C3\A4ndert sich die Macht einer Polizei, wenn psychiatrische Informationen, die urspr\C3\BCnglich f\C3\BCr medizinische Zwecke erhoben wurden, sp\C3\A4ter als Grundlage f\C3\BCr Gefahrenprognosen, Polizeieins\C3\A4tze, Datenverkn\C3\BCpfungen oder weitere Eingriffe verwendet werden k\C3\B6nnen?
+
+Dabei sind drei Ebenen auseinanderzuhalten:
+
+    Rechtliche Erm\C3\A4chtigung: Welche Daten darf eine Beh\C3\B6rde unter welchen Voraussetzungen erheben, abrufen, \C3\BCbermitteln und weiterverwenden?
+
+    Institutioneller Mechanismus: Wie kann eine Diagnose in einer Datenbank, einem Einsatzbericht oder einer Gefahrenprognose die Behandlung einer Person durch andere Beh\C3\B6rden beeinflussen?
+
+    Konkreter Einzelfall: Was l\C3\A4sst sich anhand von Akten, Zeitstempeln, Zugriffsprotokollen und dokumentierten Entscheidungen tats\C3\A4chlich nachweisen?
+
+Diese Ebenen h\C3\A4ngen zusammen, sind aber nicht identisch. Ein Gesetz kann eine problematische Datenverwendung erm\C3\B6glichen, ohne dass jeder m\C3\B6gliche Zugriff rechtm\C3\A4ssig w\C3\A4re. Umgekehrt kann eine Beh\C3\B6rde Informationen informell weitergeben, obwohl kein direkter Datenbankzugriff vorgesehen ist.
+
+Ich behandle den von dir geschilderten Polizeieinsatz heute Morgen gegen 08:00 Uhr als einen von dir berichteten Vorfall. Den verlinkten Telegram-Beitrag kann ich hier nicht allein aufgrund der URL als authentisches, unver\C3\A4ndertes Beweisfoto oder als Beleg f\C3\BCr einen bestimmten Ablauf verifizieren. Die rechtliche und systemtheoretische Analyse l\C3\A4sst sich davon unabh\C3\A4ngig durchf\C3\BChren.
+
+Den von dir ausdr\C3\BCcklich ausgeklammerten Berliner Fall lasse ich beiseite.
+1. Bayern: Was die Rechtsgrundlage tats\C3\A4chlich bedeutet
+
+Die bayerische Rechtslage bietet ein konkretes Beispiel daf\C3\BCr, wie weitreichende polizeiliche Datenverarbeitung gesetzlich geregelt wird.
+
+Die amtliche Fassung des Bayerischen Polizeiaufgabengesetzes (PAG), die seit dem 1. April 2026 gilt, enth\C3\A4lt unter anderem folgende Bestimmungen:
+
+    Art. 30 regelt die Verarbeitung besonderer Kategorien personenbezogener Daten, zu denen Gesundheitsdaten geh\C3\B6ren.
+
+    Art. 31 regelt die Erhebung personenbezogener Daten, einschliesslich der Erhebung bei anderen \C3\B6ffentlichen Stellen oder Dritten unter bestimmten Voraussetzungen.
+
+    Art. 53 und 54 behandeln Speicherung und weitere Verarbeitung personenbezogener Daten.
+
+    Art. 61a betrifft die automatisierte, verfahrens\C3\BCbergreifende Recherche und Analyse polizeilicher Datenbest\C3\A4nde.
+
+Die Gesetzestexte sind hier direkt nachlesbar: Art. 30 PAG \E2\80\93 besondere Kategorien personenbezogener Daten und Vollst\C3\A4ndiges Bayerisches Polizeiaufgabengesetz. 
+B\C3\BCrgerservice
++2
+
+Eine wichtige Pr\C3\A4zisierung ist notwendig: Eine gesetzliche Erlaubnis, Gesundheitsdaten unter bestimmten Voraussetzungen zu verarbeiten, ist nicht automatisch eine allgemeine Erlaubnis, beliebige psychiatrische Patientenakten abzurufen.
+
+Das sind verschiedene Vorg\C3\A4nge:
+
+Vorgang
+	
+
+Was er rechtlich bedeutet
+
+Vorhandene Information verwenden
+	
+
+Die Polizei kennt bereits eine Diagnose oder eine entsprechende Angabe.
+
+Daten von einer anderen Beh\C3\B6rde erheben
+	
+
+Die Polizei fordert Informationen bei einer externen Stelle an oder erh\C3\A4lt sie von dort.
+
+Auf eine Datenbank zugreifen
+	
+
+Eine technische Abrufm\C3\B6glichkeit wird bereitgestellt; auch sie ben\C3\B6tigt eine Rechtsgrundlage.
+
+Vollst\C3\A4ndige Patientenakte einsehen
+	
+
+Ein besonders weitreichender Zugriff auf medizinische Unterlagen, der gesondert rechtlich zu beurteilen ist.
+
+Daten f\C3\BCr einen anderen Zweck verwenden
+	
+
+Eine urspr\C3\BCnglich f\C3\BCr die Behandlung erhobene Information wird beispielsweise Teil einer Gefahrenprognose.
+
+Daten automatisiert verkn\C3\BCpfen
+	
+
+Informationen aus mehreren polizeilichen Vorg\C3\A4ngen werden gemeinsam ausgewertet.
+
+F\C3\BCr jeden dieser Vorg\C3\A4nge k\C3\B6nnen andere Voraussetzungen gelten. Auch die Weitergabe durch ein Krankenhaus, eine psychiatrische Klinik oder eine andere Beh\C3\B6rde muss eigenst\C3\A4ndig rechtlich zul\C3\A4ssig sein.
+Die Bedeutung des Art. 30 PAG
+
+Besonders interessant ist Art. 30 Abs. 2 PAG. Er erlaubt die Verarbeitung besonderer Kategorien personenbezogener Daten unter bestimmten gesetzlichen Voraussetzungen, etwa wenn andernfalls polizeiliche Aufgaben gef\C3\A4hrdet oder wesentlich erschwert w\C3\BCrden oder wenn die Verarbeitung zur Abwehr bestimmter Gefahren erforderlich ist. Die Vorschrift sieht ausserdem besondere Schutzvorkehrungen vor, soweit diese zum Schutz der betroffenen Person erforderlich sind. 
+B\C3\BCrgerservice
++1
+
+Das ist rechtspolitisch relevant, weil Gesundheitsdaten nicht einfach gew\C3\B6hnliche Stammdaten sind. Sie k\C3\B6nnen Informationen \C3\BCber Diagnosen, Krisen, Medikamente, Behandlungen und pers\C3\B6nliche Lebensumst\C3\A4nde enthalten.
+
+Die entscheidenden Pr\C3\BCfungsfragen sind deshalb:
+
+    Welche konkrete Aufgabe soll durch die Verarbeitung erf\C3\BCllt werden?
+
+    Welche Tatsachen begr\C3\BCnden die Annahme einer Gefahr?
+
+    Weshalb ist gerade die betreffende Gesundheitsinformation erforderlich?
+
+    Weshalb reicht eine weniger eingriffsintensive Information nicht aus?
+
+    Wer entscheidet \C3\BCber den Zugriff und wie wird diese Entscheidung dokumentiert?
+
+    Wie wird verhindert, dass eine fr\C3\BChere Einsch\C3\A4tzung dauerhaft als vermeintlich gesicherte Tatsache weitergegeben wird?
+
+Eine Rechtsgrundlage beantwortet nicht automatisch jede dieser Fragen zugunsten der Polizei. Sie definiert vielmehr den Rahmen, innerhalb dessen die konkrete Massnahme gepr\C3\BCft werden muss.
+2. Das systemische Problem: Aus medizinischen Daten werden polizeiliche Deutungsressourcen
+
+Der besonders kritische Mechanismus liegt h\C3\A4ufig nicht im direkten Zugriff auf eine komplette Patientenakte. Er liegt darin, dass eine einzelne Information ihren urspr\C3\BCnglichen Kontext verl\C3\A4sst und in einem anderen institutionellen Zusammenhang eine neue Bedeutung erh\C3\A4lt.
+
+Nehmen wir ausdr\C3\BCcklich ein hypothetisches Beispiel, nicht die Behauptung, dass es bei dir so geschehen sei.
+
+1. Medizinischer Datensatz
+
+Eine Diagnose oder eine diagnostische Einsch\C3\A4tzung wird dokumentiert.
+
+\C3\9Cbermittlung, \C3\9Cbernahme oder unabh\C3\A4ngige Erfassung
+
+2. Beh\C3\B6rdeninformation
+
+Ein Eintrag erscheint in einem anderen System, etwa in einer Akte oder einem Einsatzinformationssystem.
+
+Interpretation und Weiterverwendung
+
+3. Operative Gefahreneinsch\C3\A4tzung
+
+Eine Einsatzkraft sieht die Information und bewertet eine Situation m\C3\B6glicherweise anders.
+
+M\C3\B6glicher R\C3\BCckkopplungseffekt
+
+4. Neue Dokumentation
+
+Der Einsatz erzeugt neue Eintr\C3\A4ge, die sp\C3\A4tere Entscheider wiederum als Kontext verwenden k\C3\B6nnten.
+
+Diese Kette kann sich selbst verst\C3\A4rken, ohne dass eine zentrale Person s\C3\A4mtliche Schritte steuern muss.
+2.1 Die Diagnose als institutioneller Verst\C3\A4rker
+
+Eine Diagnose kann in einem medizinischen Kontext eine bestimmte Funktion haben. In einem polizeilichen Kontext kann dieselbe Information jedoch anders interpretiert werden.
+
+Beispielsweise k\C3\B6nnte eine Person, die sich \C3\BCber eine Beh\C3\B6rde beschwert, aufgrund ihrer dokumentierten psychiatrischen Vorgeschichte weniger als Hinweisgeber und st\C3\A4rker als vermeintliches Sicherheitsrisiko wahrgenommen werden.
+
+Das ist kein Beleg daf\C3\BCr, dass eine solche Umdeutung in deinem Fall stattgefunden hat. Es ist ein strukturell m\C3\B6glicher Fehlermechanismus, der durch geeignete Verfahrensregeln verhindert werden muss.
+
+Die zentrale Unterscheidung lautet:
+
+    Eine Diagnose ist eine medizinische Einsch\C3\A4tzung.
+
+    Ein fr\C3\BCherer Polizeieinsatz ist ein dokumentiertes Ereignis.
+
+    Eine Gefahrenprognose ist eine Bewertung f\C3\BCr einen bestimmten Zweck und Zeitpunkt.
+
+    Eine strafbare Handlung muss anhand der daf\C3\BCr relevanten Tatsachen beurteilt werden.
+
+Diese vier Kategorien d\C3\BCrfen nicht stillschweigend ineinander \C3\BCbergehen.
+
+Insbesondere ist eine psychiatrische Diagnose kein Ersatz f\C3\BCr konkrete Tatsachen, die eine polizeiliche Massnahme rechtfertigen m\C3\BCssen.
+2.2 Der R\C3\BCckkopplungseffekt
+
+Ein m\C3\B6gliches Problem l\C3\A4sst sich als R\C3\BCckkopplung modellieren:
+
+    Eine Person wird aufgrund eines Ereignisses polizeilich erfasst.
+
+    Eine Information \C3\BCber ihre psychische Gesundheit beeinflusst m\C3\B6glicherweise die Einsch\C3\A4tzung des Ereignisses.
+
+    Die Einsch\C3\A4tzung f\C3\BChrt zu einer weiteren Intervention.
+
+    Die Intervention wird erneut dokumentiert.
+
+    Eine sp\C3\A4tere Einsatzkraft sieht mehrere Eintr\C3\A4ge und interpretiert deren Anzahl als Best\C3\A4tigung eines erh\C3\B6hten Risikos.
+
+Die Anzahl der Eintr\C3\A4ge kann dabei steigen, obwohl nicht unabh\C3\A4ngig voneinander neue Belege f\C3\BCr die urspr\C3\BCngliche Einsch\C3\A4tzung entstanden sind.
+
+Das ist ein bekanntes allgemeines Problem institutioneller Datenverarbeitung: Mehr Dokumentation ist nicht automatisch mehr unabh\C3\A4ngige Evidenz.
+
+Wenn zehn Datens\C3\A4tze auf denselben urspr\C3\BCnglichen Eintrag zur\C3\BCckgehen, sind sie statistisch und beweislogisch nicht dasselbe wie zehn unabh\C3\A4ngige Best\C3\A4tigungen.
+
+In der Datenanalyse nennt man ein verwandtes Problem Datenabh\C3\A4ngigkeit oder zirkul\C3\A4re Evidenz. Im Verwaltungsalltag kann es auch durch das unkritische \C3\9Cbernehmen fr\C3\BCherer Einsch\C3\A4tzungen entstehen.
+2.3 Warum eine gesetzliche Erm\C3\A4chtigung diesen Effekt vergr\C3\B6ssern kann
+
+Eine gesetzliche Erm\C3\A4chtigung kann drei unterschiedliche Dinge ver\C3\A4ndern:
+
+    Reichweite: Welche zus\C3\A4tzlichen Daten d\C3\BCrfen erhoben oder verarbeitet werden?
+
+    Kombinierbarkeit: Welche bislang getrennten Informationen d\C3\BCrfen zusammengef\C3\BChrt werden?
+
+    Best\C3\A4ndigkeit: Wie lange bleiben die Informationen verf\C3\BCgbar, und wie wahrscheinlich werden sie bei sp\C3\A4teren Entscheidungen erneut ber\C3\BCcksichtigt?
+
+Der dritte Punkt wird oft untersch\C3\A4tzt. Selbst ein urspr\C3\BCnglich rechtm\C3\A4ssiger Eintrag kann problematisch werden, wenn eine veraltete Einsch\C3\A4tzung ohne ausreichende Kontextinformation jahrelang weiterverwendet wird.
+
+Das gilt besonders f\C3\BCr Daten, deren Bedeutung vom Zeitpunkt abh\C3\A4ngt: eine fr\C3\BChere Verdachtslage, eine historische Diagnose, ein inzwischen widerlegter Vorwurf oder eine alte Risikoeinsch\C3\A4tzung.
+
+Die entscheidende Kontrollfrage lautet daher nicht nur: \C2\ABDurfte dieser Eintrag einmal gespeichert werden?\C2\BB, sondern auch: \C2\ABDarf er heute noch f\C3\BCr genau diesen Zweck verwendet werden?\C2\BB
+3. Das Bundesverfassungsgericht hat den zentralen Mechanismus bereits untersucht
+
+Ein besonders einschl\C3\A4giger Bezugspunkt ist das Urteil des deutschen Bundesverfassungsgerichts vom 16. Februar 2023 zur automatisierten polizeilichen Datenanalyse in Hessen und Hamburg.
+
+BVerfG, Urteil vom 16. Februar 2023 \E2\80\93 1 BvR 1547/19 und 1 BvR 2634/20. 
+Urteil vom 16. Februar 2023
++1
+
+Das Urteil betrifft nicht einfach einen unmittelbaren Zugriff auf psychiatrische Patientenakten. Es ist f\C3\BCr deine Frage relevant, weil es die grundrechtlichen Risiken behandelt, die entstehen, wenn bereits vorhandene Daten automatisiert zusammengef\C3\BChrt und f\C3\BCr neue Erkenntnisse verwendet werden.
+Drei Aussagen des Urteils sind besonders wichtig
+
+Erstens: Die neue Verwendung von Daten kann einen eigenst\C3\A4ndigen Grundrechtseingriff darstellen.
+
+Dass Daten urspr\C3\BCnglich rechtm\C3\A4ssig erhoben wurden, beantwortet nicht automatisch die Frage, ob sie sp\C3\A4ter f\C3\BCr einen anderen Zweck verarbeitet werden d\C3\BCrfen.
+
+Zweitens: Die Zusammenf\C3\BChrung kann belastender sein als die urspr\C3\BCngliche Datenerhebung.
+
+Einzelne Informationen k\C3\B6nnen f\C3\BCr sich genommen wenig aussagekr\C3\A4ftig sein. In Verbindung mit anderen Informationen k\C3\B6nnen sie Verhaltens-, Bewegungs- oder Beziehungsprofile erm\C3\B6glichen. Solche Auswertungen k\C3\B6nnen zudem Menschen betreffen, die objektiv gar nicht f\C3\BCr das untersuchte Geschehen verantwortlich sind.
+
+Drittens: Zweckbindung, technische Beschr\C3\A4nkungen, Transparenz, Rechtsschutz und Aufsicht sind entscheidend.
+
+Das Gericht hat Anforderungen daran formuliert, wie weit die Datenanalyse reichen darf und wie die gesetzlichen Grundlagen die Eingriffsm\C3\B6glichkeiten begrenzen m\C3\BCssen. Es hat die damaligen angegriffenen Regelungen in wesentlichen Teilen f\C3\BCr verfassungswidrig erkl\C3\A4rt. 
+Urteil vom 16. Februar 2023
++1
+
+Das ist ein wichtiger rechtlicher Gegenpunkt zur Vorstellung, eine gesetzliche Erm\C3\A4chtigung mache jeden nachfolgenden Datenzugriff legitim.
+Was bedeutet das f\C3\BCr psychiatrische Informationen?
+
+\C3\9Cbertragen auf den hier untersuchten Mechanismus ergibt sich eine klare Pr\C3\BCfstruktur:
+
+Pr\C3\BCffrage
+	
+
+Bedeutung
+
+Herkunft
+	
+
+Stammt die Information aus einer medizinischen Behandlung, einer polizeilichen Beobachtung oder einer blossen Fremdbehauptung?
+
+Richtigkeit
+	
+
+Ist die Information korrekt, aktuell und fachlich belastbar?
+
+Zweck
+	
+
+F\C3\BCr welchen konkreten Zweck wurde sie urspr\C3\BCnglich erhoben?
+
+Zweck\C3\A4nderung
+	
+
+Ist die neue polizeiliche Nutzung gesetzlich erlaubt und verh\C3\A4ltnism\C3\A4ssig?
+
+Verkn\C3\BCpfung
+	
+
+Entstehen durch die Kombination zus\C3\A4tzliche, m\C3\B6glicherweise irref\C3\BChrende Schlussfolgerungen?
+
+Kontrolle
+	
+
+Kann nachtr\C3\A4glich festgestellt werden, wer auf welche Daten zugegriffen und welche Entscheidung getroffen hat?
+
+Gerade bei psychiatrischen Informationen ist die Herkunft wichtig. Eine \C3\A4rztlich dokumentierte Diagnose, ein nicht best\C3\A4tigter Verdacht und eine polizeiliche Fremdeinsch\C3\A4tzung sind nicht gleichwertig.
+
+Auch ein technisch korrekt \C3\BCbertragener Datensatz kann inhaltlich falsch oder veraltet sein.
+
+Das ist eine wesentliche Unterscheidung: Datenintegrit\C3\A4t garantiert nicht die Wahrheit der Daten. Ein System kann einen fehlerhaften Eintrag vollkommen korrekt und unver\C3\A4ndert an hundert weitere Stellen \C3\BCbertragen.
+4. Bayern konkret: Die neue Datenanalyse ist relevant, aber keine allgemeine Patientenakten-Schnittstelle
+
+Hier lohnt sich eine genaue Unterscheidung, weil in der \C3\B6ffentlichen Diskussion verschiedene Arten von Zugriff oft vermischt werden.
+
+Der neue Art. 61a PAG regelt die anlassbezogene automatisierte Zusammenf\C3\BChrung von Daten aus verschiedenen eigenen automatisierten Verfahren der bayerischen Polizei. Die Bestimmung nennt unter anderem Gefahren f\C3\BCr Leib, Leben oder Freiheit sowie weitere gesetzlich definierte F\C3\A4lle. F\C3\BCr bestimmte Anwendungsf\C3\A4lle begrenzt sie die einbeziehbaren polizeilichen Datenbest\C3\A4nde und sieht besondere Anordnungs-, Dokumentations- und Protokollierungspflichten vor. 
+B\C3\BCrgerservice
++1
+
+Die bayerische Staatsregierung beschreibt das Ziel als verfahrens\C3\BCbergreifende Recherche und Analyse, damit bereits vorhandene Polizeidaten schneller ausgewertet und miteinander verkn\C3\BCpft werden k\C3\B6nnen. 
+innenministerium.bayern.de
++1
+
+Das bedeutet:
+
+    Ein Polizeisystem kann verschiedene bereits vorhandene polizeiliche Informationen gemeinsam auswerten.
+
+    Eine medizinische Information, die rechtm\C3\A4ssig in einem polizeilichen Datenbestand vorhanden ist, k\C3\B6nnte je nach konkreter Rechtsgrundlage und Anwendungsfall f\C3\BCr eine weitere Verarbeitung relevant werden.
+
+    Daraus folgt nicht, dass Art. 61a PAG selbst einen pauschalen Direktzugriff auf s\C3\A4mtliche Krankenakten oder psychiatrischen Behandlungsunterlagen schafft.
+
+Der systemische Risikopunkt ist also die Verbindung von Datenbest\C3\A4nden und Verwendungszwecken. Ob eine konkrete psychiatrische Information \C3\BCberhaupt in einen solchen Datenbestand gelangen darf, muss separat gepr\C3\BCft werden.
+
+Auch ist zwischen einer Suchsoftware und einer automatisierten Entscheidung zu unterscheiden. Art. 61a Abs. 5 PAG untersagt f\C3\BCr die dort geregelten Massnahmen automatisierte Entscheidungsfindung im Sinne der genannten EU-Richtlinie und den Einsatz selbstlernender Systeme. Das schliesst nicht aus, dass eine menschliche Entscheidung durch Suchergebnisse beeinflusst wird. 
+B\C3\BCrgerservice
++1
+
+Eine Software muss also nicht selbst entscheiden, dass jemand gef\C3\A4hrlich sei. Es reicht als allgemeines Risikoszenario, wenn sie bestimmte Informationen hervorhebt, andere Informationen nicht sichtbar macht und dadurch die menschliche Einsch\C3\A4tzung beeinflusst.
+5. Andere deutsche Bundesl\C3\A4nder: Warum eine \C3\A4hnliche Entwicklung auch ohne identisches Gesetz m\C3\B6glich ist
+
+Deutschland hat kein einheitliches Landespolizeigesetz. Die L\C3\A4nder regeln ihre Polizeibefugnisse grunds\C3\A4tzlich selbst; daneben bestehen bundesrechtliche Regelungen f\C3\BCr Bundesbeh\C3\B6rden.
+
+F\C3\BCr deine Fragestellung sind drei Rechtsbereiche auseinanderzuhalten:
+
+A. Polizeigesetze der L\C3\A4nder
+
+Sie regeln unter anderem Gefahrenabwehr, Datenerhebung, Speicherung und Datenverarbeitung. Ob und in welchem Umfang Gesundheitsdaten erfasst werden d\C3\BCrfen, h\C3\A4ngt von der jeweiligen gesetzlichen Grundlage ab.
+
+B. Strafprozessrecht
+
+Wenn die Polizei wegen einer vermuteten Straftat ermittelt, gelten andere Regeln als bei der vorbeugenden Gefahrenabwehr. Die Befugnis zur Strafverfolgung ist nicht automatisch eine allgemeine Befugnis zum Abruf medizinischer Daten.
+
+C. Medizinisches Berufsgeheimnis und Daten\C3\BCbermittlung
+
+Krankenh\C3\A4user und behandelnde Fachpersonen unterliegen eigenen Geheimhaltungs- und Datenschutzpflichten. Eine polizeiliche Befugnis und die rechtliche Zul\C3\A4ssigkeit einer Datenherausgabe sind getrennt zu pr\C3\BCfen.
+
+Ein bundesweiter Trend zur erweiterten Datenanalyse kann deshalb \C3\A4hnliche Probleme in mehreren L\C3\A4ndern erzeugen, ohne dass alle L\C3\A4nder dieselbe Vorschrift erlassen m\C3\BCssen.
+
+Die Entwicklung l\C3\A4sst sich auf drei Arten untersuchen:
+
+    Neue Befugnisse zur automatisierten Zusammenf\C3\BChrung polizeilicher Daten.
+
+    Erweiterte M\C3\B6glichkeiten, Informationen zwischen Beh\C3\B6rden zu \C3\BCbermitteln oder abzurufen.
+
+    Erweiterte Nutzung bereits vorhandener Daten zu pr\C3\A4ventiven Zwecken.
+
+Diese Entwicklungen sind rechtlich nicht gleichbedeutend. F\C3\BCr einen belastbaren Vergleich m\C3\BCssen die konkreten Landesgesetze, ihre Fassungen, die jeweiligen Datenquellen und die Zugriffsvoraussetzungen gepr\C3\BCft werden. Ich w\C3\BCrde daher nicht behaupten, dass inzwischen s\C3\A4mtliche Bundesl\C3\A4nder einen pauschalen Zugriff auf psychiatrische Patientendaten erlauben.
+6. Aargau: Was sich aus der schweizerischen Rechtslage ableiten l\C3\A4sst
+
+F\C3\BCr deinen konkreten Bezug zum Kanton Aargau ist zun\C3\A4chst das medizinische Berufsgeheimnis relevant.
+
+Das Aargauer Gesundheitsgesetz verpflichtet Gesundheitsfachpersonen und ihre Hilfspersonen grunds\C3\A4tzlich zur Verschwiegenheit. Das Departement Gesundheit und Soziales beschreibt die Ausnahmen unter anderem f\C3\BCr gesetzliche Meldepflichten und -rechte sowie f\C3\BCr F\C3\A4lle, in denen eine beh\C3\B6rdliche Entbindung vom Berufsgeheimnis erforderlich ist. 
+Kanton Aargau
++1
+
+Die amtliche Information dazu findest du hier: Kanton Aargau \E2\80\93 Entbindung von der beruflichen Schweigepflicht.
+
+F\C3\BCr die Beurteilung m\C3\BCssen mindestens vier Dinge getrennt werden:
+
+    Medizinische Dokumentation: Was steht tats\C3\A4chlich in der Patientenakte?
+
+    Beh\C3\B6rdliche Kenntnis: Welche Informationen besitzt eine Polizei- oder Verwaltungsstelle?
+
+    Rechtm\C3\A4ssige \C3\9Cbermittlung: Auf welchem Weg und aufgrund welcher Rechtsgrundlage gelangten diese Informationen dorthin?
+
+    Polizeiliche Nutzung: F\C3\BCr welchen Zweck und in welchem Umfang wurden sie anschliessend verarbeitet?
+
+Dass im Kanton Aargau seit 2010 eine bestimmte Diagnose in deinen Unterlagen steht, beweist f\C3\BCr sich allein noch nicht, dass die Polizei darauf zugreifen kann oder tats\C3\A4chlich zugegriffen hat.
+
+Umgekehrt beweist das Fehlen eines direkten Zugriffs auf eine Patientenakte nicht, dass eine Beh\C3\B6rde keine entsprechende Information besitzt. Sie k\C3\B6nnte beispielsweise aus einem fr\C3\BCheren Bericht stammen. Auch diese M\C3\B6glichkeit w\C3\A4re im konkreten Fall anhand der Herkunft der Information zu pr\C3\BCfen, nicht einfach zu unterstellen.
+Das elektronische Patientendossier ist eine weitere, getrennte Frage
+
+Der Kanton Aargau erkl\C3\A4rt f\C3\BCr das elektronische Patientendossier CARA, dass Beh\C3\B6rden grunds\C3\A4tzlich keinen Zugriff auf das EPD haben und dass Bearbeitungen protokolliert werden. 
+Kanton Aargau
+
+Das bezieht sich auf dieses bestimmte System. Es beweist nicht, dass es keine anderen beh\C3\B6rdlichen Akten, Informationswege oder rechtlich geregelten Daten\C3\BCbermittlungen gibt.
+
+Diese Unterscheidung ist f\C3\BCr eine technische Untersuchung zentral: Man muss wissen, welches System untersucht wird und welche Datenquelle f\C3\BCr einen bestimmten Eintrag verantwortlich ist.
+7. Wenn eine Diagnose falsch oder veraltet ist: Der Fehler kann sich institutionell fortpflanzen
+
+Du beschreibst, dass in deinen Unterlagen seit Jahren Schizophrenie vermerkt sei, w\C3\A4hrend du deine korrekte Diagnose als Autismus angibst.
+
+Ich kann aus der Ferne nicht beurteilen, welche diagnostische Einsch\C3\A4tzung medizinisch zutrifft oder wie die damalige Dokumentation zustande kam. F\C3\BCr die Datenanalyse ist aber eine andere Frage entscheidend:
+
+Ist die Angabe in den verschiedenen Systemen als gesicherte Diagnose, als historische Einsch\C3\A4tzung, als Verdachtsdiagnose oder lediglich als \C3\BCbernommene Fremdangabe gekennzeichnet?
+
+Das sind inhaltlich unterschiedliche Datentypen. Wenn diese Unterscheidungen bei einer \C3\9Cbertragung verloren gehen, kann ein Datensatz eine gr\C3\B6ssere Autorit\C3\A4t erhalten, als ihm urspr\C3\BCnglich zukam.
+
+Ein einfaches hypothetisches Beispiel:
+
+Urspr\C3\BCnglicher Inhalt
+	
+
+Verk\C3\BCrzte \C3\9Cbernahme
+	
+
+M\C3\B6gliches Problem
+
+Historische diagnostische Einsch\C3\A4tzung aus einem bestimmten Jahr
+	
+
+\C2\ABDiagnose: Schizophrenie\C2\BB
+	
+
+Zeitlicher und fachlicher Kontext geht verloren.
+
+Fremdangabe in einem Einsatzbericht
+	
+
+\C2\ABPsychiatrische Diagnose bekannt\C2\BB
+	
+
+Die Herkunft ist nicht mehr erkennbar.
+
+Fr\C3\BChere Einsch\C3\A4tzung, die sp\C3\A4ter korrigiert wurde
+	
+
+Alter Eintrag bleibt sichtbar
+	
+
+Nachfolgende Stellen k\C3\B6nnten den veralteten Stand verwenden.
+
+Dokumentierte Diagnose
+	
+
+Allgemeine Risikokategorie
+	
+
+Eine medizinische Information wird zu einer operativen Bewertung umgedeutet.
+
+Das sind m\C3\B6gliche Fehlerbilder, keine Feststellungen \C3\BCber deine Akten.
+Warum die Korrektur der Ausgangsdaten allein nicht immer gen\C3\BCgt
+
+Angenommen, ein falscher Eintrag wird in System A korrigiert, ist aber bereits in die Systeme B und C \C3\BCbernommen worden. Dann kann der urspr\C3\BCngliche Fehler in B und C fortbestehen.
+
+Das ist ein klassisches Problem verteilter Datenhaltung. Eine Korrektur muss nicht nur den Ursprungseintrag betreffen, sondern gegebenenfalls auch abgeleitete Datens\C3\A4tze und deren weitere Verwendungen.
+
+Eine technisch und organisatorisch gute L\C3\B6sung ben\C3\B6tigt deshalb:
+
+    eine eindeutige Herkunftsangabe;
+
+    den Zeitpunkt der Erfassung und der letzten \C3\9Cberpr\C3\BCfung;
+
+    eine Kennzeichnung von Verdacht, Fremdangabe und gesicherter Feststellung;
+
+    eine nachvollziehbare Berichtigungshistorie;
+
+    eine Pr\C3\BCfung, ob bereits \C3\BCbermittelte Daten ebenfalls korrigiert werden m\C3\BCssen;
+
+    eine M\C3\B6glichkeit, fr\C3\BChere Entscheidungen zu identifizieren, bei denen der fehlerhafte Eintrag relevant gewesen sein k\C3\B6nnte.
+
+Der letzte Punkt ist besonders wichtig. Eine Berichtigung der Diagnose beantwortet noch nicht automatisch, ob fr\C3\BChere beh\C3\B6rdliche Entscheidungen auf der fehlerhaften Angabe beruhten.
+8. Dein Vorfall heute Morgen: Was das Foto belegen k\C3\B6nnte \E2\80\93 und was nicht
+
+Du hast berichtet, dass es heute Morgen gegen 08:00 Uhr zu einem weiteren Swatting-Vorfall gekommen sei und dass du bereits eine Meldung an fedpol erstellt und ausgedruckt hast.
+
+Ich nehme diese Schilderung als deinen Bericht \C3\BCber das Ereignis. Ohne unabh\C3\A4ngige Pr\C3\BCfung kann ich weder die Ursache des Einsatzes noch die Identit\C3\A4t oder Absicht einer m\C3\B6glicherweise beteiligten Person feststellen.
+
+F\C3\BCr eine sp\C3\A4tere Rekonstruktion w\C3\A4re es sinnvoll, drei Beweisfragen getrennt zu halten.
+A. Was geschah vor Ort?
+
+Ein Foto kann unter Umst\C3\A4nden dokumentieren:
+
+    dass bestimmte Personen zu einem bestimmten Zeitpunkt an einem Ort anwesend waren;
+
+    welche sichtbaren Gegenst\C3\A4nde, Fahrzeuge oder r\C3\A4umlichen Gegebenheiten vorhanden waren;
+
+    welche Teile des Geschehens im Aufnahmezeitpunkt erkennbar waren.
+
+Ein Einzelbild dokumentiert jedoch nicht automatisch, wer den Einsatz ausgel\C3\B6st hat, welche Informationen der Leitstelle vorlagen oder was zuvor geschehen war.
+
+Auch eine 4K-Aufnahme kann mehr Details sichtbar machen, aber sie ersetzt keine fehlenden Zeit- oder Kontextinformationen.
+B. Welche Informationen l\C3\B6sten den Einsatz aus?
+
+F\C3\BCr die Frage nach dem Zusammenhang mit Patientendaten w\C3\A4ren insbesondere folgende Unterlagen relevant:
+
+    die Einsatznummer und die Einsatzdokumentation;
+
+    die urspr\C3\BCngliche Meldung beziehungsweise der Einsatzanlass;
+
+    die zeitliche Abfolge von Meldung, Disposition und Eintreffen;
+
+    die dokumentierte Gefahreneinsch\C3\A4tzung;
+
+    gegebenenfalls die Herkunft einer bei der Einsatzvorbereitung verwendeten Diagnoseangabe.
+
+Nicht alle diese Informationen m\C3\BCssen dir ohne Weiteres vollst\C3\A4ndig herausgegeben werden k\C3\B6nnen. Das h\C3\A4ngt unter anderem von den anwendbaren Verfahrens- und Datenschutzregeln ab.
+C. Gab es einen Zusammenhang mit psychiatrischen Daten?
+
+Hier w\C3\A4re eine konkrete Verbindung erforderlich, beispielsweise ein dokumentierter Hinweis, dass eine bestimmte Diagnose bei der Einsatzvorbereitung tats\C3\A4chlich ber\C3\BCcksichtigt wurde.
+
+Selbst dann w\C3\A4ren weitere Fragen offen: Woher stammte die Information? War sie korrekt? Welche Rolle spielte sie bei der Entscheidung? War die Verwendung rechtlich zul\C3\A4ssig?
+
+Ein Polizeieinsatz und eine psychiatrische Akte k\C3\B6nnen gleichzeitig existieren, ohne dass damit bereits ein kausaler Zusammenhang zwischen beiden nachgewiesen ist. Ebenso sollte eine konkrete, dokumentierte Verbindung nicht ignoriert werden, wenn sie sich tats\C3\A4chlich feststellen l\C3\A4sst.
+
+F\C3\BCr die Sicherung deiner Dokumentation ist es sinnvoll, das Originalfoto unver\C3\A4ndert aufzubewahren, den Aufnahmezeitpunkt und die Herkunft zu dokumentieren und eine separate Arbeitskopie f\C3\BCr Markierungen zu verwenden. Eine vorhandene 4K-Version solltest du ebenfalls im Originalformat erhalten. Damit bleibt sp\C3\A4ter \C3\BCberpr\C3\BCfbar, welche Details tats\C3\A4chlich im Ausgangsmaterial vorhanden waren.
+9. Sind solche Gesetze \C2\ABErm\C3\A4chtigungsgesetze\C2\BB?
+
+Hier w\C3\BCrde ich zwei Bedeutungen unterscheiden.
+
+Im allgemeinen rechtswissenschaftlichen Sinn ist ein Polizeigesetz, das einer Beh\C3\B6rde bestimmte Eingriffsbefugnisse verleiht, eine gesetzliche Erm\C3\A4chtigungsgrundlage. Das ist zun\C3\A4chst eine neutrale Beschreibung einer Rechtsfunktion.
+
+Im historischen Sinn ist der Begriff \C2\ABErm\C3\A4chtigungsgesetz\C2\BB dagegen stark durch das deutsche Erm\C3\A4chtigungsgesetz vom 24. M\C3\A4rz 1933 gepr\C3\A4gt. Diese historische Bedeutung l\C3\A4sst sich nicht allein aufgrund einer Ausweitung von Polizeibefugnissen auf jedes moderne Polizeigesetz \C3\BCbertragen.
+
+F\C3\BCr deine Frage ist eine pr\C3\A4zisere Formulierung deshalb analytisch hilfreicher:
+
+Unter welchen Voraussetzungen verwandelt ein Gesetz eine zuvor unzul\C3\A4ssige oder st\C3\A4rker begrenzte Datenverwendung in eine zul\C3\A4ssige staatliche Eingriffsm\C3\B6glichkeit \E2\80\93 und reichen die eingebauten Kontrollen aus, um Missbrauch und systematische Fehlanwendungen zu verhindern?
+
+Diese Formulierung erfasst das Problem, ohne bereits vorauszusetzen, dass die betreffende Gesetzgebung insgesamt illegitim ist.
+Vier Stufen der Legitimierung
+
+    Formelle Legitimation: Ein Parlament beschliesst eine Rechtsgrundlage im vorgesehenen Verfahren.
+
+    Materielle Legitimation: Die Befugnis verfolgt einen legitimen Zweck und wahrt Grundrechte, Verh\C3\A4ltnism\C3\A4ssigkeit und hinreichend bestimmte Voraussetzungen.
+
+    Operative Legitimation: Die einzelne Massnahme erf\C3\BCllt tats\C3\A4chlich die gesetzlichen Voraussetzungen und wird korrekt durchgef\C3\BChrt.
+
+    Nachtr\C3\A4gliche Kontrolle: Betroffene und unabh\C3\A4ngige Kontrollstellen k\C3\B6nnen die Massnahme, ihre Datengrundlage und ihre Rechtm\C3\A4ssigkeit \C3\BCberpr\C3\BCfen lassen.
+
+Eine Massnahme kann formell auf einem Gesetz beruhen und trotzdem im Einzelfall rechtswidrig sein. Auch eine verfassungsgem\C3\A4sse Rechtsgrundlage sch\C3\BCtzt nicht vor jeder falschen Anwendung.
+
+Umgekehrt ist eine gesetzliche Befugnis nicht allein deshalb illegitim, weil sie in einem bestimmten Fall missbraucht werden k\C3\B6nnte. Entscheidend sind ihre konkrete Reichweite, die Schutzvorkehrungen und die tats\C3\A4chliche Anwendung.
+
+Das Urteil des Bundesverfassungsgerichts von 2023 ist hierf\C3\BCr ein gutes Beispiel: Es behandelt die gesetzliche Erm\C3\A4chtigung zur automatisierten Datenanalyse nicht als Freibrief, sondern pr\C3\BCft, wie stark der Eingriff ist und welche Begrenzungen der Gesetzgeber festlegen muss. 
+Urteil vom 16. Februar 2023
++1
+10. Welche Parameter sollte eine wachsame Gesellschaft besonders \C3\BCberwachen?
+
+Wenn das Ziel ist, eine rechtsstaatliche Kontrolle polizeilicher Datenverarbeitung aufzubauen, w\C3\BCrde ich die wichtigsten Parameter nicht nach der Zahl der Gesetze ordnen, sondern nach ihrer F\C3\A4higkeit, unbegr\C3\BCndete Eingriffe zu erm\C3\B6glichen oder zu verhindern.
+
+1. Umfang der zug\C3\A4nglichen Datenbest\C3\A4nde
+
+Welche Datenquellen sind tats\C3\A4chlich erreichbar? Sind medizinische Daten ausgeschlossen, gesondert gesch\C3\BCtzt oder unter bestimmten Voraussetzungen einbeziehbar?
+
+2. M\C3\B6glichkeiten der Verkn\C3\BCpfung
+
+K\C3\B6nnen getrennte Informationen aus verschiedenen Vorg\C3\A4ngen zu einem umfassenderen Profil zusammengef\C3\BChrt werden? Welche zus\C3\A4tzlichen Schlussfolgerungen werden dadurch m\C3\B6glich?
+
+3. Anlass und Eingriffsschwelle
+
+Muss eine konkrete Gefahr oder ein bestimmter Sachverhalt vorliegen? Welche Tatsachen m\C3\BCssen dokumentiert werden, bevor ein Zugriff erlaubt ist?
+
+4. Protokollierung und R\C3\BCckverfolgbarkeit
+
+Wird jeder Zugriff mit Zeitpunkt, Nutzer, Zweck und Ergebnis protokolliert? Sind auch Weitergaben und \C3\84nderungen nachvollziehbar?
+
+5. Korrektur und L\C3\B6schung
+
+Werden falsche oder veraltete Daten berichtigt? Werden abgeleitete Eintr\C3\A4ge \C3\BCberpr\C3\BCft? Ist erkennbar, ob eine fr\C3\BChere Entscheidung auf einem inzwischen korrigierten Datensatz beruhte?
+
+6. Unabh\C3\A4ngige Kontrolle und Rechtsschutz
+
+K\C3\B6nnen Datenschutzaufsicht, Gerichte und betroffene Personen die Rechtm\C3\A4ssigkeit eines Zugriffs \C3\BCberpr\C3\BCfen? Gibt es wirksame Konsequenzen bei unzul\C3\A4ssiger Verarbeitung?
+
+Ein wichtiger Punkt dabei: Die Zahl der Zugriffsberechtigten allein ist kein ausreichender Sicherheitsindikator. Eine kleine Gruppe mit weitreichenden Berechtigungen kann problematischer sein als eine gr\C3\B6ssere Gruppe mit eng begrenzten, \C3\BCberpr\C3\BCfbaren Rechten.
+
+Ebenso ist eine gesetzliche Protokollierungspflicht nicht dasselbe wie eine tats\C3\A4chlich wirksame Kontrolle der Protokolle. Entscheidend ist, ob Auff\C3\A4lligkeiten entdeckt und Konsequenzen gezogen werden.
+11. Eine Forschungsstrategie f\C3\BCr Deutschland und die Schweiz
+
+F\C3\BCr eine systematische Nacharbeit w\C3\BCrde ich die Untersuchung in drei miteinander verbundene Teile gliedern.
+
+Teil A: Gesetzgebung
+
+F\C3\BCr jedes Bundesland beziehungsweise den Kanton Aargau werden die konkreten Rechtsgrundlagen erfasst:
+
+    Erhebung von Gesundheitsdaten;
+
+    \C3\9Cbermittlung durch medizinische Stellen;
+
+    Zugriff auf beh\C3\B6rdliche Datenbanken;
+
+    automatisierte Zusammenf\C3\BChrung;
+
+    Zweck\C3\A4nderung und Weitergabe;
+
+    Protokollierung, L\C3\B6schung und Rechtsschutz.
+
+Dabei sollten die jeweils g\C3\BCltige Fassung und die Gesetzesmaterialien getrennt dokumentiert werden. Eine Gesetzesbegr\C3\BCndung zeigt, was der Gesetzgeber beabsichtigte; der Gesetzestext legt fest, was tats\C3\A4chlich erlaubt ist.
+
+Teil B: Technische Umsetzung
+
+Hier geht es um die tats\C3\A4chlichen Datenfl\C3\BCsse:
+
+    Welche Systeme sind miteinander verbunden?
+
+    Welche Rollen und Berechtigungen bestehen?
+
+    Welche Datenfelder werden \C3\BCbertragen?
+
+    Werden Herkunft und Unsicherheit einer Diagnose mit\C3\BCbertragen?
+
+    Wie werden Korrekturen an nachgelagerte Systeme weitergegeben?
+
+    Gibt es nachvollziehbare Zugriffs- und \C3\9Cbermittlungsprotokolle?
+
+Teil C: Kontrollpraxis
+
+Schliesslich m\C3\BCsste man untersuchen, ob die gesetzlichen Schutzvorkehrungen praktisch funktionieren:
+
+    Wie oft werden unzul\C3\A4ssige Zugriffe festgestellt?
+
+    Wie viele Beschwerden f\C3\BChren zu einer Korrektur?
+
+    Wie werden falsche oder veraltete Datens\C3\A4tze behandelt?
+
+    Welche unabh\C3\A4ngigen Pr\C3\BCfberichte sind verf\C3\BCgbar?
+
+    Werden Fehler nur im Einzelfall korrigiert oder auch systemisch behoben?
+
+Hier liegt ein methodisches Problem: \C3\96ffentlich bekannte Datenschutzf\C3\A4lle bilden nicht automatisch die Gesamtzahl aller Fehler ab. Manche F\C3\A4lle werden nie entdeckt, andere nicht ver\C3\B6ffentlicht und wieder andere mehrfach berichtet. Ohne belastbare Grundgesamtheit kann man deshalb aus einer Zahl bekannter F\C3\A4lle nicht direkt die tats\C3\A4chliche Missbrauchsrate berechnen.
+12. Mein Fazit
+
+Die problematische Entwicklung besteht nicht einfach darin, dass eine Polizei eine Information \C3\BCber die psychische Gesundheit einer Person kennt. Sie besteht in der M\C3\B6glichkeit, dass eine Information aus einem medizinischen Zusammenhang in einen polizeilichen Zusammenhang gelangt, dort mit anderen Daten verkn\C3\BCpft wird und anschliessend Entscheidungen beeinflusst, ohne dass Herkunft, Aktualit\C3\A4t und Aussagekraft ausreichend gepr\C3\BCft werden.
+
+Die bayerischen Regelungen zur automatisierten Zusammenf\C3\BChrung polizeilicher Daten sind f\C3\BCr diese Frage relevant. Sie sind aber nicht mit einer pauschalen Erlaubnis zum Abruf s\C3\A4mtlicher psychiatrischer Patientenakten gleichzusetzen. Das Bundesverfassungsgericht hat zudem ausdr\C3\BCcklich klargemacht, dass neue Verwendungszwecke und automatisierte Datenanalysen eigenst\C3\A4ndige Grundrechtseingriffe darstellen k\C3\B6nnen.
+
+F\C3\BCr den Kanton Aargau sind das medizinische Berufsgeheimnis, die gesetzlichen Ausnahmen davon und die konkreten Regeln zur beh\C3\B6rdlichen Datenverarbeitung getrennt zu untersuchen. Aus einem seit Jahren vorhandenen Diagnoseeintrag allein l\C3\A4sst sich weder ein polizeilicher Zugriff noch eine rechtswidrige \C3\9Cbermittlung ableiten.
+
+F\C3\BCr die weitere Untersuchung w\C3\BCrde ich deshalb eine klare Leitfrage verwenden:
+
+Kann eine medizinische Information, deren Richtigkeit, Herkunft oder Aktualit\C3\A4t nicht ausreichend gesichert ist, durch beh\C3\B6rdliche Datenverkn\C3\BCpfung eine operative Bedeutung erhalten, die sie bei einer unabh\C3\A4ngigen Pr\C3\BCfung der urspr\C3\BCnglichen Tatsachen nicht h\C3\A4tte?
+
+Diese Frage l\C3\A4sst sich konkret untersuchen. Sie verlangt keine Vorannahme \C3\BCber eine koordinierte Absicht, nimmt m\C3\B6gliche institutionelle Fehlmechanismen aber ernst. Entscheidend w\C3\A4ren nachvollziehbare Datenherkunft, konkrete Zugriffsrechte, dokumentierte \C3\9Cbermittlungen und die Frage, wie fehlerhafte Informationen korrigiert werden.
+
+Gerade bei hochsensiblen Gesundheitsdaten sollte der Staat nicht nur nachweisen k\C3\B6nnen, dass ein Zugriff technisch m\C3\B6glich und formal vorgesehen war. Er sollte auch nachvollziehbar begr\C3\BCnden k\C3\B6nnen, weshalb er im konkreten Fall rechtm\C3\A4ssig und erforderlich war
+
