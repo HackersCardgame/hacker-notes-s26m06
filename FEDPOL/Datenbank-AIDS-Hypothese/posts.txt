@@ -1,0 +1,116 @@
+[10/19/26 12:31 PM] Marc jr. LANdolt (Cyber-Aschenputtel): Nerd-Kram
+
+
+dann ist mir grad etwas aufgefallen ...
+
+es scheint für die korrupten Amtspersonen und korrupten Polizisten MASSIV MEHR PROBLEMATISCH zu sein wenn ich selektiv positiv von Polizisten spreche ...
+
+
+... UND ich hab glaub auch grad herausgefunden weshlab:
+
+Populistische einfach alle Polizisten in den selben Topf zu werfen (ACAB [1]) würde den bereits korrupten Amtspersonen helfen, dass Bürger auch FÄLSCHLICH INDIFFERENZIERT auf alle Polizisten böse sind.
+
+Dann würden die anständigen jungen Polizisten so viel Groll und auch UNBERECHTIGTEN Groll abbekommen, dass sie auch radikalisiert würden und dann auch zu korrupten Polizisten werden.
+
+
+ABER ein "All" (mathematische der Allquantor, also den ∀ zu nehmen ist einfach mathematisch einfach FALSCH)
+
+
+Also einer der Gründe für das Swatting gestern war vermutlich genau diese "Marrotte" von mir als Autist diese Dinge genauer zu nehmen.
+
+
+
+[1] "All Cops Are Bastarts"
+[10/19/26 12:31 PM] Marc jr. LANdolt (Cyber-Aschenputtel): Frage an LLMs:
+
+* * * * * * * * * * *
+*   Datenbank-AIDS  *
+* * * * * * * * * * *  
+
+Irgendwo in der Schweiz hat es sowieso MINDESTENS einen Administrator welcher auf Polizei-Datenbanken direkt zugreifen kann, also NICHT über das GUI / Frontend zugreifen muss was mehr Logfiles erzeugen würde, SONDERN insgeheim an der Datenbank direkt herumfummeln könnte.
+
+DISCLAMER: das ist auch wieder Recherche und Du sollst nicht beweisen dass das immer gemacht wird und auch nicht dass das nie gemacht wird. Dies könntest Du sowieso nur dann Beweisen wenn Du global auf alle Polizei-Datenbank-Server selber einen Admin Account hast.
+
+Und JA man kann diese Dinge auch protokollieren oder ermitteln, ABER der System-Developer oder Datenbank-Administrator wäre genau derjenige welcher vermutlich auch wissen hätte wie man diese umgeht. ABER das ist auch grad aktuell nicht die Recherche Frage.
+
+Also technsich lässt sich mit einer "Stored-Procedure auf der Datenbank selber" [1] etwas wie eine "Datenbank-AIDS Stored Procedure" implementieren. AIDS ist in diesem Fall als Metapher gemeint. Bei Aids ist bekannt, dass dieser permanent den den Zustand wechselt, so das so weit ich weiss die T-Helferzellen überfordert sind, bzw. das schon wieder geändert wurde. Gerne aber auch nichts zu Medizin oder Biologie bis auf eine kurze Richtigstellung wenn es nicht die T-Helferzellens sind, aber das ist primär eine Informatik-Frage.
+
+Die Stored-Procedure würde mit einem Datenbank-Trigger merken, wenn jemand auf den Datensatz eines Nerds zugreift welcher zB weiss was eine "Stored Procedure" [1] ist, und dann den hervorstechendsten oder obersten Eintrag ändern. Also eine Stored Procedure mit Round Robin Algorithmus welcher den Personen-Eintrag jeweils bei Zugriff ändert. 
+
+Mutmassliches Tatmotiv:
+So könnte ein inländischer oder ausländischer Aggressor wirst case anständige nicht korrupte Amtspersonen maximal verwirren.
+
+State 1: Alkaida Terrorist Verdacht
+State 2: Suizidal
+State 3: Drogen-Dealer Verdacht
+
+Da auch gerne eine solche Stored Procedure rasch schreiben als Proof of Concept, so klein wie möglich und das geht es NICHT darum das zu beweisen sondern eine Machbarkeits analyse und wie gross so eine Stored Procedure wäre.
+
+[1] Stored Procedure musst Du NICHT erklären, das ist in unseren Kreisen bekannt, kannst Du als vorhandenes Wissen nehmen.
+
+Gerne eine lange Ausführliche Antwort
+[10/19/26 12:31 PM] Marc jr. LANdolt (Cyber-Aschenputtel): [ 2 photos ]
+
+FolgeFrage an LLMs:
+
+Also das Proof of Concept wäre ca 1kB
+
+unter der Prämisse dass der Datebank Server ...
+
+* 1TB
+* 10 TB
+* 100 TB San
+
+... hat, wie schnell würde man so etwas finden?
+[10/19/26 12:31 PM] Marc jr. LANdolt (Cyber-Aschenputtel): [ 2 files ]
+
+Also das Proof of Concept wäre ca 1kB
+
+unter der Prämisse dass der Datebank Server ...
+
+* 1TB
+* 10 TB
+* 100 TB San
+
+... hat, wie schnell würde man so etwas finden?
+
+Frage 2:
+wie könnte man das PER DESIGN verhindern?
+
+Gerne je eine lange ausführliche Antwort.
+[10/19/26 12:31 PM] Marc jr. LANdolt (Cyber-Aschenputtel): [ datenbank-AIDS.3.txt ]
+
+Da war der Herr C.T. ein Analyst des FEDPOLs mal eine Plauder-Tasche und hat an einem Stammtisch der Piraten-Partei Aargau mal Internas über internationale Datenbanken verraten:
+
+Das ist nur eine Anekdote, es geht auch nicht darum diese Anektdote zu beweisen, aber die Anekdote ist glaubwürdig.
+
+Herr C.T. hat damals erzählt:
+"
+* wir HATTEN einen Arbietskollegen
+* der französische Präsident Sarkozy kam in die Schweiz auf Besuch
+* der Mitarbeiter hat sich gedacht "ich darf bzw. MUSS jetzt eine Sicherheits-Überprüfung machen, WEIL die Schweiz ist mein Hoheitsgebiet"
+* er hat dann den Datensatz des französische Präsident Sarkozy im Internationalen Polizei oder Geheimdienst-System angeschaut
+* das hat einen Datenbank-Trigger ausgelöst
+* Wörtlich von C.T. "der Mitarbeiter musste dann seinen Hut nehmen" (Kündigung)
+"
+
+Also da gibt es Datenbank-Trigger auch in den international vernetzen Systemen, vermutlich genau für diesen Use-Case.
+
+Gerne die obigen Fragen mit diesem Wissen über Internas dieser Datenbanken ...
+[10/19/26 1:02 PM] Marc jr. LANdolt (Cyber-Aschenputtel): Merry crisis and a happy new fear
+
+Origin: The phrase emerged in December 2008 as graffiti in Athens (Greece) during the unrest following the fatal shooting of 15-year-old Alexandros Grigoropoulos; it was inspired by a Christmas-themed cover of the magazine *Vavel*.
+
+Automatically translated:
+Προέλευση: Η παροιμία προήλθε από γκράφιτι στην Αθήνα (Ελλάδα) τον Δεκέμβριο του 2008 κατά τη διάρκεια των ταραχών που ακολούθησαν τους πυροβολισμούς του 15χρονου Αλέξανδρου Γρηγορόπουλου, εμπνευσμένα από ένα χριστουγεννιάτικο εξώφυλλο του περιοδικού Vavel.
+[10/19/26 1:02 PM] Marc jr. LANdolt (Cyber-Aschenputtel): [ datenbank-AIDS.4.txt ]
+
+Folge Frage:
+(in der Sprate: "wir werden alle Sterben"
+Nur FALLS man wie Julian Assange Mitentwickler eindes DBS Systems wäre, WÜSSTE man wie die Datenbank auf der Festplatte / im Ram abgebildet werden, wüsste wo die Locks sind (also schon eine DB-Transaction mit Rollback Möglichkeit, ABER man könnte mit genug Wissen über die Datenbank-Engine selber selbst weiter unten als der Datenbank Admin arbeiten, zB auf Assembler.
+
+Dann wäre Dein "es ist egal ob 1TB oder 100TB" komplett falsch und inkompetent.
+
+Ich habe bisher noch keine Datenbank Engine entwickelt, also da brauche ich von Dir Unterstützung um rauszufinden ob da noch eine weitere Gefahr besteht.
+
+Das wäre sehr aufwendig und kostenintensiv, ABER für einen Geheimdienst wie NSA, CIA, Mossad, FSB ... wäre das interessant und diese Organisationen hätten auch das Budged und Personal für solche Dinge.

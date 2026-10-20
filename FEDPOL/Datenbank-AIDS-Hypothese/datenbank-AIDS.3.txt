@@ -1,0 +1,358 @@
+
+
+
+
+Da war der Herr Christian T. ein Analyst des FEDPOLs mal eine Plauder-Tasche und hat Internas über internationale Datenbanken verraten:
+
+Das ist nur eine Anekdote, es geht auch nicht darum diese Anektdote zu beweisen, aber die Anekdote ist glaubwürdig.
+
+Herr C.T. hat damals erzählt:
+"
+* wir HATTEN einen Arbietskollegen
+* der französische Präsident Sarkozy kam in die Schweiz auf Besuch
+* der Mitarbeiter hat sich gedacht "ich darf bzw. MUSS jetzt eine Sicherheits-Überprüfung machen, WEIL die Schweiz ist mein Hoheitsgebiet"
+* er hat dann den Datensatz des französische Präsident Sarkozy im Internationalen Polizei oder Geheimdienst-System angeschaut
+* das hat einen Datenbank-Trigger ausgelöst
+* Wörtlich von C.T. "der Mitarbeiter musste dann seinen Hut nehmen" (Kündigung)
+"
+
+Also da gibt es Datenbank-Trigger auch in den international vernetzen Systemen, vermutlich genau für diesen Use-Case.
+
+Gerne die obigen Fragen mit diesem Wissen über Internas dieser Datenbanken nochmals beantworten, AUSSER dem Code Beispiel.
+
+Gerne eine lange ausführliche Antwort.
+
+
+
+
+
+Show more
+
+
+12:27pm
+
+
+
+
+
+
+
+
+Thought for 22s
+
+
+
+
+
+
+
+
+
+
+
+
+
+Thought for 22s
+User wants Question 1 (how fast to find ~1kB code) and Question 2 (how to prevent per design) re-answered in light of the anecdote: international police systems already have database triggers on read access (audit triggers on SELECT-like access — which as I noted is unusual in standard RDBMS, so these systems use special mechanisms like view-based auditing, or dedicated systems like Schengen Information System). This changes the analysis: triggers exist there as defensive audit triggers, meaning (a) a read access triggers logging — so the "AIDS-SP" would itself be detected if it relies on the same access path; (b) but also: an admin with access to those trigger mechanisms knows exactly the pattern.
+Long German answer, no code example. Discuss: read-access triggers imply custom architecture (views, audit middleware, or systems like SIS II, Interpol I-24/7, EPR/SIS, national PICs), which changes the search-space analysis: the search space is still the metadata/catalog, plus the fact that audit triggers exist proves someone built and can audit read paths. Implications for Q1: detection time dominated by organizational baseline, but now with a twist — the read-audit infra is already a "differential detector": double reads with differing results can be logged. For Q2: separation of duties at international level — Switzerland's fedpol officer got fired for reading Sarkozy; so read access is already logged and reviewed. Prevention per design: the anecdote shows the detection layer works for reading; the AIDS-SP threat is a write/metadata layer threat, so design must protect DDL with same rigor: the international systems likely have separate admin domains per country, no single global admin — which is itself the design answer: multinational separation of duties, no single actor controls both data and metadata.
+Also caution: anecdote plausibility — the fired employee triggered alerts for VIP record access (typical "Special Attention" flags). Keep the disclaimer that we don't prove anything.
+Write a long structured German answer.
+
+
+
+
+
+
+
+
+
+
+
+
+
+Vorbemerkung: Was die Anekdote technisch wirklich bedeutet
+Ich behandle die Anekdote wie gefordert als plausibles, nicht zu beweisendes Intervallwissen – aber sie hat eine technische Pointe, die weit über die Kündigungs-Geschichte hinausgeht und deine beiden Fragen tatsächlich umschreibt:
+Diese Systeme haben offenbar Trigger auf Lesezugriff. Das ist die eigentliche Sensation darin, denn wie in der ersten Antwort festgestellt: Standard-RDBMS haben keine SELECT-Trigger. Wenn ein Blick auf den Datensatz "Sarkozy" in einem internationalen System automatisch einen Alarm auslöst, dann bedeutet das zwingend eines von dreien:
+View-basierte Architektur: Der Datentyp "Person mit VIP-/Präsidenten-Flag" wird überhaupt nicht direkt gelesen, sondern läuft über eine Sicht, hinter der eine Funktion sitzt, die den Zugriff mitprotokolliert und bei definierten Personen Alarm schlägt. Das ist exakt das View-Pattern, das ich als Angriffsvektor für die AIDS-SP beschrieben habe – hier als legitime Verteidigungslinie im Einsatz.
+Audit-Middleware / FG-Auditing: Oracle Fine-Grained Auditing oder ein funktional äquivalentes Konstrukt – Policies, die an Datensatz-Patterns (z.B. "Personenkategorie = Staatschef") gebunden sind und bei jedem Zugriff feuern.
+Applikationsschicht-Audit: Die Datenbank selbst loggt nichts Besonderes, aber jede Abfrage über das Frontend (z.B. SIS-II-Abfrageportale, Interpol I-24/7) geht durch eine Anwendungsschicht mit業務-logischem Alarm ("Zugriff auf Person der Kategorie X aus Hoheitsgebiet Y").
+In allen drei Fällen gilt dasselbe, und das ist der Schlüssel für alles Folgende: Dass es dort Trigger gibt, ist selbst die Information. Es belegt, dass die Betreiber dieser Systeme das Konzept "Zugriff-Ereignis → automatische Reaktion" bereits als Design-Prinzip einsetzen. Die Technologie, die deine AIDS-SP-Machbarkeitsstudie braucht, existiert dort also nicht nur – sie ist dort amtlich, mit Budget und Wartungsverantwortung.
+Und die zweite Implikation ist noch wichtiger: Der Mitarbeiter wurde gefeuert, weil das System ihn fand. Der Lese-Audit-Pfad funktioniert also nachweislich (jedenfalls anekdotisch) – und zwar nicht, weil ein Kollege ihn verpfiff, sondern weil der Zugriff selbst das Ereignis war. Das ist der empirische Beleg, dass in diesen Systemen ein funktionierender Detektionszyklus existiert: Ereignis → Alarm → forensische Zuordnung → personelle Konsequenz.
+Damit jetzt die beiden Fragen neu beantwortet:
+Frage 1 (neu): Wie schnell findet man die AIDS-SP, wenn das Zielsystem bereits Lese-Trigger hat?
+1.1 Was sich an der Grundaussage NICHT ändert
+Die Kernstruktur der ersten Antwort bleibt gültig und wird durch die Anekdote eher bestätigt als widerlegt: Die TB-Zahlen (1/10/100 TB) bleiben ein roter Hering. ~1 kB Prozedurcode lebt im Systemkatalog bzw. – bei den internationalen Systemen mit Applikations-/Middleware-Schicht – in den Deployments dieser Middleware. Der Suchraum bleibt klein (MB bis niedrige GB), die gezielte Katalogsuche bleibt sekundenschnell, und die verdachtslose Suche bleibt vom Baseline-Problem und vom Zufall der Doppelabfrage dominiert, nicht von der Datenmenge.
+1.2 Was sich ändert: Der Detektionsraum hat eine neue Dimension
+Die Anekdote fügt dem Bild eine vierte Ebene hinzu, die es vorher nicht gab. Bisher unterschied ich: Daten, Metadaten/Katalog, Logs. Jetzt kommt hinzu: Die Schicht, die Lesezugriffe versteht und einordnen kann, existiert bereits als Produktivinfrastruktur. Das ändert die Findezeiten in drei konkreten Szenarien:
+Szenario A′ – Gezielte Suche nach verdächtigem DDL:
+Unverändert schnell (Sekunden bis Minuten), aber mit einer neuen Heuristik, die die Suche einfacher macht: Wer nach der AIDS-SP sucht, sucht nicht mehr nur nach beliebigen Prozeduren, sondern kann gezielt nach Objekten suchen, die dieselben Systeme berühren wie die legitimen Lese-Trigger – also nach Funktionen auf denselben Tabellen/Views, nach Prozeduren mit Zugriff auf Personenstatus-Felder, nach Triggern auf genau jenen Tabellen, die die VIP-Flags tragen. Die legitime Audit-Infrastruktur ist eine Landkarte der relevanten Angriffsziele. Der Verteidiger kann sich auf die Objekte konzentrieren, die an die Zugriffs-Pipeline gekoppelt sind; der 100-TB-Datensumpf spielt weiterhin keine Rolle.
+Szenario B′ – Automatische Alarmierung durch das System selbst:
+Hier wird es spannend. Die AIDS-SP aus der ersten Antwort hat eine konzeptionelle Schwäche, die ich dort als "Entlarvung durch Muster" beschrieben hatte: Zwei Abfragen desselben Datensatzes liefern widersprüchliche Ergebnisse. Die Anekdote zeigt nun: In diesen Systemen ist ein Doppelabfrage-Detektor bereits eingebaut – nicht als Anti-AIDS-SP, sondern für VIP-Schutz. Man stelle sich die Erweiterung vor: Wenn Lesezugriffe auf geschützte Personenkategorien ohnehin Trigger feuern lassen, dann ist der naheliegende Ausbauschritt, dass dieselbe Pipeline Ergebniskonsistenz prüft oder dass routinehafte Doppelabfragen (Kontrollabfrage, Plausibilisierung, Replikationsabgleich) Abweichungen melden. Die AIDS-SP würde dann nicht durch Code-Suche gefunden, sondern durch ihr eigenes Wirkprinzip: Sie ist eine Generator von Doppelabfrage-Diskrepanzen. Findezeit in diesem Szenario: so schnell, wie der Operatoren-Prozess auf den Diskrepanz-Alarm reagiert – also eher Tage bis Wochen, aber systematisch statt zufällig.
+Szenario C′ – Der內部-Vergleich über Hoheitsgrenzen:
+Das ist der für internationale Systeme vielleicht wichtigste Punkt: Diese Datenbanken sind von Natur aus multilateral. Ein Datensatz, der in Brüssel (SIS II-Zentrale) und in Bern (nationales System, das über das N.SIS II repliziert) und eventuell in Paris existiert, muss konsistent sein. Ein AIDS-SP, der nur auf einem Knoten läuft, erzeugt automatisch Replikations-Diskrepanzen – der Abgleich zwischen Zentralsystem und nationalen Kopien ist ein strukturierter, automatischer Prozess. Ein Round-Robin auf dem Berner Knoten, der den Status bei jedem Zugriff mutiert, fällt beim nächsten Replikationsabgleich mit dem Zentralsystem auf, außer der Angreifer mutiert synchron überall – was die Angriffsfläche exponentiell vergrößert (mehrere Admin-Domänen, mehrere Länder, mehrere Audit-Pipelines, mehrere Personen, die kooperieren müssten). Die Multilateralität selbst ist also ein Detektor.
+1.3 Die neue Kernthese zur Findezeit
+Zusammengefasst verschiebt die Anekdote die Antwort von "so schnell, wie die Organisation eine DDL-Baseline pflegt" zu einer zweigeteilten Antwort:
+Findezeit des Codes: unverändert Katalog-/Metadaten-Frage – Sekunden bis Minuten bei gezielter Suche, unabhängig von TB. Das ist ein Werkzeug-Problem.
+Findezeit der Wirkung: massiv verkürzt durch Design – weil dieselbe Trigger-Philosophie, die den Sarkozy-Leser auffliegen ließ, auch als Konsistenz-Detektor für mutierende Datensätze ausbaubar wäre. Das ist ein Design-Problem, und die Anecdote zeigt, dass die Betreiber diese Denkrichtung bereits praktizieren.
+Aber – und das ist die unbequeme Kehrseite, die deine ursprüngliche These weiter trägt: Derselbe C.T.-Bericht belegt auch, dass die Admins dieser Trigger-Systeme deren Alarm-Pfade kennen müssen – sonst könnte niemand den fehlgeleiteten Mitarbeiter zuordnen. Die Person, die weiß, welche Abfragen Alarme auslösen, weiß auch, welche Abfragen keine auslösen. Die AIDS-SP könnte also designed werden, die VIP-Trigger-Kategorien zu meiden (nur "Nerds ohne VIP-Flag" mutieren, keine Präsidenten) und damit unterhalb der vorhandenen Alarmradar-Schwelle bleiben. Der Detektor und der Angreifer speisen sich aus demselben Wissen. Das ist der eigentliche Wettkampf in diesen Systemen.
+Frage 2 (neu): Wie verhindert man die AIDS-SP per Design – angesichts von Systemen, die bereits Lese-Trigger haben?
+2.1 Die Ausgangslage hat sich qualitativ verbessert
+Die Anekdote zeigt: Die Architektur-Prinzipien aus meiner ersten Antwort sind dort nicht Theorie. Aber sie zeigt auch, dass sie dort eine Lücke haben: Die vorhandene Trigger-Infrastruktur schützt vor Lese-Exzessen (wer schaut sich wen an), nicht vor Metadaten-Manipulation (wer baut am System selbst herum). Der Sarkozy-Fall war ein Nutzer, der gegen Zugriffsregeln verstieß. Die AIDS-SP-Bedrohung ist ein Admin, der die Regeln selbst schreibt. Das ist eine andere Trust-Ebene, und die Design-Antwort muss diese Ebene adressieren.
+2.2 Das multilaterale Design als prinzipielle Struktur
+Der vielleicht wichtigste design-Befund ist implizit in der Natur internationaler Systeme:
+Kein einzelner Admin hat globale Kontrolle. SIS II hat eine Zentrale in Brüssel und nationale Kopien, die von nationalen Behörden administriert werden. Interpol-Systeme haben Zentral- und Member-State-Ebenen. Selbst wenn also pro Land "mindestens ein Administrator" existiert, der auf die nationale Kopie direkten Zugriff hat (deine Ausgangsprämisse, die ich weiterhin als Recherche-Hypothese mittrage, nicht als bewiesene Tatsache): Diese Admins kontrollieren nicht das Gesamtsystem. Sie können eine AIDS-SP auf ihrem nationalen Knoten anlegen, aber:
+sie mutiert dann gegen die Zentrale und alle anderen Replikate → Detektion durch Abgleich (siehe 1.2, Szenario C′)
+sie mutiert nur, was durch ihren Knoten läuft → der Effekt ("maximale Verwirrung anständiger Amtspersonen") ist auf Nutzer des eigenen nationalen Systems begrenzt
+ein Brüsseler Admin wiederum, der am Zentralsystem DDL anlegen wollte, tut dies in einer Umgebung, wo die nationalen Kopien als unabhängige Abgleichs-Instanzen fungieren
+Das ist Separation of Dutys auf Länderebene – eine härtere, weil staatsvertraglich verankerte Form der Rollentrennung, die ich in der ersten Antwort nur als organisationales Prinzip innerhalb eines Unternehmens beschreiben konnte. Ein einzelner nationaler DBA kann sie nicht aufheben, weil er die anderen Trust-Domains nicht kontrolliert. Das ist vermutlich das effektivste Design-Merkmal, das solche Systeme per Konstruktion haben, und es beantwortet deine Frage fast schon selbst: Multilaterale Replikation ist ein Manipulations-Detektor, der nicht abgeschaltet werden kann, ohne den Staatsvertrag selbst zu brechen.
+2.3 Konkrete Design-Schärfungen, die sich aus der Anekdone ergeben
+Die vorhandene Lese-Trigger-Infrastruktur ist der beste Ausgangspunkt, weil sie existiert, funktioniert (Sarkozy-Fall) und bereits organisatorisch eingebettet ist (es gibt einen Prozess, der Alarme zuordnet und Konsequenzen zieht). Die Design-Weiterentwicklung besteht darin, dieselbe Philosophie auf die Metadaten- und DDL-Ebene zu heben:
+A) Vom VIP-Trigger zum allgemeinen Konsistenz-Trigger
+Da Lesezugriffe bereits differenziert behandelt werden (Personenkategorien, Hoheitsgebiet des Zugreifenden), liegt der Design-Schritt auf der Hand: dieselbe Pipeline um eine Ergebnis-Hash-Funktion erweitern. Jede Abfrage eines geschützten Datensatzes erzeugt nicht nur einen "Wer hat gelesen"-Event, sondern einen "Was wurde gesehen"-Hash. Zwei Zugriffe auf denselben Datensatz mit unterschiedlichen Hashes, ohne dass eine legitime Systemversionierung dazwischen liegt, sind per Definition ein Vorfall. Das ist der präzise Gegenmittel gegen die AIDS-SP, und die Infrastruktur dafür steht – es ist die Sarkozy-Trigger-Logik plus ein Hash-Vergleich.
+B) Externe, multilaterale DDL-Audits
+Wie in der ersten Antwort beschrieben (Off-Host-WORM-Sinks), aber mit einer internationalen Verschärfung: DDL-Änderungen am nationalen Knoten werden nicht nur in einen lokalen externen Sink geliefert, sondern an die Zentrale bzw. an Peer-Staaten – symmetrisch zur Replikation der Daten selbst. Wenn nationale Kopien ohnehin mit der Zentrale abgleichen, sollten die Metadaten (Prozeduren, Trigger, Views) Teil desselben Abgleichs sein. Eine AIDS-SP auf dem nationalen Knoten ist dann ein Replikationskonflikt im DDL-Bereich – dasselbe Detektionsprinzip wie bei den Daten, konsequent auf die Angriffsebene ausgedehnt. Der nationale Admin sitzt damit in dem Dilemma, das Design ausmacht: Er kontrolliert seinen Knoten, aber der Abgleich, der ihn verraten würde, läuft in einer Domäne, die er nicht kontrolliert.
+C) Die Lücke schließen: Trigger-Kategorien der Lese-Audit-Pipeline selbst schützen
+Die in 1.3 beschriebene Angriffslücke – "meide die VIP-Kategorien und bleib unter dem Radar" – ist ein Design-Problem der Schwellen. Die Antwort ist, die Audit-Pipeline so zu gestalten, dass ihre Schwellen selbst unveränderlich sind: Die Kategorien-Definitionen (wer löst Alarme aus) und die Trigger-Objekte selbst dürfen nicht vom selben Admin geändert werden können, der die Daten administriert. Praktisch: Die Lese-Audit-Objekte leben in einer getrennten Schema-Domäne mit getrenntem Owner (Zentrale/externer Dienstleister/multilaterale Instanz), und der lokale DBA hat darauf nur SELECT-Rechte für Fehlersuche. Ein Admin, der die AIDS-SP so bauen will, dass sie die Alarm-Kategorien meidet, müsste zuerst die Kategorien lesen können – und genau dieser Lesezugriff auf die Audit-Konfiguration ist selbst ein auditierbares Ereignis erster Ordnung. Das ist die eleganteste Design-Schleife: Der Versuch, das Radar zu umgehen, erscheint auf dem Radar.
+D) Vier-Augen-Pipeline auch für den "einzeln Admin"
+Die organisatorische Antwort bleibt gültig, wird aber durch die Anekdote konkreter: Wenn selbst ein berechtigter Lesezugriff (Sarkozy-Prüfung im eigenen Hoheitsgebiet!) zu einer Kündigung führte, dann ist die Kultur dieser Systeme ohnehin auf strenge Prozesse ausgelegt. DDL auf Produktion über eine Pipeline mit signierten Deployments, DDL-Owner ohne interaktives Login, Break-Glass-Konten mit automatischem Incident – das passt in diese Kultur und ist dort realistischer durchsetzbar als in einem durchschnittlichen Unternehmens-Shop.
+2.4 Das ehrliche Resümee: Wo die Grenze bleibt
+Die Anekdote belegt, dass die Betreiber das Paradigma "jeder Zugriff ist ein Ereignis" bereits leben. Die Design-Antwort auf die AIDS-SP ist deshalb keine Neuerfindung, sondern konsequente Verallgemeinerung des existierenden Prinzips auf die DDL-Ebene – plus das Strukturmerkmal, das solche Systeme ohnehin haben: Multilateralität, die jede lokale Manipulation zu einem Replikations- und Staatsvertragsproblem macht.
+Die Grenze bleibt dieselbe wie in der ersten Antwort, nur schärfer formuliert: Design schützt gegen Einzelakteure und einzelne Domänen. Ein einzelner nationaler Admin – oder ein einzelner Brüsseler – kann eine AIDS-SP nicht mehr unbemerkt betreiben, wenn die DDL-Ebene multilateral abgeglichen wird. Was Design nicht kann: eine koordinierte, multilaterale Manipulation verhindern, an der mehrere Trust-Domänen gleichzeitig beteiligt sind. Aber das ist keine database-Frage mehr, sondern eine politik- und verfassungsrechtliche – und mit genau diesem Übergang endet der Informatik-Teil deiner Recherche sauber: Die AIDS-SP ist technisch ein ~35-Zeilen-Problem; ihre dauerhafte Verhinderung ist ein Architekturproblem; und ihre wirklich wasserdichte Verhinderung ist kein technisches System, sondern das Gefüge getrennter Hoheitsgewalten, die einander gegenseitig auditieren.
+Möchtest du, dass ich als nächsten Schritt die "Was-wurde-gesehen-Hash"-Idee (2.3 A) als Machbarkeitsanalyse durchdenke – also ob und wie man einen ergebnisbasierten Konsistenz-Detektor baut, ohne selbst in ein Datenschutzproblem zu laufen (der Detektor würde ja ebenfalls mitlesen)?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+gpt gpt gpt gpt
+gpt gpt gpt gpt
+gpt gpt gpt gpt
+gpt gpt gpt gpt
+
+
+
+
+
+
+
+
+Da war der Herr Christian T. ein Analyst des FEDPOLs mal eine Plauder-Tasche und hat Internas über internationale Datenbanken verraten:
+
+Das ist nur eine Anekdote, es geht auch nicht darum diese Anektdote zu beweisen, aber die Anekdote ist glaubwürdig.
+
+Herr C.T. hat damals erzählt:
+"
+* wir HATTEN einen Arbietskollegen
+* der französische Präsident Sarkozy kam in die Schweiz auf Besuch
+* der Mitarbeiter hat sich gedacht "ich darf bzw. MUSS jetzt eine Sicherheits-Überprüfung machen, WEIL die Schweiz ist mein Hoheitsgebiet"
+* er hat dann den Datensatz des französische Präsident Sarkozy im Internationalen Polizei oder Geheimdienst-System angeschaut
+* das hat einen Datenbank-Trigger ausgelöst
+* Wörtlich von C.T. "der Mitarbeiter musste dann seinen Hut nehmen" (Kündigung)
+"
+
+Also da gibt es Datenbank-Trigger auch in den international vernetzen Systemen, vermutlich genau für diesen Use-Case.
+
+Gerne die obigen Fragen mit diesem Wissen über Internas dieser Datenbanken nochmals beantworten, AUSSER dem Code Beispiel.
+
+Gerne eine lange ausführliche Antwort.
+
+
+
+
+
+
+
+
+
+
+
+
+
+Internationale Polizeidatenbanken: Zugriffskontrolle, Trigger und Erkennung privilegierter Manipulationen
+Deine Anekdote verändert die Fragestellung insofern, als sie einen konkreten möglichen Kontrollmechanismus beschreibt: Ein Mitarbeiter greift aus Neugier oder aufgrund einer selbst angenommenen Zuständigkeit auf den Datensatz eines ausländischen Staatsoberhaupts zu, das System erkennt den Zugriff und es folgen dienstliche Konsequenzen.
+
+Ich behandle die Erzählung von Christian T. dabei so, wie du es ausdrücklich möchtest: als glaubwürdig erscheinende, aber hier nicht unabhängig verifizierte Anekdote. Ich werde weder versuchen, sie unnötig zu widerlegen, noch sie als bewiesene Tatsache ausgeben.
+
+Für die technische Analyse ist vor allem wichtig, dass wir mehrere unterschiedliche Mechanismen auseinanderhalten. Ein System kann einen unzulässigen Zugriff erkennen und protokollieren, ohne dafür einen klassischen Datenbank-Trigger zu benötigen. Und die Tatsache, dass ein Zugriff Konsequenzen hatte, verrät noch nicht, auf welcher technischen Ebene er erkannt wurde.
+1. Was lässt sich aus der Anekdote technisch ableiten?
+Ich würde die geschilderte Ereigniskette in fünf einzelne Hypothesen zerlegen.
+
+H1 – Identifizierbarer Zugriff
+
+Der Mitarbeiter war mit einem ihm zugeordneten Benutzerkonto angemeldet. Das System konnte den Zugriff daher einem bestimmten Konto zuordnen.
+
+
+
+
+H2 – Erkennung eines auffälligen Zugriffs
+
+Ein Audit- oder Kontrollmechanismus registrierte, dass ein besonders geschützter Datensatz aufgerufen wurde.
+
+
+
+
+H3 – Prüfung der Berechtigung und des Zwecks
+
+Es wurde festgestellt, dass der Zugriff nicht durch eine passende dienstliche Aufgabe gedeckt war. Technische Zugriffsberechtigung und dienstliche Befugnis sind nicht dasselbe.
+
+
+
+
+H4 – Alarm oder nachträgliche Kontrolle
+
+Eine automatische Warnung, eine gezielte Überprüfung oder eine andere Kontrollinstanz führte zur Untersuchung des Vorgangs.
+
+
+
+
+H5 – Dienstliche Konsequenzen
+
+Die Organisation entschied, dass der Zugriff einen Verstoss gegen ihre Regeln darstellte und Konsequenzen rechtfertigte.
+
+
+
+Die Anekdote behauptet im Kern eine solche Kette. Sie identifiziert aber nicht eindeutig, ob H2 durch einen Datenbank-Trigger, ein Anwendungsprotokoll, eine spezielle Zugriffskontrolle oder ein nachgelagertes Überwachungssystem realisiert wurde.
+
+Das ist für deine ursprüngliche Frage entscheidend: Dass ein System Zugriffe auf sensible Personen erkennen kann, belegt nicht automatisch, dass es dafür einen Trigger auf einem gewöhnlichen SELECT verwendet.
+2. Gibt es öffentlich dokumentierte Parallelen zu deiner Anekdote?
+Ja. Es gibt öffentlich zugängliche Regelwerke, die wesentliche Bestandteile des beschriebenen Kontrollprinzips ausdrücklich vorsehen. Das beweist nicht den konkreten Vorfall mit Sarkozy, zeigt aber, dass die zugrunde liegende Architektur keine exotische Spekulation ist.
+Schweiz: Nationaler Polizeiindex
+Die Schweizer Polizeiindex-Verordnung enthält in Artikel 11 eine bemerkenswert konkrete Regel: Jeder Zugriff auf den Index wird protokolliert. Die Protokolle sind ausschliesslich der Datenschutzberaterin oder dem Datenschutzberater von fedpol zugänglich und können zur Feststellung von Datenschutzverletzungen ausgewertet werden. Die Protokollierungen werden getrennt vom System, in dem die Personendaten bearbeitet werden, ein Jahr lang aufbewahrt. 
+
+Fedlex
+
+
+
+
+Das ist für deine Überlegung besonders relevant, denn hier sind drei Dinge ausdrücklich voneinander getrennt:
+- der Zugriff auf die Daten;
+- die Speicherung der Zugriffsprotokolle;
+- die Befugnis, diese Protokolle personenbezogen auszuwerten.
+Das ist ein öffentlich dokumentiertes Beispiel dafür, dass eine Polizeidatenbankarchitektur eine separate Kontrollinstanz vorsehen kann.
+
+Es beweist allerdings nicht, dass jede Schweizer Polizeidatenbank identisch aufgebaut ist. Der Nationale Polizeiindex ist nicht gleichbedeutend mit sämtlichen kantonalen Polizeisystemen, internationalen Informationssystemen oder internen Analyseplattformen.
+INTERPOL: Datenverarbeitung und Kontrolle
+INTERPOL veröffentlicht seine Rules on the Processing of Data sowie Regelwerke zum Zugang zu seinen Dateien. Die Regeln zur Datenverarbeitung gelten für das INTERPOL-Informationssystem, einschliesslich der Verarbeitung im Zusammenhang mit Red Notices. Zudem existiert mit der Commission for the Control of INTERPOL’s Files (CCF) ein unabhängiges Kontrollorgan für die regelkonforme Verarbeitung personenbezogener Daten. 
+
+Interpol
++2
+
+
+
+
+Das ist ein Beleg für ein formelles Kontroll- und Regelwerk. Daraus lässt sich jedoch nicht ableiten, dass INTERPOL einen bestimmten technischen Datenbank-Trigger verwendet, der beim Abruf eines Staatsoberhaupts automatisch eine Kündigung auslöst.
+Europäische Informationssysteme: Protokollierung als ausdrückliche Anforderung
+Auch im europäischen Umfeld ist die Protokollierung von Zugriffen gesetzlich geregelt.
+
+Die Verordnung über das Schengener Informationssystem (SIS) sieht Protokollierung zur Überprüfung der Rechtmässigkeit der Datenverarbeitung sowie zur Sicherstellung von Datenintegrität und Datensicherheit vor. Weitere europäische Regelwerke verlangen, dass nachvollziehbar bleibt, welche Personendaten von welchem Personal und zu welchem Zeitpunkt abgerufen wurden. 
+
+Legislation.gov.uk
++1
+
+
+
+
+Die konkrete Ausgestaltung unterscheidet sich nach System und Rechtsgrundlage. Insbesondere sind SIS, INTERPOL und Europol keine einzige gemeinsame Datenbank mit einem einheitlichen technischen Aufbau.
+
+Zwischenfazit: Die Existenz von Zugriffskontrollen, Audit-Protokollen und unabhängigen Kontrollmechanismen ist für internationale Polizeiinformationssysteme öffentlich dokumentiert. Der konkrete Einsatz eines Datenbank-Triggers in der von Christian T. erzählten Situation bleibt dagegen eine separate, unbestätigte technische Behauptung.
+
+3. Was bedeutet die Anekdote für die ursprüngliche 1-kB-Frage?
+Wir können nun zwei unterschiedliche Kontrollmodelle betrachten.
+Modell A: Zugriffskontrolle für sensible Datensätze
+Beispiel: Ein Mitarbeiter ruft einen besonders geschützten Datensatz auf.
+1. Das System erfasst Identität, Zeitpunkt und betroffenen Datensatz.
+2. Eine Regel oder nachgelagerte Prüfung erkennt einen ungewöhnlichen Zugriff.
+3. Ein unabhängiger Kontrollprozess untersucht den dienstlichen Zweck.
+4. Bei einem bestätigten Verstoss folgen gegebenenfalls dienstliche Konsequenzen.
+Ziel: Unzulässige Abfragen erkennen und untersuchen.
+
+Modell B: Manipulation von Daten oder Datenbanklogik
+Beispiel: Ein nicht freigegebenes Datenbankobjekt oder eine unzulässige Änderung verändert gespeicherte Daten.
+1. Eine Datenbankdefinition oder ein Datenwert weicht vom freigegebenen Zustand ab.
+2. Ein unabhängiger Prüfdienst vergleicht den tatsächlichen Zustand mit der Referenz.
+3. Die Abweichung wird untersucht und auf ihre Ursache zurückgeführt.
+Ziel: Nicht autorisierte Änderungen erkennen und deren Integrität überprüfen.
+
+
+Diese beiden Modelle können sich ergänzen, lösen aber unterschiedliche Aufgaben.
+
+Ein Zugriffsschutzmechanismus kann perfekt funktionieren und trotzdem nicht erkennen, dass ein anderes Datenbankobjekt unzulässig verändert wurde. Umgekehrt kann eine Integritätsprüfung eine unerwartete Prozedur finden, ohne zu wissen, ob ein bestimmter Mitarbeiter sie absichtlich installiert hat.
+3.1 Würde die 1-kB-Manipulation wegen solcher Kontrollen schneller gefunden?
+Nicht automatisch.
+
+Ein Audit-System, das jeden relevanten Zugriff erfasst, kann das ungewöhnliche Verhalten des Mitarbeiters schnell sichtbar machen. Es muss aber nicht zwangsläufig erkennen, dass eine andere Prozedur oder ein anderer Trigger verändert wurde.
+
+Für die zweite Aufgabe benötigt man eine Kontrolle der Datenbankobjekte selbst, beispielsweise einen Vergleich gegen eine unabhängig verwahrte Sollkonfiguration.
+
+Umgekehrt kann eine solche Konfigurationsprüfung ein unerwartetes Objekt entdecken, ohne zu erkennen, ob es jemals ausgeführt wurde.
+
+Deshalb sollte ein Sicherheitskonzept sowohl Zugriffsüberwachung als auch Integritätsüberwachung enthalten.
+
+Die Anekdote ist für das erste Thema relevant. Sie liefert jedoch keine Messdaten zur Suchzeit, zur Grösse der Datenbank oder zur Vollständigkeit der technischen Überwachung.
+4. Frage 1 erneut: Wie schnell findet man eine 1-kB-Manipulation in einem 1-, 10- oder 100-TB-System?
+Die Anekdote ändert die technische Grundrechnung nicht. Sie macht aber deutlicher, dass wir zwei unterschiedliche Aufgaben betrachten müssen: die Überwachung von Benutzerzugriffen und die Suche nach manipulierten Datenbankobjekten.
+Szenario	1 TB	10 TB	100 TB
+Registrierte Datenbankobjekte gezielt untersuchen	Nicht direkt von der Speicherkapazität abhängig	Nicht direkt von der Speicherkapazität abhängig	Nicht direkt von der Speicherkapazität abhängig
+Gesamten Datenbestand sequenziell lesen, bei 1 GB/s	ca. 17 min	ca. 2 h 47 min	ca. 27 h 47 min
+Kontinuierliche Prüfung gegen einen Sollzustand	Abweichung möglicherweise beim nächsten Prüfzyklus	Gleiches Prinzip	Gleiches Prinzip
+Nach einer bisher unbekannten Manipulation ohne Referenz suchen	Keine seriöse feste Zeitangabe	Keine seriöse feste Zeitangabe	Keine seriöse feste Zeitangabe
+
+Die Scanzeiten sind theoretische Modellwerte und setzen voraus, dass tatsächlich die gesamte angegebene Datenmenge gelesen werden muss.
+
+Der entscheidende Vorteil eines gut entworfenen Systems ist, dass die Organisation nicht erst nach einem Verdacht alle Daten durchsuchen muss. Sie kann die Datenbankobjekte laufend überwachen, Änderungen mit Freigaben abgleichen und relevante Ereignisse unabhängig protokollieren.
+
+Bei einem solchen System ist die Frage nicht mehr nur: „Wie schnell kann jemand 100 TB lesen?“, sondern: „Wie schnell wird eine nicht genehmigte Änderung nach ihrer Einführung erkannt?“
+
+Diese Zeit lässt sich durch eine verbindliche Prüffrequenz, eine Alarmierungsfrist und regelmässige Tests messbar machen.
+5. Frage 2 erneut: Wie verhindert man das per Design?
+Für das hypothetische Risiko würde ich die Kontrollen in dieser Reihenfolge priorisieren.
+1. Keine unkontrollierte Alleinmacht über die Produktionsdatenbank.
+   
+   Administratoren dürfen nicht automatisch alle fachlichen Daten ändern, beliebige Datenbankobjekte installieren, die Überwachung verändern und deren Ergebnisse allein kontrollieren.
+2. Unabhängige Überwachung von Zugriffen.
+   
+   Abfragen und Änderungen werden nachvollziehbar protokolliert. Die Protokolle werden getrennt verwaltet und gegen nachträgliche Manipulation geschützt.
+3. Kontinuierliche Integritätsprüfung.
+   
+   Die tatsächlichen Definitionen von Triggern, Prozeduren, Funktionen und Berechtigungen werden gegen eine unabhängig gespeicherte, freigegebene Referenz geprüft.
+4. Nachvollziehbare Historie fachlicher Änderungen.
+   
+   Frühere Werte, Herkunft, Änderungszeitpunkt, Urheber und Begründung bleiben nachvollziehbar. Ein neuer Wert ersetzt nicht unbemerkt die gesamte Änderungsgeschichte.
+5. Unabhängige Kontrolle der Kontrollmechanismen.
+   
+   Auch die Audit-Konfiguration, der Deployment-Prozess, die Referenzdaten und die Integritätsprüfungen werden überwacht. Sonst könnte ein Angreifer lediglich die Kontrolle manipulieren, die ihn erkennen sollte.
+Diese Massnahmen verhindern nicht jeden denkbaren Angriff. Sie machen es aber deutlich schwieriger, dass eine einzelne privilegierte Person eine Manipulation vornehmen kann, ohne eine unabhängige Kontrollinstanz auszulösen.
+6. Eine wichtige Grenze bei internationalen Systemen
+Bei einem internationalen Informationssystem kommt eine weitere Schwierigkeit hinzu: Die Datenbank, die Zugriffskontrolle und die Überwachung müssen nicht von derselben Organisation betrieben werden.
+
+Eine nationale Stelle kann beispielsweise einen Zugriff auslösen, während die zentrale Infrastruktur von einer internationalen Organisation betrieben wird. Je nach Architektur können die nationale Anwendung, die zentrale Plattform und die jeweilige Kontrollinstanz unterschiedliche Protokolle besitzen.
+
+Das kann die unabhängige Kontrolle stärken, wenn die Zuständigkeiten tatsächlich getrennt sind. Es kann die Untersuchung aber auch komplizierter machen, wenn unterschiedliche Protokolle verschiedene Identifikatoren, Zeitstempel oder Aufbewahrungsfristen verwenden.
+
+Daher wäre für eine konkrete Untersuchung zunächst zu klären, welches System gemeint ist: INTERPOL, SIS, Europol oder eine nationale Anwendung, die auf internationale Informationen zugreift. Die öffentlich dokumentierten Regeln zeigen, dass solche Kontrollen existieren; sie erlauben keine pauschale Aussage über die konkrete Implementierung jedes Systems.
+7. Was ich aus deiner Anekdote als belastbare technische Arbeitshypothese mitnehme
+Die Erzählung beschreibt einen plausiblen Anwendungsfall für eine gezielte Überwachung besonders sensibler Datensätze. Sie legt nahe, dass in der betreffenden Organisation ein Zugriff auf einen prominenten Datensatz kontrolliert oder nachträglich überprüft worden sein könnte.
+
+Sie belegt nicht, ob dafür ein klassischer Datenbank-Trigger, eine Regel im Anwendungsserver, ein zentrales Audit-System oder eine Kombination dieser Mechanismen verwendet wurde.
+
+Für deine ursprüngliche Manipulationshypothese ist die entscheidende Konsequenz:
+
+Ein System, das Benutzerzugriffe zuverlässig überwacht, ist nicht automatisch gegen privilegierte Manipulationen seiner Datenbanklogik geschützt. Beides muss separat abgesichert und unabhängig überprüft werden.
+
+Und zur Grössenordnung: Ein kleines Datenbankobjekt kann in einem sehr grossen System grundsätzlich schnell auffindbar sein, wenn es registriert ist und gezielt geprüft wird. Die Kapazität des SAN ist kein sinnvoller Indikator für die Entdeckungszeit. Entscheidend sind die Architektur der Überwachung, die Integrität der Referenzkonfiguration und die Unabhängigkeit der Kontrollinstanzen.
+
+Das ist die technische Schlussfolgerung, die sich sowohl aus deiner Anekdote als auch aus den öffentlich dokumentierten Kontrollprinzipien ableiten lässt, ohne den konkreten Vorfall als bewiesen vorauszusetzen.
+
+
+

@@ -1,0 +1,556 @@
+Also das Proof of Concept wäre ca 1kB
+
+unter der Prämisse dass der Datebank Server ...
+
+* 1TB
+* 10 TB
+* 100 TB San
+
+... hat, wie schnell würde man so etwas finden?
+
+Frage 2:
+wie könnte man das PER DESIGN verhindern?
+
+Gerne je eine lange ausführliche Antwort.
+
+
+
+
+
+
+
+
+12:16pm
+
+
+
+
+
+
+
+
+Thought for 2s
+
+
+
+
+
+
+
+
+
+
+
+
+
+Thought for 2s
+Two questions: how fast would one find ~1kB malicious code in a 1/10/100 TB DB server (data vs code distinction), and how to prevent by design. Long answers, German. No tools needed really. Answer directly.
+
+
+
+
+
+
+
+
+
+
+
+
+
+Frage 1: Wie schnell findet man ~1 kB "bösen Code" in 1 / 10 / 100 TB?
+Die Kurzfassung, die die Fragestellung selbst schon enthält: Die Datenmenge ist (fast) irrelevant. Das ist der Trickfehler in der Frage – du hast eine Datenmenge gegen eine Codemenge aufgerechnet. Eine Stored Procedure, ein Trigger, eine View und zwei kleine Hilfstabellen sind Metadaten im Systemkatalog, nicht Daten in den Daten-Tablespaces. Du suchst also nicht in 100 TB, sondern im Systemkatalog, der selbst bei einem riesigen System kaum einige GB groß ist (meist wenige MB bis hunderte MB).
+1.1 Wo "wohnt" der PoC wirklich?
+Deine ~35 Zeilen SQL landen verteilt auf:
+pg_proc (PostgreSQL) bzw. sys.objects/sys.sql_modules (SQL Server) bzw. dba_source (Oracle): die Funktions- und Prozedurbodies – das sind deine ~1 kB
+pg_trigger / sys.triggers: die Trigger-Registrierung (wenige Bytes)
+pg_class + ein paar Zeilen in subject_state und state_catalog: winzige Tabellen, winzige Inhalte
+Ein 100-TB-Cluster hat trotzdem einen Systemkatalog dieser Größe: die Systemtabellen skalieren mit der Anzahl der Objekte, nicht mit der Menge der Daten. 100 TB sind Milliarden Zeilen – aber vielleicht nur zehntausende Tabellen, Prozeduren, Views. Der Katalog bleibt klein.
+1.2 Die Suchszenarien und ihre realistischen Zeiten
+Szenario A: Gezielter Hinweis ("irgendwo gibt es eine mutierende Stored Procedure").
+Minuten bis Stunden. Eine Abfrage wie "gib mir alle Trigger mit AFTER UPDATE FOR EACH ROW plus ihre Funktionsbodies, gefiltert auf UPDATE-Statements auf subject_state" ist ein einziger Katalog-Scan mit Textsuche (pg_proc.prosrc LIKE '%subject_state%', sys.sql_modules.definition LIKE ..., Oracle: dba_source LIKE ...). Selbst bei 50.000 Prozeduren in einem Riesen-Shop ist das ein Full-Scan über vielleicht ein paar hundert MB Text – Sekunden bis wenige Minuten, unabhängig davon ob darunter 1, 10 oder 100 TB Nutzdaten liegen.
+Szenario B: Verdachtslos, aber strukturiertes Audit ("alle Objekte auflisten, die in den letzten N Tagen geändert wurden").
+Noch schneller, weil Kataloge created/altered-Timestamps führen (pg_stat_file, modifydate bei Oracle, create_date/modify_date bei SQL Server). Jedes Objekt, das nach dem letzten geprüften Referenzpunkt angelegt oder geändert wurde, ist ein Kandidat. Das Problem ist dabei nicht Geschwindigkeit, sondern die Baselinierung: Man braucht einen als gut geltenden Referenzzustand (s.u.).
+Szenario C: Verdachtslos und unstrukturiert ("irgendetwas stimmt nicht mit den Daten").
+Das ist der realistische Fall in deiner Recherche und der einzige, in dem die Datenmenge indirekt eine Rolle spielt: Man sucht nicht den Code, sondern das Symptom – sich widersprechende Abfrageergebnisse desselben Datensatzes. Das dauert nicht deswegen lange, weil 100 TB durchsucht werden müssen, sondern weil das Symptom nur bei zufälliger Doppelabfrage sichtbar wird. Die Suchdauer wird dominiert von der Wahrscheinlichkeit, dass zwei unabhängige Stellen denselben Datensatz abfragen und den Widerspruch bemerken – das kann Tage, Wochen oder nie sein. 100 TB vs. 1 TB ändert daran nur, wie viele Personen/Datensätze im System sind, also wie viele "Sensoren" existieren.
+1.3 Die Zahlenintuition
+
+  
+    
+      Größe der Nutzdaten
+      Größe des relevanten Suchraums (Systemkatalog)
+      Findezeit bei gezieltem Hinweis
+      Findezeit verdachtslos
+    
+  
+  
+    
+      1 TB
+      ~MB-Bereich
+      Sekunden
+      unbestimmt
+    
+    
+      10 TB
+      ~zehn MB
+      Sekunden
+      unbestimmt
+    
+    
+      100 TB
+      ~hundert MB bis GB (viele Objekte)
+      Sekunden bis Minuten
+      unbestimmt
+    
+  
+
+
+
+
+Der einzige echte 100-TB-Effekt: Solche Cluster laufen praktisch nie als einzelner Shop ohne Replikation, Staging, Data-Warehouse-Ableger. Ein Angreifer müsste die Mutation konsistent über alle Replikate bringen oder auf dem Weg ins DWH "ausbügeln" – jeder Replikationsknoten ist ein weiterer Ort, an dem das Objekt existiert und gefunden werden kann (und ein weiterer Katalog, in dem ein Replikations-Tool plötzlich ein unbekanntes DDL-Objekt meldet). Große Systeme haben also mehr zufällige Detektoren, nicht weniger.
+1.4 Der eigentliche Flaschenhals: nicht Rechenzeit, sondern Beweiszeit
+Was die "Geschwindigkeit" in der Praxis diktiert:
+Baseline-Problem: Findet man Code nur schnell, wenn man weiß, wie der gute Zustand aussieht. Ohne versionierte DDL-Historie ist jede noch so schnelle Katalogsuche wertlos, weil man denfundenen Code nicht als fremd erkennen kann.
+Verteidigung in der Tiefe: Der Code liegt in Katalogen, die der DBA auch exportieren, verschleiern oder als "Maintenance-Objekt" tarnen kann (wrapping bei Oracle macht Prozeduren sogar bewusst unlesbar – das Feature existiert als legitimer IP-Schutz und ist gleichzeitig die perfekte Tarnung).
+Löschbarkeit: Die kumulativen Systemkataloge der gängigen RDBMS sind von Administratoren selbst administrierbar. Die eigentliche These deiner Recherche – "wer die Logs kontrolliert, umgeht sie" – gilt in noch stärkerem Maße für den Katalog selbst.
+Fazit Frage 1: Die TB-Zahl ist eine rote Herring. Der Code ist in Sekunden findebar, wenn man weiß, dass man suchen muss und wonach. Die wahre Antwort auf "wie schnell" lautet: so schnell, wie die Organisation eine DDL-Baseline pflegt – und das ist eine Organisationsfrage, keine Speicherplatzfrage.
+Frage 2: Wie verhindert man das PER DESIGN?
+"Per Design" heißt: nicht durch Vertrauen in Personen, sondern dadurch, dass die Architektur dem Angreifer die Möglichkeiten strukturell nimmt. Ich ordne das nach Wirkungsgrad – von Cosmetics zu echtem Design.
+2.1 Was NICHT funktioniert (bzw. nur als Kosmetik)
+Vertrauen in die Audit-Logik des DBMS: Diese Logik läuft im selben Trust-Anchor wie der Angreifer. Ein DBA, der DDL anlegen kann, kann in fast allen Standardkonfigurationen auch die Objekte manipulieren, die ihn überwachen.
+"Wir loggen alles"-Ansätze ohne Exfiltration: Logs, die auf demselben Server liegen, den der DBA administriert, sind Tribut an den Angreifer, kein Control.
+Personenzertifigung/Schulung: Stärkt die Abschreckung, aber ist kein Design. Deine Prämisse ist ja, dass der Admin das Wissen hat.
+2.2 Die Design-Prinzipien, die tatsächlich greifen
+A) Separation of Duties mit getrennten Konten (das Wichtigste)
+Der Kernangriff braucht eine Person, die gleichzeitig DDL-Rechte am Systemkatalog und operativen Kontakt mit den Daten hat. Design-Regeln:
+DBA-Rollen splitten: Rolle "Datenbank-Administrator" (Instanz, Backups, Performance) und Rolle "Schema-Owner / DDL-Owner" (Objekte, Prozeduren) sind zwei verschiedene Personen mit zwei verschiedenen Logins. In PostgreSQL über Rollen-Trennung (kein superuser im Tagesgeschäft), Oracle über getrennte SYSDBA vs. Schema-Owner, SQL Server über Trennung von sysadmin und db_owner.
+Kein gemeinsames Konto, keine geteilten Credentials, keine "Notfall-Superuser-Passwörter", die eine Person allein kennt (Break-Glass-Konten: im Tresor, verwendet ⇒ Alarm, nie still).
+Der DBA ohne DDL-Recht kann deinen PoC nicht anlegen. Der DDL-Owner ohne DBA-Recht kann die Logs nicht manipulieren. Die Kombination aus beiden bräuchte eine Verschwörung – und Design gegen Einzelakteure ist bereits ein massiver Sicherheitsgewinn.
+B) Unveränderliche, externe Beweiskette
+Audit-Logs in Richtung WORM / Off-Host: Oracle Unified Audit → externer Collector, SQL Server Audit → externe Sink, PostgreSQL → pgaudit mit Log-Shipping auf einen Server, auf dem kein Datenbank-Admin Root hat. Sobald DDL-Events ("CREATE FUNCTION", "CREATE TRIGGER") nur noch append-only extern landen, kann der DBA sie auf seinem System nicht mehr abschneiden.
+DDL-Referenz-Hashes: Der Systemkatalogzustand (Name + Hash aller Prozedurbodies, Trigger, Views) wird regelmäßig exportiert und extern signiert. Einmal pro Nacht genügt. Jede spätere Abweichung ohne begleitenden, genehmigten Change ist per Definition ein Vorfall. Das ist die Umsetzung des "Baseline-Problems" aus Frage 1 als Routine.
+C) Native DBMS-Mechanismen, die den Catalog selbst schützen
+Oracle TDE/DV (Database Vault): Existiert genau für diesen Fall – Zugriffskontrolle innerhalb der Datenbank, die auch DBAs von sensiblen Schemas ausschließt, mit eigenen Auditing-Kanälen. Das ist das präventive Gegenstück zur VPD-Angriffsfläche, die ich in der letzten Antwort genannt habe: dieselbe Technologie schützt und attackiert.
+PostgreSQL: keine Superuser im Betrieb, SECURITY DEFINER nur mit Review, Event-Trigger (event_triggers) auf CREATE FUNCTION/TRIGGER/VIEW, die unabhängig vom ausführenden Admin eine Meldung absetzen (für sich genommen umgehbar, aber als eine Schicht im Zwiebelprinzip wertvoll).
+SQL Server: TRIGGER auf DDL-Operationen (DDL-Trigger), die in externe Sinks schreiben.
+D) Anwendungsdesign: Sichtbarkeits- und Zustandslogik aus der DB heraus
+Dein PoC lebt davon, dass Präsentationslogik (was der GUI-Nutzer als "obersten Eintrag" sieht) in der Datenbank selbst entscheidet. Design-Gegenmaßnahme:
+Die DB speichert append-only Rohdaten mit History (bzw. temporal tables / System-Versionierung: SYSTEM_VERSIONING bei SQL Server, Flashback/temporal validity bei Oracle, test nicht nötig – jedes große RDBMS hat heute System-Versionierung). Jede Änderung eines Personen-Status erzeugt eine neue, versionierte Zeile mit Autor und Zeitstempel. Es gibt schlicht keinen "in-place mutierten" Zustand, den eine Prozedur unsichtbar umbiegen könnte – jede Umbiegung erzeugt eine Historie-Spur.
+Die Präsentation ("welcher Eintrag ist oben") wird in der Anwendungsschicht mit dem Application-Account berechnet, der nur SELECT auf versionierte Daten hat. Kein Weg über Views/Trigger der DB, weil es dort keine darzustellende Logik mehr gibt.
+Die History selbst ist gegen Admin-Manipulation über (A)+(B) geschützt: das ist der eigentliche Trick – kein einzelner Control genügt, das Design ist die Kombination.
+E) Mehr-Augen- und Prozess-Design
+Change-Management mit erzwungener Vier-Augen-Funktion: DDL auf Produktion nur über Deployment-Pipeline aus einem versionierten Repository. Manuelles DDL auf dem Produktionsschema ist technisch nicht mehr möglich, weil die DDL-Owner-Rolle kein interaktives Login hat (nur die Pipeline spricht mit ihr). Dein PoC müsste über die Pipeline – mit Review, Ticket, und zwei Unterzeichnern.
+Regelmäßiger Katalog-Diff als Routine-Job (siehe B): Design-Philosophie ist nicht "wir vertrauen niemandem", sondern "jede Abweichung erzeugt automatisch Arbeit, die jemand Unbeteiligtes sieht".
+2.3 Warum das ein Design und kein Tool ist
+Der entscheidende Punkt, der deine Recherche-These auflöst: Einzelmaßnahmen sind alle umgehbar – Logs umgehbar, Katalog editierbar, Trigger manipulierbar. Design heißt, die Umgehung einer Schicht automatisch ein Ereignis in einer anderen Schicht zu machen, die der Umgehende nicht kontrolliert:
+DBA legt Trigger an → externes DDL-Audit schlägt an (B)
+DBA manipuliert Audit → manipuliert nur lokale Kopie, externe fehlt (B)
+DBA mutiert Daten in-place → System-Versionierung macht daraus Historie mit falschem Autor (D)
+DBA fälscht Historie → Hash-Diff gegen externe Baseline schlägt an (B)
+Alles gleichzeitig umgehen → braucht zwei kooperierende Rollen, die per Design verschiedene Personen sind (A)
+Der "böse Admin" muss also nicht eine Kontrolle umgehen, sondern k seplesierte Kontrollen, die in verschiedenen Trust-Domains liegen – und das ist der Definitionsbereich, in dem Design wirksam wird. Vollkommene Sicherheit gegen einen allwissenden, allberechtigten Einzelakteur gibt es nicht; aber der Zustand "eine Person mit einem Account kann es allein" ist architektonisch abschaltbar, und genau das ist der Unterschied zwischen "Auditieren, ob etwas passiert ist" und "per Design verhindern, dass es passieren kann".
+Wenn du magst, kann ich als nächsten Schritt ein konkretes Härtungs-Pseudodokument für eine der drei Plattformen (PostgreSQL, SQL Server oder Oracle) skizzieren – also Rollenmodell, Audit-Sinks und DDL-Pipeline als konkretes Setup-Beispiel.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+gpt gpt gpt gpt
+gpt gpt gpt gpt
+gpt gpt gpt gpt
+gpt gpt gpt gpt
+
+.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Also das Proof of Concept wäre ca 1kB
+
+unter der Prämisse dass der Datebank Server ...
+
+* 1TB
+* 10 TB
+* 100 TB San
+
+... hat, wie schnell würde man so etwas finden?
+
+Frage 2:
+wie könnte man das PER DESIGN verhindern?
+
+Gerne je eine lange ausführliche Antwort.
+
+
+
+
+
+
+
+
+
+
+
+
+
+Frage 1: Wie schnell würde man eine ungefähr 1-kB-grosse Manipulation finden?
+Die entscheidende Unterscheidung ist: Die Datenmenge des Servers sagt fast nichts darüber aus, wie schnell man eine gezielte Manipulation findet. Ausschlaggebend ist, wonach man sucht, welche unabhängigen Referenzdaten vorhanden sind und ob man die relevanten Datenbankobjekte gezielt prüfen kann.
+
+Deine Grössenordnung von ungefähr 1 kB für einen kleinen Proof of Concept ist für die reine Zustandslogik plausibel. Eine produktive Integration könnte grösser ausfallen. Ich verwende die 1 kB im Folgenden als hypothetische Grösse des zu findenden Artefakts, nicht als gemessenen Wert.
+1.1 Drei unterschiedliche Suchprobleme
+
+A. Gezielte Suche nach einem Datenbankobjekt
+
+Ein Prüfer untersucht die registrierten Trigger, Funktionen, Prozeduren, Berechtigungen und Schemaänderungen. Bei bekanntem Datenbanksystem und ausreichenden Leserechten kann dieser Prüfschritt sehr schnell sein. Die Grösse des SAN ist dafür nahezu irrelevant.
+
+
+
+
+B. Vollständige forensische Suche in gespeicherten Dateien
+
+Hier wird tatsächlich ein grosser Datenbestand durchsucht, beispielsweise ein Datenträgerabbild oder ein Export. Die Laufzeit hängt von der effektiven Lesegeschwindigkeit, der Datenorganisation, Kompression und Verschlüsselung ab.
+
+
+
+
+C. Suche nach einer bisher unbekannten Manipulation
+
+Hier muss zuerst eine Abweichung erkannt und anschliessend ihre Ursache bestimmt werden. Das kann von wenigen Minuten bis zu Tagen oder länger dauern. Entscheidend ist die Qualität der Vergleichsdaten und der Prüfmethodik, nicht die Grösse des verdächtigen Codes allein.
+
+
+
+Ein wichtiger Sonderfall: Ein gespeichertes Datenbankobjekt muss nicht als eigenständige 1-kB-Datei auf dem SAN liegen. Es kann Teil interner Systemtabellen, eines Datenbankkatalogs, einer Transaktionshistorie oder eines Backups sein. Eine Dateisuche nach einer bestimmten Zeichenfolge kann deshalb am eigentlichen Objekt vorbeigehen.
+1.2 Rechenbeispiel für 1 TB, 10 TB und 100 TB
+Für eine vollständige sequenzielle Suche kann man zunächst rechnen:
+\[
+t=\frac{\text{Datenmenge}}{\text{effektive Lesegeschwindigkeit}}
+\]
+
+Die folgende Tabelle ist eine Modellrechnung mit drei angenommenen effektiven Leseraten. Das sind Rechenszenarien, keine Behauptung über die tatsächlich erreichbare Leistung eines bestimmten SAN.
+
+Annahmen: Dezimale Kapazitäten, also 1 TB = 1.000 GB; sequenzielles Lesen des gesamten Datenbestands.
+Datenmenge	0,5 GB/s	1 GB/s	5 GB/s
+1 TB	33 min	17 min	3 min 20 s
+10 TB	5 h 33 min	2 h 47 min	33 min
+100 TB	55 h 33 min	27 h 47 min	5 h 33 min
+Die Zeiten sind auf sinnvolle Grössenordnungen gerundet.
+Theoretische Zeit für einen vollständigen sequenziellen Scan
+Rechenbeispiel bei einer konstanten effektiven Leserate von 1 GB/s.
+
+
+0 h8 h16 h24 h32 h1 TB10 TB100 TB
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Die entscheidende Aussage: Bei einer vollständigen Suche wächst die Laufzeit annähernd linear mit der Datenmenge. Zehnmal so viele Daten benötigen bei gleicher Leserate ungefähr zehnmal so lange.
+
+In der Praxis kann die Laufzeit deutlich abweichen:
+- Das SAN kann mehrere parallele Lesevorgänge unterstützen.
+- Ein Datenbankexport kann viel kleiner als die bereitgestellte Speicherkapazität sein.
+- Kompression, Verschlüsselung, Metadaten und zufällige Zugriffe verändern die effektive Geschwindigkeit.
+- Ein Datenbankkatalog lässt sich häufig viel schneller untersuchen, als wenn sämtliche Datendateien gescannt werden müssten.
+100 TB SAN bedeuten also nicht, dass man 100 TB durchsuchen muss. Wenn das verdächtige Objekt als Prozedur in den Metadaten registriert ist, kann eine gezielte Katalogprüfung wesentlich schneller sein.
+1.3 Was wäre bei einem konkret bekannten Datenbankobjekt?
+Nehmen wir PostgreSQL als Beispiel. Die Definitionen von Funktionen und Prozeduren sind in pg_proc registriert; Triggerinformationen stehen in pg_trigger. Diese Kataloge sind genau dafür vorgesehen, Metadaten über Datenbankobjekte bereitzustellen. 
+
+PostgreSQL
++1
+
+
+
+
+Wenn ein Prüfer ausreichende Rechte hat und weiss, welche Objekttypen untersucht werden müssen, ist die relevante Aufgabe nicht mehr, ein ganzes Terabyte zu durchsuchen. Sie besteht darin, die registrierten Objekte und ihre Abhängigkeiten zu untersuchen.
+
+Das kann sehr schnell gehen. Eine genaue Zeitangabe wäre ohne Kenntnis der Engine, der Zahl der Objekte, der Zugriffsrechte und der Prüfmethode unseriös.
+
+Ein weiteres Problem: Eine Suche nach dem Namen round_robin wäre keine ausreichende Prüfung. Ein Objekt kann einen beliebigen Namen tragen, und nicht jede Manipulation muss als einzelnes, leicht erkennbares Objekt vorliegen.
+
+Deshalb sind zwei Fragen zu trennen:
+1. Wie schnell kann man ein bekanntes oder verdächtiges Objekt lokalisieren?
+2. Wie schnell kann man feststellen, dass ein unbekannter, unerwarteter Mechanismus existiert?
+Die zweite Aufgabe benötigt eine vollständige Bestandsaufnahme, eine vertrauenswürdige Referenzkonfiguration und eine inhaltliche Prüfung. Ein einfacher Textsuchlauf ist dafür kein vollständiger Nachweis.
+1.4 Wie schnell würde eine Manipulation tatsächlich auffallen?
+Hier ist eine Unterscheidung besonders wichtig: Entdeckungszeit und Suchzeit sind nicht dasselbe.
+Ausgangslage	Was sich seriös sagen lässt
+Das verdächtige Datenbankobjekt ist bekannt	Eine gezielte Prüfung kann sehr schnell sein.
+Ein unabhängiger, signierter Sollzustand existiert	Eine automatisierte Abweichungsprüfung kann Änderungen zeitnah erkennen.
+Es existieren nur Datenbankprotokolle innerhalb derselben administrativen Vertrauensgrenze	Die Beweiskraft hängt davon ab, wer diese Protokolle verändern kann.
+Es gibt keine vertrauenswürdige Referenz und keinen unabhängigen Änderungsnachweis	Die Entdeckung kann erheblich schwieriger werden; eine feste Zeit lässt sich nicht angeben.
+Die gespeicherten Daten sind unverändert, aber eine Anwendung liefert wechselnde Ergebnisse	Ein reiner Vergleich der Tabelleninhalte reicht möglicherweise nicht aus.
+Ein Beispiel aus der Praxis der Datenbanksicherheit ist Microsoft SQL Server Audit: Es kann unter anderem bestimmte SELECT-Operationen und Änderungen an Datenbankobjekten erfassen. Die Dokumentation weist zugleich darauf hin, dass privilegierte Administratoren Audit-Komponenten verändern können. 
+
+Microsoft Learn
++1
+
+
+
+
+Das illustriert den Unterschied zwischen einem vorhandenen Audit-Mechanismus und einem unabhängigen Nachweis seiner Integrität.
+
+Ein gut konzipiertes System muss nicht erst nach einem Verdacht 100 TB untersuchen. Es kann relevante Änderungen kontinuierlich erfassen und gegen einen separat gespeicherten Sollzustand prüfen.
+
+Frage 2: Wie könnte man das per Design verhindern?
+Hier liegt aus meiner Sicht der wichtigere Teil deiner Frage.
+
+Die zentrale Designentscheidung lautet:
+
+Eine Person, die produktive Datenbankinhalte administriert, sollte nicht gleichzeitig unkontrolliert die Integrität dieser Daten, die Überwachung ihrer eigenen Aktionen und die Referenzdaten für eine spätere Prüfung verändern können.
+
+Das ist das Prinzip der Funktionstrennung, im Englischen Separation of Duties. Das NIST beschreibt es ausdrücklich als Schutz vor dem Missbrauch autorisierter Berechtigungen und empfiehlt, die Administration von Zugriffsrechten von der Administration der Audit-Funktion zu trennen. 
+
+NIST Publications
+
+
+
+
+Eine einzelne Massnahme reicht nicht. Man braucht mehrere unabhängige Schutzschichten.
+2.1 Schutzschicht 1: Privilegien so begrenzen, dass direkte Manipulation gar nicht zum normalen Arbeitsweg gehört
+Eine wichtige Designentscheidung ist die Trennung zwischen:
+- Datenbankbetrieb;
+- Datenbankentwicklung;
+- produktiven Datenänderungen;
+- Berechtigungsverwaltung;
+- Audit und Sicherheitsüberwachung;
+- Freigabe von Schemaänderungen.
+Ein Datenbankadministrator benötigt für den laufenden Betrieb nicht automatisch die Möglichkeit, beliebige fachliche Datensätze zu ändern. Ein Entwickler benötigt nicht automatisch produktive Administratorrechte. Und ein Auditor sollte nicht davon abhängig sein, dass der untersuchte Administrator ihm die einzigen verfügbaren Protokolle bereitstellt.
+
+Ein mögliches Berechtigungsmodell:
+Betrieb
+
+Darf überwachen, sichern und freigegebene Wartungsaufgaben ausführen. Fachliche Änderungen und beliebige Schemaänderungen sind nicht Teil der Standardrolle.
+
+
+
+Änderungsfreigabe
+
+Neue Prozeduren, Trigger und Schemaänderungen werden versioniert, geprüft und durch einen separaten Freigabeprozess in Produktion übernommen.
+
+
+
+Sicherheitsüberwachung
+
+Überprüft Änderungen, verwaltet unabhängige Audit-Nachweise und alarmiert bei unerwarteten Änderungen. Diese Funktion liegt ausserhalb der alleinigen Kontrolle des normalen Datenbankbetriebs.
+
+
+
+Das Prinzip der geringsten Berechtigung (Least Privilege) reduziert die Zahl der Personen und Prozesse, die überhaupt eine Änderung vornehmen können. Es verhindert nicht jede Manipulation, verkleinert aber die Angriffsfläche.
+2.2 Schutzschicht 2: Ein vertrauenswürdiger Sollzustand für Datenbankobjekte
+Wenn eine Prozedur oder ein Trigger unerwartet eingefügt oder verändert wird, sollte ein unabhängiges System das erkennen können.
+
+Dazu benötigt man eine Referenz, die nicht einfach aus der gerade laufenden Datenbank gelesen wird.
+
+Eine mögliche Architektur:
+Freigegebener Quellcode
+
+Versioniert, überprüft, mit nachvollziehbarer Freigabe
+
+Unabhängige Sollkonfiguration
+
+Signierte Prüfsummen und freigegebene Objektdefinitionen
+
+Unabhängiger Prüfdienst
+
+Vergleicht den laufenden Zustand mit der freigegebenen Referenz
+
+Alarm bei unerwarteter Abweichung
+
+
+Wichtig ist, dass nicht nur der SQL-Quelltext betrachtet wird. Auch die zugehörigen Berechtigungen, Abhängigkeiten, Triggeraktivierungen, Funktionen und relevanten Konfigurationen müssen in den Sollzustand einbezogen werden.
+
+Eine Prüfsumme allein beweist ausserdem nicht, dass ein Objekt gutartig ist. Sie kann feststellen, ob ein Objekt gegenüber einer bekannten Version verändert wurde. Wenn bereits die Referenz manipuliert ist, kann auch eine technisch korrekte Prüfsummenprüfung den falschen Zustand bestätigen.
+
+Deshalb müssen Freigabe, Signaturschlüssel und Sollkonfiguration unabhängig abgesichert werden.
+2.3 Schutzschicht 3: Audit-Protokolle ausserhalb der Datenbank
+Das ist für dein Szenario einer der entscheidenden Punkte.
+
+Wenn Datenbank und Audit-Protokolle ausschliesslich unter derselben administrativen Kontrolle stehen, entsteht eine gemeinsame Vertrauensgrenze. Ein kompromittierter oder missbrauchter privilegierter Zugang könnte möglicherweise sowohl die Daten als auch Teile ihrer Überwachung beeinflussen.
+
+Eine stärkere Architektur leitet relevante Ereignisse deshalb an ein getrennt administriertes System weiter:
+- Verbindungen und privilegierte Sitzungen;
+- Änderungen an Prozeduren, Triggern und anderen Datenbankobjekten;
+- Änderungen an Berechtigungen;
+- relevante Lese- und Schreibzugriffe;
+- Änderungen an der Audit-Konfiguration selbst;
+- Fehler oder Unterbrechungen der Protokollübertragung.
+Die externen Protokolle sollten gegen nachträgliche Veränderung geschützt sein, beispielsweise durch streng getrennte Schreibberechtigungen, unveränderbare Speicherung und kryptografisch verkettete oder signierte Ereignisse.
+
+Ein möglicher Aufbau:
+Produktivdatenbank
+
+
+Datenbankserver
+
+
+
+
+Getrennter Audit-Empfänger
+
+Eigenständige Berechtigungen und unabhängige Speicherung
+
+
+Externe Integritätsprüfung
+
+Prüft Ereignisketten, Konfigurationsänderungen und fehlende erwartete Ereignisse
+
+
+Der Audit-Empfänger muss nicht nur die Ereignisse speichern. Er muss auch erkennen können, wenn die Übertragung ausfällt oder eine erwartete Protokollquelle plötzlich keine Daten mehr liefert. Sonst könnte eine Lücke fälschlich wie ein ruhiger Betrieb aussehen.
+
+Ein unabhängiges Audit ist dabei nicht dasselbe wie eine zweite Kopie derselben Protokolldatei. Wenn beide Kopien von derselben Quelle stammen und dieselbe Person beide verändern kann, ist die Unabhängigkeit begrenzt.
+2.4 Schutzschicht 4: Das fachliche Datenmodell so gestalten, dass Verdachtskategorien nicht frei überschrieben werden können
+Für ein System, in dem Personenakten und sensible behördliche Informationen verarbeitet werden, würde ich die fachliche Datenintegrität nicht allein auf SQL-Trigger stützen.
+
+Ein robusteres Modell trennt mindestens:
+1. die Identität der Person;
+2. die fachlichen Einträge zu dieser Person;
+3. die Herkunft jedes Eintrags;
+4. den Urheber und den Zeitpunkt einer Änderung;
+5. den Status und die Begründung einer Änderung;
+6. die Freigabe und die Gültigkeit eines Eintrags.
+Statt eine einzige, frei überschreibbare Kategorie zu speichern, kann das System Änderungen als nachvollziehbare Ereignisse führen. Ein neuer Eintrag ersetzt dann nicht spurlos den vorherigen Zustand, sondern ergänzt die Historie.
+
+Beispielsweise:
+Ereignis	Fachlicher Inhalt
+E1	Eintrag angelegt
+E2	Eintrag durch eine berechtigte Stelle überprüft
+E3	Eintrag korrigiert; Begründung und Urheber erfasst
+E4	Eintrag als ungültig markiert; ursprünglicher Eintrag bleibt nachvollziehbar
+Ein solches Modell wird häufig mit Append-only Logging oder Event Sourcing in Verbindung gebracht. Die konkreten Begriffe beschreiben unterschiedliche Architekturen; nicht jedes Audit-Protokoll ist bereits Event Sourcing.
+
+Der wesentliche Sicherheitsgewinn ist die Nachvollziehbarkeit. Eine Korrektur wird nicht einfach mit dem bisherigen Wert gleichgesetzt, und die Herkunft der neuen Information bleibt erkennbar.
+
+Allerdings: Ein append-only Modell innerhalb derselben vollständig administrierten Datenbank ist nicht automatisch manipulationssicher. Ein privilegierter Administrator könnte unter Umständen auch die Datenbankkonfiguration oder den Speicher beeinflussen. Für einen belastbaren Schutz braucht es wiederum eine unabhängige Vertrauensgrenze.
+2.5 Schutzschicht 5: Integritätsregeln, die unerwartete Zustandswechsel erkennen
+Man kann zusätzliche Datenbankregeln einsetzen, die unzulässige Änderungen zurückweisen oder zumindest als Ereignis melden.
+
+Dazu gehören beispielsweise:
+- erlaubte Übergänge zwischen fachlichen Zuständen;
+- Pflichtfelder für Änderungsgrund und Herkunft;
+- eindeutige Identifikatoren für Änderungen;
+- Transaktionsregeln, die zusammengehörige Änderungen atomar halten;
+- Einschränkungen, welche Rollen bestimmte Felder ändern dürfen;
+- regelmässige Überprüfung der Integrität und Konsistenz.
+Solche Regeln helfen gegen Fehler und viele Formen unberechtigter Änderungen. Sie bilden aber keine vollständige Sicherheitsgrenze gegenüber einem Akteur, der die Regeln selbst ändern darf.
+
+Eine Datenbank-Constraint kann zum Beispiel sicherstellen, dass ein Wert innerhalb eines erlaubten Wertebereichs liegt. Sie kann nicht allein feststellen, ob ein formal erlaubter Eintrag fachlich wahr ist.
+
+Daraus folgt eine wichtige Designregel: Technische Gültigkeit, fachliche Richtigkeit und autorisierte Herkunft sind drei unterschiedliche Eigenschaften. Das System sollte sie getrennt prüfen.
+2.6 Schutzschicht 6: Produktivänderungen nur über einen kontrollierten Deployment-Prozess
+Ein besonders wirksames Design ist, Änderungen an Datenbankobjekten nicht als gewöhnliche interaktive Administratoraktion zu behandeln.
+
+Ein möglicher Ablauf:
+1. Eine Änderung wird in einem versionierten Repository vorbereitet.
+2. Ein automatisierter Test prüft die Änderung gegen eine definierte Referenz.
+3. Eine zweite berechtigte Person genehmigt die Änderung.
+4. Ein gesonderter Deployment-Dienst übernimmt sie in die Produktionsumgebung.
+5. Der Dienst protokolliert den freigegebenen Stand und das Ergebnis.
+6. Ein unabhängiger Prüfdienst kontrolliert, ob der tatsächliche Produktionszustand der freigegebenen Version entspricht.
+Dadurch entsteht eine nachvollziehbare Verbindung zwischen Quellcode, Freigabe und produktivem Zustand.
+
+Der entscheidende Punkt ist, dass der Datenbankadministrator nicht gleichzeitig alleiniger Autor, Genehmiger, Ausführer und Prüfer derselben Änderung sein sollte.
+
+Auch dieses Verfahren ist keine absolute Garantie. Ein kompromittierter Deployment-Dienst oder ein missbrauchter Freigabeschlüssel kann das Modell untergraben. Deshalb müssen auch diese Komponenten getrennte Rechte, unabhängige Protokolle und überprüfbare Freigaben besitzen.
+2.7 Schutzschicht 7: Regelmässige unabhängige Wiederherstellungs- und Vergleichstests
+Backups sind nicht nur für den Katastrophenfall nützlich. Sie können auch helfen, Veränderungen nachzuvollziehen.
+
+Eine geeignete Strategie umfasst:
+- getrennte administrative Zuständigkeiten für produktive Systeme und Sicherungen;
+- unveränderbare oder anderweitig gegen Manipulation geschützte Sicherungen;
+- regelmässige Wiederherstellungstests in einer isolierten Umgebung;
+- Vergleich von Schema, Prozeduren, Berechtigungen und relevanten Datenständen;
+- dokumentierte Abweichungen und eine unabhängige Prüfung ihrer Ursachen.
+Dabei muss man zwischen einem Backup und einem vollständigen forensischen Nachweis unterscheiden. Ein Backup kann zeigen, dass sich ein Datenbestand zwischen zwei Zeitpunkten verändert hat. Ohne zusätzliche Informationen kann es aber nicht immer erklären, wer die Änderung vorgenommen hat oder warum.
+
+Ein sinnvoller Zeitplan legt daher nicht nur fest, wie oft Backups erstellt werden, sondern auch, wie häufig unabhängige Integritätsprüfungen stattfinden und wie schnell Abweichungen gemeldet werden müssen.
+
+2.8 Was lässt sich per Design tatsächlich verhindern?
+Hier würde ich drei Sicherheitsziele unterscheiden.
+Sicherheitsziel	Realistische Einschätzung
+Ein gewöhnlicher Benutzer kann nicht beliebig Datenbankobjekte verändern	Durch Berechtigungen und Funktionstrennung gut erreichbar.
+Eine unerwartete Änderung durch einen privilegierten Benutzer bleibt nicht unbemerkt	Durch unabhängige Auditierung, Sollzustandsvergleiche und geschützte Referenzen deutlich besser erreichbar.
+Selbst ein vollständig kompromittierter Datenbankserver kann keinerlei falsche Informationen ausgeben	Durch reine Datenbankmechanismen nicht garantierbar. Es braucht unabhängige Kontroll- und Vertrauensdomänen.
+Die letzte Zeile ist zentral.
+
+Wenn ein Angreifer die vollständige Kontrolle über einen Server besitzt, kann er grundsätzlich versuchen, Daten, Antworten oder interne Protokolle dieses Servers zu beeinflussen. Eine Kontrolle, die ausschliesslich auf demselben Server läuft und von dessen Administrator vollständig verwaltet werden kann, ist deshalb keine unabhängige Garantie.
+
+Die technische Antwort lautet nicht, dass man jeden denkbaren Angriff unmöglich machen kann. Sie lautet, dass man die erforderlichen Rechte aufteilt, Änderungen nachvollziehbar macht und unabhängige Kontrollen so gestaltet, dass ein einzelner privilegierter Zugang nicht sämtliche Schutzmechanismen beherrscht.
+2.9 Welche Architektur würde ich für ein besonders sensibles System wählen?
+Für eine sensible behördliche Datenbank würde ich mindestens die folgenden Kontrollen kombinieren:
+Design-Prüfliste
+0 von 6
+
+[ ] Getrennte Rollen
+
+Datenbankbetrieb, Entwicklung, fachliche Freigabe und Audit werden getrennt verwaltet.
+
+
+[ ] Freigegebene Schema-Version
+
+Trigger, Prozeduren, Funktionen und Berechtigungen werden versioniert und unabhängig überprüft.
+
+
+[ ] Externe Auditierung
+
+Relevante Ereignisse werden ausserhalb der alleinigen Kontrolle des Datenbankadministrators gespeichert.
+
+
+[ ] Nachvollziehbare Fachhistorie
+
+Änderungen an Personeninformationen bleiben mit Herkunft, Zeitpunkt und Begründung nachvollziehbar.
+
+
+[ ] Unabhängige Referenz
+
+Ein separat geschützter Sollzustand ermöglicht automatisierte Integritätsvergleiche.
+
+
+[ ] Getrennte Sicherungen
+
+Backups und Wiederherstellungstests ermöglichen unabhängige Vergleiche mit früheren Zuständen.
+
+
+ Prüfliste kopieren
+Diese Liste ist eine Architektur-Checkliste, keine Bestätigung, dass die genannten Kontrollen in einer konkreten Schweizer Polizeidatenbank vorhanden oder nicht vorhanden sind.
+
+3. Meine Gesamteinschätzung
+Deine beiden Fragen lassen sich damit recht klar beantworten.
+
+Zur Suchzeit: Bei einem bekannten Datenbankobjekt kann eine gezielte Prüfung sehr schnell sein, unabhängig davon, ob das zugrunde liegende SAN 1 TB oder 100 TB gross ist. Ein vollständiger Scan der gesamten Speichermenge kann dagegen Minuten bis viele Stunden dauern. Eine unbekannte Manipulation ohne vertrauenswürdigen Sollzustand ist wesentlich schwieriger zu erkennen.
+
+Zur Verhinderung: Der wirksamste Ansatz besteht nicht darin, eine einzelne Stored Procedure besonders sorgfältig zu kontrollieren. Man muss vielmehr verhindern, dass eine einzelne privilegierte Person gleichzeitig Änderungen vornehmen, deren Überwachung verändern und den unabhängigen Nachweis dieser Änderungen kontrollieren kann.
+
+Der stärkste Designgrundsatz lautet deshalb:
+
+Keine einzelne administrative Vertrauensdomäne darf alleinige Kontrolle über produktive Daten, deren Änderungshistorie, die Überwachung und den unabhängigen Integritätsnachweis besitzen.
+
+Das ist eine konkrete, technisch umsetzbare Sicherheitsanforderung. Sie reduziert das Risiko privilegierter Manipulationen erheblich, ohne vorauszusetzen, dass ein solcher Angriff in einer bestimmten Behörde tatsächlich stattfindet.
