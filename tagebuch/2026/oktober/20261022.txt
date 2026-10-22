@@ -3,3 +3,25 @@
 der Tagebuch eintrag von gestern scheint hohe zensur priorität zu haben. Github bakcup funktionhiert nicht
 
 
+
+08:05:
+
+hmmm, interessant, auf dieser VM wurde der SSH Server gelöscht, obwohl ich mit der VM explizit NUR zu Github verbinde (und was debian sonst noch so selber verbindet)
+
+
+also das liebenswürdig aussehnde octo-cat ist vermutlich terrorist oder blackhat
+
+da muss ich psenough zitieren: so cut, it's so cute ...
+
+
+und diese VM ist jeweils nur fpr paar wenige Sekunden online ...
+
+
+
+08:08:
+
+unbekannt: 
+
+Daniel Dano Hauri ist Fox1 in aarau
+
+=> ich: ähm bekommt da jemand kohle von github für's vertuschen dass der nur kurz jeweils am netz ist und verrät somit andere aarauer ???
